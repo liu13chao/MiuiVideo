@@ -1,0 +1,13 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <com.miui.video.widget.media.MediaViewRow
+        android:id="@+id/media_view_list_item_row" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/media_view_rows_default_intervalV"/>
+</LinearLayout>

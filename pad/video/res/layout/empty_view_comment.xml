@@ -1,0 +1,25 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/empty_hint" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/p_60_black"
+        android:textSize="@dimen/font_size_15"/>
+    <Button 
+        android:id="@+id/emtpy_comment_btn"
+        android:layout_width="@dimen/detail_comment_empty_btn_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/detail_comment_empty_btn_top_margin"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_dialog_bg"
+        android:text="@string/write_comment"
+        android:textSize="@dimen/font_size_15"
+        android:textColor="@color/p_80_black"/>
+</LinearLayout>

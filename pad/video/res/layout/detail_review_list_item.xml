@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:duokan="http://schemas.android.com/apk/res/com.miui.video"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/detail_review_item_user_top_margin"
+        android:orientation="horizontal">
+        <TextView
+	        android:id="@+id/detail_review_list_user"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/app_name"
+	        android:textColor="@color/p_80_black"
+	        android:textSize="@dimen/detail_review_user_font_size"/>
+        <com.miui.video.widget.RatingView
+	        android:id="@+id/detail_review_list_rating"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_marginLeft="@dimen/detail_review_item_rate_left_margin"
+	        android:layout_gravity="center_vertical"
+	        duokan:ratingStarType="small" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+         <TextView
+	        android:id="@+id/detail_review_list_comment"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/detail_review_item_comment_top_margin"
+	        android:text="@string/app_name"
+	        android:textColor="@color/p_50_black"
+	        android:textSize="@dimen/detail_review_font_size"/>
+        <View
+		    android:id="@+id/detail_review_list_divider"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/video_divider_height"
+		    android:layout_marginTop="@dimen/detail_review_item_divider_top_margin"
+		    android:background="@drawable/divider_bg_black_10" />
+    </LinearLayout>
+</FrameLayout>

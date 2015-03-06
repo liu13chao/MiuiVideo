@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <View 
+        android:id="@+id/episode_divider_first"
+	    android:layout_height="@dimen/video_common_divider_height"
+	    android:layout_width="match_parent"
+	    android:background="@drawable/com_10_black">  
+	</View>
+    
+    <LinearLayout
+        android:id="@+id/row_content"
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/detail_page_episode_row_height"
+	    android:layout_below="@id/episode_divider_first"
+	    android:orientation="horizontal">
+	    
+        <View 
+	        android:layout_height="match_parent"
+	        android:layout_width="@dimen/video_common_divider_width"
+	        android:background="@drawable/com_10_black">
+	    </View>
+
+        <com.miui.video.widget.statusbtn.StatusBtn 
+	        android:id="@+id/episode1"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center_vertical"
+	        android:clickable="true" />
+	    <View 
+	        android:layout_height="match_parent"
+	        android:layout_width="@dimen/video_common_divider_width"
+	        android:background="@drawable/com_10_black">
+	    </View>
+
+	    <com.miui.video.widget.statusbtn.StatusBtn 
+	        android:id="@+id/episode2"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center_vertical"
+	        android:clickable="true" />
+	    <View 
+	        android:layout_height="match_parent"
+	        android:layout_width="@dimen/video_common_divider_width"
+	        android:background="@drawable/com_10_black">  
+	    </View>
+
+	    <com.miui.video.widget.statusbtn.StatusBtn  
+	        android:id="@+id/episode3"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center_vertical"
+	        android:clickable="true" />
+	    <View 
+	        android:layout_height="match_parent"
+	        android:layout_width="@dimen/video_common_divider_width"
+	        android:background="@drawable/com_10_black">  
+	    </View>
+	</LinearLayout>
+	
+    <View 
+        android:id="@+id/episode_divider_last"
+	    android:layout_height="@dimen/video_common_divider_height"
+	    android:layout_width="match_parent"
+	    android:layout_below="@id/row_content"
+	    android:background="@drawable/com_10_black">  
+	</View>
+    
+</RelativeLayout>

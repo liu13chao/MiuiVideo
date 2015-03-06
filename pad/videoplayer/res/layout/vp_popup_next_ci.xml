@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/player_popup_next_ci"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	android:clickable="true"
+	android:focusable="true"
+	android:orientation="vertical" >
+
+    <FrameLayout
+		android:id="@+id/btn_next_ci"
+  		android:background="@drawable/vp_backgroud_radiogroup"
+        android:layout_width="@dimen/ci_popup_button_width"
+        android:layout_height="@dimen/ci_popup_button_height"
+		android:layout_gravity="center"
+		android:clickable="true"
+		android:focusable="true">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:drawableTop="@drawable/vp_player_btn_next_ci"
+			android:text="@string/vp_next_ci"
+			android:textColor="@drawable/vp_player_btn_color"
+			android:textSize="@dimen/vp_text_size_26" />
+
+	</FrameLayout>
+
+</LinearLayout>

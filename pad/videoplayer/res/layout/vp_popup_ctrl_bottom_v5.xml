@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <!-- 这几个控件是没用的，以前遗留下来的 start -->
+    <ImageView
+        android:id="@+id/control_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/popup_bottom_controller_controllist_imageview_margin_left"
+        android:src="@drawable/vp_control_list_imageview"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vp_control_previous_imageview"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/popup_bottom_controller_center_imageview_margin_left"
+        android:src="@drawable/vp_control_next_imageview"
+        android:visibility="gone" />
+	<!-- 这几个控件是没用的，以前遗留下来的 end -->
+    
+    <RelativeLayout
+        android:id="@+id/progress_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/vp_ctrl_bottom_bottom_margin"
+        android:layout_marginLeft="@dimen/vp_ctrl_bottom_left_margin"
+        android:layout_marginRight="@dimen/vp_ctrl_bottom_right_margin" >
+        
+        <ImageView
+	        android:id="@+id/pause"
+	        android:layout_width="@dimen/vp_ctrl_bottom_pause_width"
+	        android:layout_height="@dimen/vp_ctrl_bottom_pause_height"
+	        android:src="@drawable/vp_pause_v5_imageview" 
+	        android:layout_centerVertical="true"/>
+        
+        <ProgressBar 
+            android:id="@+id/bufferingprogressbar"
+            style="@style/vp_normal_progress_style"
+ 	        android:layout_width="@dimen/vp_ctrl_bottom_pause_width"
+	        android:layout_height="@dimen/vp_ctrl_bottom_pause_height"
+            android:layout_centerVertical="true"
+            android:visibility="invisible" />
+        
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/vp_ctrl_bottom_line_left_margin"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/pause" >
+            <TextView
+	            android:id="@+id/time_current"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:singleLine="true"
+	            android:textColor="@color/vp_white"
+	            android:textSize="@dimen/vp_font_size_14" />
+        	<TextView
+	            android:id="@+id/time"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"      
+	            android:singleLine="true"           
+	            android:textColor="@color/vp_50_white"
+	            android:textSize="@dimen/vp_font_size_14" />
+        	<com.miui.videoplayer.framework.views.DuoKanSeekbar
+	            android:id="@+id/mediacontroller_progress"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@id/time_current"
+	            android:layout_marginTop="@dimen/vp_ctrl_bottom_seekbar_top_margin"
+	            android:maxHeight="@dimen/vp_ctrl_bottom_seekbar_height_v5"
+	            android:minHeight="@dimen/vp_ctrl_bottom_seekbar_height_v5"
+	            android:progressDrawable="@drawable/vp_progressbar_v5"
+	            android:thumb="@drawable/vp_seekbar_v5_thumb"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

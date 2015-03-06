@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/video_dialog_width"
+    android:layout_height="@dimen/video_dialog_height" >
+    
+	<RelativeLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+	    <!-- top title start -->
+	    <TextView
+            android:id="@+id/detail_media_title" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/detail_media_top_title_font_size"
+            android:textColor="@color/p_80_black"
+            android:textStyle="bold"
+            android:text="@string/app_name"/>
+        <View
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/video_divider_height"
+	        android:layout_marginTop="@dimen/detail_media_title_divider_top_margin"
+	        android:background="@drawable/divider_bg_black_10"/>
+	    <!-- top title end -->
+	</RelativeLayout>
+	
+	<!-- media summary start -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/detail_media_summary_top_margin"
+        android:layout_marginLeft="@dimen/detail_media_common_left_margin" >
+        <include layout="@layout/media_summary"/>
+    </FrameLayout>
+    <!-- media summary end -->
+	    
+    <!-- play favorite download start -->
+    <Button
+        android:id="@+id/detail_media_favorite"
+        android:layout_width="@dimen/detail_favorite_width"
+        android:layout_height="@dimen/detail_favorite_height"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/detail_favorite_top_margin"
+        android:layout_marginRight="@dimen/detail_favorite_right_margin"
+        android:background="@drawable/btn_detail_favorite" />
+    <com.miui.video.widget.statusbtn.StatusBtn
+        android:id="@+id/detail_media_play" 
+        android:layout_width="@dimen/detail_btn_width"
+        android:layout_height="@dimen/detail_btn_height"
+        android:padding="0dp"
+        android:layout_marginTop="@dimen/detail_play_top_margin"
+        android:layout_marginLeft="@dimen/detail_play_left_margin"
+        android:background="@drawable/btn_dialog_bg"
+        android:clickable="true" />
+    <com.miui.video.widget.statusbtn.StatusBtn
+        android:id="@+id/detail_media_download" 
+        android:layout_width="@dimen/detail_btn_width"
+        android:layout_height="@dimen/detail_btn_height"
+        android:layout_marginTop="@dimen/detail_download_top_margin"
+        android:layout_marginLeft="@dimen/detail_download_left_margin"
+        android:padding="0dp"
+        android:background="@drawable/btn_dialog_bg"
+        android:clickable="true" />
+    <!-- play favorite download end -->
+	    
+    <!-- pager start -->
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:layerType="software"
+        android:layout_marginTop="@dimen/detail_page_top_margin"
+        android:layout_marginLeft="@dimen/detail_media_common_left_margin"
+        android:layout_marginRight="@dimen/detail_media_common_right_margin" >
+        <!-- pager tabs start -->
+        <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="@dimen/detail_page_tab_left_margin"
+	        android:orientation="horizontal">
+            <Button 
+                android:id="@+id/media_detail_pager_episode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/episode"
+                android:textSize="@dimen/detail_media_page_tab_font_size"
+                android:padding="@dimen/detail_page_btn_padding"
+                android:textColor="@drawable/btn_text_color_black"
+                android:background="@drawable/transparent"
+                style="?android:attr/buttonBarButtonStyle" />
+            <Button 
+                android:id="@+id/media_detail_pager_introduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/introduce"
+                android:textSize="@dimen/detail_media_page_tab_font_size"
+                android:padding="@dimen/detail_page_btn_padding"
+                android:textColor="@drawable/btn_text_color_black"
+                android:background="@drawable/transparent"
+                android:layout_marginLeft="@dimen/detail_page_tab_h_margin"
+                style="?android:attr/buttonBarButtonStyle" />
+            <Button 
+                android:id="@+id/media_detail_pager_reviewlist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/comment"
+                android:textSize="@dimen/detail_media_page_tab_font_size"
+                android:padding="@dimen/detail_page_btn_padding"
+                android:textColor="@drawable/btn_text_color_black"
+                android:background="@drawable/transparent"
+                android:layout_marginLeft="@dimen/detail_page_tab_h_margin"
+                style="?android:attr/buttonBarButtonStyle" />
+            <Button 
+                android:id="@+id/media_detail_pager_recommend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/recommend"
+                android:textSize="@dimen/detail_media_page_tab_font_size"
+                android:padding="@dimen/detail_page_btn_padding"
+                android:textColor="@drawable/btn_text_color_black"
+                android:background="@drawable/transparent"
+                android:layout_marginLeft="@dimen/detail_page_tab_h_margin"
+                style="?android:attr/buttonBarButtonStyle" />
+    	</LinearLayout>
+    	<!-- pager tabs end -->
+	        
+    	<View
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/video_divider_height"
+	        android:layout_marginTop="@dimen/detail_divider_top_margin"
+	        android:background="@drawable/divider_bg_black_10"/>
+    	
+    	<!-- pager content start -->
+	    <com.miui.video.widget.pager.PagerView
+	        android:id="@+id/media_detail_pager_view"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:clipChildren="false"
+	        android:layout_marginTop="@dimen/detail_page_views_top_margin"
+	        android:layout_marginBottom="@dimen/detail_page_views_bottom_margin" >
+    	</com.miui.video.widget.pager.PagerView>
+    	<!-- pager content end -->
+    </FrameLayout>
+    <!-- pager end -->
+</RelativeLayout>

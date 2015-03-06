@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- title top start -->
+    <string name="local_media">本地视频</string>
+    <string name="count_ge_favorite">%d个收藏</string>
+    <!-- title top end -->
+    
+    <!-- access user data stream start -->
+    <string name="userdata_alert_title">数据网络提示</string>
+    <string name="userdata_alert_content">您目前正在使用数据网络，可能会产生大量的流量费用，确定要继续吗？</string>
+    <string name="userdata_alert_ok">继续</string>
+    <string name="check_network">网络连接不可用，请检查网络</string>
+    <!-- access user data stream end -->
+    
+    <!-- search result start -->
+    <string name="search">搜索</string>
+    <string name="count_get_result">%d个结果</string>
+    <string name="search_result_input_hint">请输入搜索关键字</string>
+    <string name="search_result_hint">%s&#160;&#160;的搜索结果</string>
+    <string name="search_result_empty_text">没有你搜索的视频</string>
+    <string name="search_result_recommend_hint">为您推荐：</string>
+    <string name="search_result_recommend_empty">没有找到相关的推荐影片</string>
+    <!-- search result end -->
+    
+    <!-- home start -->
+    <string name="online_video">在线精选</string>
+    <string name="my_video">我的视频</string>
+    <string name="search_online_video">搜索在线视频</string>
+    
+    <string name="declaration_content">您将使用搜狐视频、爱奇艺等提供的在线视频服务，点击“确定”接受<a href="http://www.youku.com/pub/youku/service/agreement.shtml#agr1">《使用条款》</a>并继续</string>
+    <string name="declaration">声明</string>
+    <string name="no_longer_tips">不再提示</string>
+    <!-- home end -->
+    
+    <!-- online video start -->
+    <string name="more">更多</string>
+    <!-- online video end -->
+    
+    <!-- local video start -->
+    <string name="play_history">播放历史</string>
+    <string name="my_favorite">我的收藏</string>
+    <string name="local_video">本地视频</string>
+    <string name="offline_video">离线视频</string>
+    <string name="hot_special">热门专区</string>
+    <string name="shared_devices">共享设备</string>
+    <string name="play_his_empty_hint">没有播放历史</string>
+    <string name="delete">删除</string>
+    <string name="today">今天</string>
+    <string name="yesterday">昨天</string>
+    <!-- local video end -->
+    
+    <!-- local media start -->
+    <string name="imports">导入</string>
+    <string name="local_media_empty_hint">没有找到本地视频</string>
+    <!-- local media end -->
+    
+    <!-- local favorite start -->
+    <string name="edit">编辑</string>
+    <string name="local_favorite_empty_hint">您还没有收藏任何影片</string>
+    <string name="unfavorite">取消收藏</string>
+    <!-- local favorite end -->
+    
+    <!-- share device start -->
+	<string name="device_empty_hint">没有找到共享设备</string>
+    <!-- share device end -->
+    
+    <!-- share device media start -->
+	<string name="device_media_empty_hint">没有共享视频</string>
+    <!-- share device media end -->
+    
+    <!-- media detail start -->
+    <string name="play">播放</string>
+    <string name="episode">剧集</string>
+    <string name="introduce">简介</string>
+    <string name="comment">评论</string>
+    <string name="recommend">推荐</string>
+    
+    <string name="director_colon">导演：</string>
+    <string name="actor_colon">演员：</string>
+    <string name="area_colon">地区：</string>
+    <string name="time_colon">上映时间：</string>
+    <string name="type_colon">类型：</string>
+    
+    <string name="detail_episode_empty_hint">未能获取到剧集信息</string>
+    <string name="detail_introduce_empty_hint">该影片暂时还没有简介信息</string>
+    <string name="detail_review_list_empty_hint">该影片暂时还没有人发表评论</string>
+    <string name="detail_recommend_empty_hint">没有找到相关的推荐影片</string>
+    
+    <string name="write_comment">写评论</string>
+    <string name="see_all_count_comment">查看全部%d条评论</string>
+    
+    <string name="offline">离线</string>
+    
+    <string name="add_favorite_success">收藏成功</string>
+    <string name="cancel_favorite_success">取消收藏成功</string>
+    <!-- media detail end -->
+    
+    <!-- local detail start -->
+    <string name="local_detail_more">查看全部%d个视频</string>
+    <!-- local detail end -->
+    
+    <!-- channel start -->
+    <string name="choice">精选</string>
+    <string name="rank">排行</string>
+    <string name="all">全部</string>
+    
+    <string name="filter">筛选</string>
+    
+    <string name="channel_choice_empty_hint">没有找到相关的精选内容</string>
+    <string name="channel_all_empty_hint">没有找到相关的内容</string>
+    <!-- channel end -->
+    
+    <!-- Tv start -->
+    <string name="tv_channel_empty_hint">没有找到相关的内容</string>
+    <!-- Tv end -->
+    
+    <!-- Tv player start -->
+    <string name="defaults">默认</string>
+    <string name="fullscreen">全屏</string>
+    <!-- Tv player end -->
+    
+    <!-- feature list start -->
+    <string name="feature">专题</string>
+    <string name="count_ge_feature">%d个专题</string>
+    <string name="feature_list_empty_hint">没有找到专题列表</string>
+    <!-- feature list end -->
+    
+    <!-- feature media start -->
+    <string name="feature_media_empty_hint">没有找到专题影片</string>
+    <string name="count_ge_feature_media">%d个影片</string>
+    <!-- feature media end -->
+    
+    <!-- score status view start -->
+    <string name="percent_status">%.1f%%</string>
+    <!-- score status view end -->
+    
+    <!-- comment review start -->
+    <string name="back">返回</string>
+    <string name="edit_comment">撰写评论</string>
+    <string name="average_score">平均得分</string>
+    <string name="count_comment">%d人评分</string>
+    <string name="count_comment_wan">%.2f万人评分</string>
+    <string name="avg_score">%.1f</string>
+    <string name="all_comment">全部评论</string>
+    <string name="positive_comment">好评</string>
+    <string name="negative_comment">差评</string>
+    <string name="comment_review_list_empty_hint">该影片暂时还没有人发表评论</string>
+    <string name="xiaomi_user">用户</string>
+    <!-- comment review end -->
+    
+    <!-- comment edit start -->
+    <string name="send">发布</string>
+    <string name="media_name_comment">%s的评论</string>
+    <string name="comment_edit_et_hint">请输入评论内容</string>
+    <string name="comment_edit_blog_hint">同时发布到新浪微博</string>
+    <string name="comment_edit_start_hint">点击星星评分:</string>
+    
+    <string name="comment_count_less_tip">请至少输入%d个字</string>
+    <string name="comment_count_much_tip">每条评论最多%d个字</string>
+    
+    <string name="click_star_rate">点击星星评分</string>
+    <!-- comment edit end -->
+    
+    <!-- download start -->
+    <string name="offline_no_source">没有可用的离线源</string>
+    <string name="download_is_in_tasklist">该视频已在离线列表中</string>
+    <string name="download_is_success">该视频已离线完成</string>
+    <string name="download_add_success">已成功加入离线列表</string>
+    <string name="offline_no_wifi">您不在无线网络环境下，如果需要下载，请到设置界面打开蜂窝选项</string>
+    
+    <string name="offline_alert_title">离线提示</string>
+    <string name="good">好</string>
+    <string name="offline_alert_wifi">您目前正在使用数据网络，为了节约您的流量，将在连接无线网络后自动为您离线视频</string>
+    <!-- download end -->
+    
+    <!-- download select start -->
+    <string name="select_offline_media">选择所需离线视频</string>
+    <string name="manage_offline_media">管理离线视频</string>
+    <string name="manage">管理</string>
+    <string name="done">完成</string>
+    <string name="download_select_more">缓存更多</string>
+    <!-- download select end -->
+    
+    <!-- action mode start -->
+    <string name="select_all">全选</string>
+    <string name="select_none">全不选</string>
+    <string name="select_count_xiang">已选中%d项</string>
+    <!-- action mode end -->
+    
+    <!-- settings start -->
+    <string name="setting">设置</string>
+    <string name="offline_setting">离线设置</string>
+    <string name="use_cellular_network">允许使用数据网络缓存视频</string>
+    <string name="use_cellular_network_summary">可能产生较高流量费用，建议关闭</string>
+	<string name="mipush_setting">推送设置</string>
+	<string name="receive_mipush">接收小米推送</string>
+	<string name="receive_mipush_summary">开启后，接收最新及热门影片通知</string>
+    <string name="other_setting">其他</string>
+    <string name="clear_cache">清除其它缓存</string>
+    <string name="clear_cache_summary">清除在手机上缓存的视频封面</string>
+    
+    <string name="clear_cache_success">成功清除缓存</string>
+    <!-- settings end -->
+    
+    <!-- loading start -->
+    <string name="loading"> <CDATA>正在加载...</CDATA> </string>
+    <string name="reloading_tip">网络不可用，请联网后重试</string>
+    <string name="retry">重试</string>
+    <!-- loading end -->
+    
+    <!-- media view start -->
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="update">更新</string>
+    <string name="count_ji_quan">%d集全</string>
+    <string name="update_to_count_ji">更新至%d集</string>
+    <!-- media view end -->
+    
+    <!-- Mipush start -->
+    <string name="updatedalready">已更新</string>
+    <!-- Mipush end -->
+    
+    <!-- tv player start -->
+    <string name="select_tv">选台</string>
+    <string name="forecast">预告</string>
+    <string name="select_tv_empty_hint">没有电台信息</string>
+    <string name="forecast_empty_hint">没有节目信息</string>
+    <string name="select_tvs">选择电台</string>
+    <string name="forecasts">节目预告</string>
+    <string name="key_back_down_toast">再次按下返回键退出</string>
+    <!-- tv player end -->
+</resources>

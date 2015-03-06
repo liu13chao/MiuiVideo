@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/vp_ctrl_fullscreen_bg_top_height"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/vp_fullscreen_top_bg"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/vp_ctrl_fullscreen_bg_bottom_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/vp_fullscreen_bottom_bg"/>
+    <View
+        android:layout_width="@dimen/vp_ctrl_fullscreen_bg_left_width"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/vp_fullscreen_left_bg"/>
+     <View
+        android:layout_width="@dimen/vp_ctrl_fullscreen_bg_left_width"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/vp_fullscreen_right_bg"/>
+</RelativeLayout>

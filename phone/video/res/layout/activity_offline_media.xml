@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/com_bg_white"
+    android:fitsSystemWindows="true" >
+
+    <include
+        android:id="@+id/title_top"
+        layout="@layout/title_top" />
+
+    <com.miui.video.widget.StorageView
+        android:id="@+id/offline_storage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/com_bg_white" />
+
+    <com.miui.video.widget.LoadingListView
+        android:id="@+id/media_list"
+        android:layout_below="@id/title_top"
+        android:layout_above="@id/offline_storage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/page_title_offset"
+        android:background="@color/color_bg_gray" />
+
+    <!--
+          com.miui.video.widget.ButtonPair
+        android:id="@+id/offline_pair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/com_bg_white"
+        android:visibility="invisible" /-->
+
+
+    <!--
+          View
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/video_common_divider_height"
+		android:layout_alignTop="@id/offline_pair"
+		android:background="@drawable/com_10_black"/-->
+
+
+    <!--
+    LinearLayout 
+        android:id="@+id/offline_media_empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/offline_storage"
+        android:layout_below="@id/offline_title"
+        android:layout_marginTop="@dimen/video_common_interval_negtive_10"
+        android:background="@drawable/com_bg_gray"
+        android:orientation="vertical">
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_608"
+            android:src="@drawable/empty_icon_offline"
+            android:layout_gravity="center_horizontal"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/offline_media_empty_title"
+            android:layout_marginTop="@dimen/size_15"
+            android:textColor="@color/p_50_black"
+        	android:textSize="@dimen/font_size_42"
+            android:layout_gravity="center_horizontal"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/local_media_empty_sub_title"
+            android:layout_marginTop="@dimen/size_5"
+            android:textColor="@color/p_30_black"
+        	android:textSize="@dimen/font_size_36"
+            android:layout_gravity="center_horizontal"/>
+        
+    </LinearLayout-->
+
+
+    <!--
+    ScrollView
+        android:id="@+id/offline_media_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/offline_storage"
+        android:layout_below="@id/offline_title"
+        android:layout_marginTop="@dimen/video_common_interval_negtive_10"
+        android:background="@drawable/com_bg_gray" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/offline_media_bar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_183"
+                android:layout_marginBottom="@dimen/size_15"
+                android:layout_marginLeft="@dimen/size_15"
+                android:layout_marginRight="@dimen/size_15"
+                android:layout_marginTop="@dimen/size_18"
+                android:background="@drawable/com_bg_white_corner" >
+
+                <ImageView
+                    android:id="@+id/offline_media_bar_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/size_48"
+                    android:layout_marginRight="@dimen/size_48"
+                    android:src="@drawable/offline_icon" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/offline_media_bar_icon"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/offline_media_bar_title"
+                        style="@style/TitleTextViewStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center_vertical"
+                        android:maxLines="1" />
+
+                    <TextView
+                        android:id="@+id/offline_media_bar_subtitle"
+                        style="@style/SubtitleTextViewStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/size_20"
+                        android:gravity="left|center_vertical"
+                        android:maxLines="1" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/offline_media_bar_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/size_40"
+                    android:src="@drawable/offline_next_icon" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/offline_media_block"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/size_30"
+                android:layout_marginLeft="@dimen/size_15"
+                android:layout_marginRight="@dimen/size_15"
+                android:background="@drawable/com_bg_white_corner"
+                android:paddingBottom="@dimen/size_60"
+                android:paddingLeft="@dimen/size_30"
+                android:paddingRight="@dimen/size_30"
+                android:paddingTop="@dimen/size_40" >
+
+                <RelativeLayout
+                    android:id="@+id/offline_media_block_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/offline_media_block_name"
+                        style="@style/NameTextViewStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/size_18"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="@string/offline_loaded" />
+
+                    <View
+                        android:id="@+id/offline_media_block_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_below="@id/offline_media_block_name"
+                        android:background="@color/gray" />
+                </RelativeLayout>
+
+                <com.miui.video.widget.FreezeGridView
+                    android:id="@+id/offline_media_block_grids"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/offline_media_block_header"
+                    android:listSelector="@color/transparent"
+                    android:numColumns="3" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView -->
+
+</RelativeLayout>

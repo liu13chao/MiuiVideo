@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- drawable start -->
+    <drawable name="color_pressed">#b2ff7e00</drawable>
+    <drawable name="transparent">#00FFFFFF</drawable>
+    <!-- drawable end -->
+    
+    <!-- color start -->
+    <color name="transparent">#00FFFFFF</color>
+    
+    <color name="blue">#ff0247D1</color>
+    <color name="gray">#ffd3d3d3</color>
+    
+    <color name="p_90_blue">#e60096ff</color>
+    <color name="p_30_blue">#4c0096ff</color>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="half_white">#7fffffff</color>
+    <color name="p_90_white">#e6ffffff</color>
+    <color name="p_80_white">#ccffffff</color>
+    <color name="p_60_white">#99ffffff</color>
+    <color name="p_50_white">#7fffffff</color>
+    <color name="p_40_white">#66ffffff</color>
+    <color name="p_30_white">#4cffffff</color>
+    <color name="p_25_white">#3fffffff</color>
+    <color name="p_20_white">#33ffffff</color>
+    <color name="p_15_white">#26ffffff</color>
+    
+    <color name="black">#000000</color>
+    <color name="p_97_black">#f7000000</color>
+    <color name="p_90_black">#e6000000</color>
+    <color name="p_80_black">#cc000000</color>
+    <color name="p_70_black">#B2000000</color>
+    <color name="p_60_black">#99000000</color>
+    <color name="p_50_black">#7f000000</color>
+    <color name="p_40_black">#66000000</color>
+    <color name="p_30_black">#4c000000</color>
+    <color name="p_27_black">#aa000000</color>
+    <color name="p_20_black">#33000000</color>
+    <color name="p_10_black">#19000000</color>
+    <color name="p_3_black">#08000000</color>
+    <color name="white_30_transparent">#4cffffff</color>
+    
+    <color name="ci_color_disable">#666666</color>
+    <color name="text_shadow_color">#5E000000</color>
+    
+    <color name="dlg_light">#F8F8F8</color>
+    <!-- color end --> 
+</resources>

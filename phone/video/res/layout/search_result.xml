@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/search_result_filter_top_margin"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/search_result_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical"
+	        android:textSize="@dimen/font_size_38"
+	        android:textColor="@color/p_90_white"
+	        android:text="@string/app_name"/>
+	    <TextView
+	        android:id="@+id/search_result_filter"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+   			android:paddingTop="@dimen/video_common_text_btn_paddingV"
+        	android:paddingBottom="@dimen/video_common_text_btn_paddingV"
+        	android:paddingLeft="@dimen/video_common_text_btn_paddingH"
+        	android:paddingRight="@dimen/video_common_text_btn_paddingH"
+	        android:gravity="center"
+	        android:textColor="@color/p_70_white"
+	        android:textSize="@dimen/font_size_34"
+	        android:text="@string/filter" />
+    </RelativeLayout>
+	<com.miui.video.widget.LoadingListView
+	    android:id="@+id/search_result_list"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginLeft="@dimen/video_common_interval_15"
+	    android:layout_marginRight="@dimen/video_common_interval_15" />
+</LinearLayout>

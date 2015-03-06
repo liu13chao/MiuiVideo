@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  >
+    
+     <ImageView 
+        android:id="@+id/content_view_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_launcher" /> 
+    <TextView
+        android:id="@+id/content_view_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update_apk_statusbar"
+        android:textSize="@dimen/notification_text_size"
+        android:layout_toRightOf="@id/content_view_image"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+      />
+    <TextView
+        android:id="@+id/content_view_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/notification_text_size"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+      />
+</RelativeLayout>

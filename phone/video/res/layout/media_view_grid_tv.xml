@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.video.widget.recommend.TvMediaView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/cover_tv_width"
+    android:layout_height="wrap_content" >
+
+    <FrameLayout
+        android:id="@+id/tv_bg"
+        android:layout_width="@dimen/cover_tv_width"
+        android:layout_height="@dimen/cover_tv_height" >
+
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:id="@+id/tv_icon"
+            android:layout_width="@dimen/cover_tv_icon_width"
+            android:layout_height="@dimen/cover_tv_icon_height"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_bg"
+        layout="@layout/media_view_grid_h_name" />
+
+</com.miui.video.widget.recommend.TvMediaView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <dimen name="poster_corner_radius">4dp</dimen> 
+   <dimen name="video_thumb_width">200px</dimen>
+    <dimen name="video_thumb_height">137px</dimen>
+</resources>

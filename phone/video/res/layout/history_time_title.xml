@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.video.widget.recommend.HistoryTimeTitleView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/history_title_header_height"
+    android:background="@drawable/media_page_bg_mid"
+    android:paddingBottom="@dimen/history_title_header_padding_bottom">
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/history_title_header_line_margin_left"
+        android:layout_marginRight="@dimen/history_title_header_line_margin_left"
+        android:background="@color/gray_separate_line" />
+
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+  		android:layout_marginLeft="@dimen/history_title_header_text_margin_left"
+   		android:layout_marginBottom="@dimen/history_title_header_text_margin_bottom"
+        android:textColor="@color/color_sub_text"
+        android:textSize="@dimen/text_size_subtitle" />
+
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:id="@+id/history_icon"
+        android:layout_gravity="bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/history_title_header_icon_margin_left"
+		android:layout_marginBottom="@dimen/history_title_header_icon_margin_bottom"
+        android:src="@drawable/history_time"/>
+
+</com.miui.video.widget.recommend.HistoryTimeTitleView>

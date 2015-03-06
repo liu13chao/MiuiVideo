@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <SurfaceView
+        android:id="@+id/tvsurface"
+        android:focusable="false"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+    <include 
+        android:id="@+id/tv_bg_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/tv_bg_view"/>
+    
+    <include
+        android:id="@+id/tv_load_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        layout="@layout/vp_stub_loading_video_for_netplaying_v5"/>
+    
+    <include
+        android:id="@+id/tv_buffer_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" 
+        layout="@layout/tv_buffer_view"/>
+
+    <include
+        android:id="@+id/tv_ctrl_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/tv_ctrl_view"/>
+</RelativeLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/video_dialog_width"
+    android:layout_height="@dimen/video_dialog_height" >
+    
+    <RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	    <Button 
+	        android:id="@+id/comment_review_back"
+	        android:layout_width="@dimen/comment_review_btn_back_width"
+	        android:layout_height="@dimen/comment_review_btn_back_height"
+	        android:layout_marginLeft="@dimen/comment_review_btn_left_margin"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentLeft="true"
+	        android:textSize="@dimen/font_size_17"
+	        android:textColor="@drawable/btn_top_dialog_text_color"
+	        android:background="@drawable/btn_light_bg"
+	        android:text="@string/back"/>
+	    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/font_size_17"
+            android:textColor="@color/p_80_black"
+            android:textStyle="bold"
+            android:text="@string/comment"/>
+	    <Button 
+	        android:id="@+id/comment_review_edit"
+	        android:layout_width="@dimen/comment_review_btn_edit_width"
+	        android:layout_height="@dimen/comment_review_btn_edit_height"
+	        android:layout_marginRight="@dimen/comment_review_btn_right_margin"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentRight="true"
+	        android:textSize="@dimen/font_size_17"
+	        android:textColor="@drawable/btn_top_dialog_text_color"
+	        android:background="@drawable/btn_light_bg"
+	        android:text="@string/edit_comment"/>
+        <View
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/video_divider_height"
+	        android:layout_marginTop="@dimen/comment_review_title_divider_top_margin"
+	        android:background="@drawable/divider_bg_black_10"/>
+	</RelativeLayout>
+	
+    <LinearLayout 
+        android:layout_width="@dimen/comment_review_score_width"
+        android:layout_height="@dimen/comment_review_score_height"
+        android:layout_marginTop="@dimen/comment_review_score_top_margin"
+        android:layout_marginLeft="@dimen/video_common_left_margin"
+        android:layout_marginRight="@dimen/video_common_right_margin"
+        android:orientation="vertical">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/p_80_black"
+            android:textSize="@dimen/font_size_17"
+            android:text="@string/average_score"/>
+        <TextView
+            android:id="@+id/comment_review_count_avg_score" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size_57"
+            android:text="@string/app_name"/>
+        <TextView
+            android:id="@+id/comment_review_count_comment" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/p_50_black"
+            android:textSize="@dimen/font_size_13"
+            android:text="@string/count_comment"/>
+    </LinearLayout>
+    
+    <com.miui.video.widget.ScoreStatusView
+        android:id="@+id/comment_review_score_status" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/comment_review_score_status_top_margin"
+        android:layout_marginLeft="@dimen/comment_review_score_status_left_margin" />
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/comment_review_btn_top_margin"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/comment_review_btn_all"
+            style="?android:attr/buttonBarButtonStyle" 
+            android:layout_width="@dimen/comment_review_btn_width"
+            android:layout_height="@dimen/comment_review_btn_height"
+            android:background="@drawable/btn_dialog_left_bg"
+            android:textColor="@drawable/btn_text_color_black"
+            android:textSize="@dimen/font_size_17"
+            android:text="@string/all_comment" />
+        <Button
+            android:id="@+id/comment_review_btn_positive"
+            style="?android:attr/buttonBarButtonStyle" 
+            android:layout_width="@dimen/comment_review_btn_width"
+            android:layout_height="@dimen/comment_review_btn_height"
+            android:background="@drawable/btn_dialog_mid_bg"
+            android:textColor="@drawable/btn_text_color_black"
+            android:textSize="@dimen/font_size_17"
+            android:text="@string/positive_comment" />
+        <Button
+            android:id="@+id/comment_review_btn_negative"
+            style="?android:attr/buttonBarButtonStyle" 
+            android:layout_width="@dimen/comment_review_btn_width"
+            android:layout_height="@dimen/comment_review_btn_height"
+            android:background="@drawable/btn_dialog_right_bg"
+            android:textColor="@drawable/btn_text_color_black"
+            android:textSize="@dimen/font_size_17"
+            android:text="@string/negative_comment" />
+    </LinearLayout>
+    
+    <com.miui.video.widget.LoadingListView
+       android:id="@+id/comment_review_list"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginLeft="@dimen/video_common_left_margin"
+       android:layout_marginRight="@dimen/video_common_right_margin"
+       android:layout_marginTop="@dimen/comment_review_list_top_margin"
+       android:layout_marginBottom="@dimen/comment_review_list_bottom_margin"/>
+</RelativeLayout>

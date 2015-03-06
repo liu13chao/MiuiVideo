@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingLeft="@dimen/video_common_interval_13"
+    android:paddingRight="@dimen/video_common_interval_13" >
+
+    <include layout="@layout/media_view_category" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_common_interval_21" />
+
+</LinearLayout>

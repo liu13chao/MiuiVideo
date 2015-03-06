@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.video.widget.recommend.MediaViewFeature xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/cover_feature_width"
+    android:layout_height="wrap_content" >
+
+    <com.miui.video.widget.media.MediaPosterView
+        android:id="@+id/poster"
+        android:layout_width="@dimen/cover_feature_width"
+        android:layout_height="@dimen/cover_feature_height" />
+
+    <TextView
+        android:id="@+id/feature_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/media_view_feature_name_height"
+        android:layout_below="@id/poster"
+        android:background="@drawable/com_bg_white_corner_d"
+        android:contentDescription="@string/app_name"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingLeft="@dimen/media_view_feature_name_padding_left"
+        android:paddingRight="@dimen/media_view_feature_name_padding_left"
+        android:paddingTop="@dimen/media_view_feature_name_padding_top"
+        android:textColor="@color/color_text"
+        android:textSize="@dimen/text_size_normal" />
+
+    <View
+         android:layout_below="@id/feature_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/media_view_feature_name_margin_bottom" />
+
+</com.miui.video.widget.recommend.MediaViewFeature>

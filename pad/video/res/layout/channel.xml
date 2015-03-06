@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true" >
+    
+	<com.miui.video.widget.pager.PagerView 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:id="@+id/channel_pager_view">
+	</com.miui.video.widget.pager.PagerView>
+	
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+        <FrameLayout 
+            android:id="@+id/channel_title_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <Button
+		        android:id="@+id/channel_title_back"
+		        android:layout_marginLeft="@dimen/channel_title_back_left_margin"
+		        android:layout_marginTop="@dimen/channel_title_back_top_margin"
+		        android:layout_width="@dimen/channel_title_back_width"
+		        android:layout_height="@dimen/channel_title_back_height"
+		        android:gravity="center_vertical"
+		        android:clickable="false"
+		        android:background="@drawable/btn_title_back"/>
+    		<TextView
+		        android:id="@+id/channel_title_name" 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="@dimen/video_common_left_margin"
+		        android:layout_marginTop="@dimen/channel_title_name_top_margin"
+		        android:textSize="@dimen/font_size_19"
+		        android:textColor="@color/white"
+		        android:text="@string/app_name" />
+        </FrameLayout>
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/channel_title_btn_top_margin"
+	        android:layout_centerHorizontal="true"
+	        android:orientation="horizontal" >
+	        <Button
+	            android:id="@+id/channel_btn_choice"
+	            android:layout_width="@dimen/channel_title_btn_width"
+	            android:layout_height="@dimen/channel_title_btn_height"
+	            android:paddingLeft="0dp"
+	            android:background="@drawable/btn_channel_left_bg"
+	            android:textSize="@dimen/font_size_15"
+	            android:textColor="@drawable/btn_text_color_white"
+	            style="?android:attr/buttonBarButtonStyle"
+	            android:text="@string/choice"/>
+	        <Button
+	            android:id="@+id/channel_btn_rank"
+	            android:layout_width="@dimen/channel_title_btn_width"
+	            android:layout_height="@dimen/channel_title_btn_height"
+	            android:background="@drawable/btn_channel_mid_bg"
+	            android:textSize="@dimen/font_size_15"
+	            android:textColor="@drawable/btn_text_color_white"
+	            style="?android:attr/buttonBarButtonStyle"
+	            android:text="@string/rank"/>
+	        <Button
+	            android:id="@+id/channel_btn_all"
+	            android:layout_width="@dimen/channel_title_btn_width"
+	            android:layout_height="@dimen/channel_title_btn_height"
+	            android:paddingRight="0dp"
+	            android:background="@drawable/btn_channel_right_bg"
+	            android:textSize="@dimen/font_size_15"
+	            android:textColor="@drawable/btn_text_color_white"
+	            style="?android:attr/buttonBarButtonStyle"
+	            android:text="@string/all"/>
+	    </LinearLayout>
+	    <com.miui.video.widget.searchbox.SearchBox
+	        android:id="@+id/channel_search_box" 
+	        style="@style/SearchEditTextStyle"
+	        android:layout_width="@dimen/channel_search_box_width"
+	        android:layout_height="@dimen/channel_search_box_height"
+	        android:layout_marginRight="@dimen/video_common_right_margin"
+	        android:layout_marginTop="@dimen/channel_title_search_top_margin"
+	        android:layout_alignParentRight="true"
+	        android:hint="@string/search_online_video"
+	        android:background="@drawable/search_bg" />
+	    <ImageButton 
+	        android:id="@+id/channel_search_btn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="@dimen/video_common_right_margin"
+	        android:layout_marginTop="@dimen/channel_title_search_top_margin"
+	        android:layout_alignParentRight="true"
+	        android:contentDescription="@string/app_name"
+	        android:background="@drawable/btn_search_bg"/>    
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/video_divider_height"
+	        android:layout_marginTop="@dimen/channel_divider_top_margin"
+	        android:layout_marginLeft="@dimen/video_common_left_margin"
+	        android:layout_marginRight="@dimen/video_common_right_margin"
+	        android:background="@drawable/divider_bg_10" />
+    </RelativeLayout>
+</RelativeLayout>

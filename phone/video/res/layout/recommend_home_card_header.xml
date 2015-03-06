@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.video.widget.recommend.MediaPagerTabHeader xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/recommend_home_card_header_height"
+    android:background="@drawable/home_pager_tab_bg"
+    android:padding="0dp" >
+
+    <com.miui.video.widget.recommend.MediaPagerTab
+        android:id="@+id/recommend_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</com.miui.video.widget.recommend.MediaPagerTabHeader>

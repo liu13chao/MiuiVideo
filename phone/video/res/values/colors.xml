@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- drawable start -->
+
+    <drawable name="com_bg_white">#FFFFFF</drawable>
+    <drawable name="com_bg_gray">#FFE5E6E6</drawable>
+    <drawable name="com_10_black">#19000000</drawable>
+    <drawable name="com_bg_black">#000000</drawable>
+    <drawable name="com_3_black">#19000000</drawable>
+    <!-- drawable end -->
+    
+    <!-- color start -->
+    <color name="transparent">#00FFFFFF</color>
+    <color name="color_focus">#f95f22</color>
+    <color name="color_bg_gray">#e5e6e6</color>
+    <color name="color_tab">#999999</color>
+    <color name="color_sub_text">#999999</color>
+    <color name="color_title_text">#333333</color>
+    <color name="color_text">#585858</color>
+    <color name="color_tab_line">#d7d7d7</color>
+    
+    <color name="color_media_status">#ccffffff</color>
+        
+    <color name="gray_separate_line">#e5e5e5</color>
+    
+    <color name="gray">#ffd3d3d3</color>
+    <color name="orange">#fff95f22</color>
+    
+    <color name="p_90_blue">#e60096ff</color>
+    <color name="p_30_blue">#4c0096ff</color>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="p_90_white">#e6ffffff</color>
+    <color name="p_80_white">#ccffffff</color>
+    <color name="p_75_white">#bfffffff</color>
+    <color name="p_70_white">#B2ffffff</color>
+    <color name="p_60_white">#99ffffff</color>
+    <color name="p_50_white">#7fffffff</color>
+    <color name="p_40_white">#66ffffff</color>
+    <color name="p_30_white">#4cffffff</color>
+    <color name="p_25_white">#3fffffff</color>
+    <color name="p_20_white">#33ffffff</color>
+    <color name="p_15_white">#26ffffff</color>
+    <color name="p_10_white">#19ffffff</color>
+    
+    <color name="black">#000000</color>
+    <color name="p_97_black">#f7000000</color>
+    <color name="p_90_black">#e6000000</color>
+    <color name="p_80_black">#cc000000</color>
+    <color name="p_70_black">#B2000000</color>
+    <color name="p_60_black">#99000000</color>
+    <color name="p_50_black">#7f000000</color>
+    <color name="p_40_black">#66000000</color>
+    <color name="p_30_black">#4c000000</color>
+    <color name="p_27_black">#aa000000</color>
+    <color name="p_20_black">#33000000</color>
+    <color name="p_15_black">#26000000</color>
+    <color name="p_10_black">#19000000</color>
+    <color name="p_3_black">#19000000</color>
+    
+    <color name="text_color_light_dark">#666666</color>
+    <color name="text_color_deep_dark">#333333</color>
+    
+    <color name="progress_bg_color">#ffe5e6e6</color>
+    <color name="progress_color">#fff95f22</color>
+    <!-- color end --> 
+</resources>

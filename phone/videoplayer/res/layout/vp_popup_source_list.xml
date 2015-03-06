@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/source_list_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/vp_listview_sources_item_height"
+        android:layout_marginLeft="@dimen/vp_listview_sources_left_margin"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="@string/vp_select_video_source"
+        android:textAppearance="@style/vp_source_item_text_style" />
+
+    <TextView
+        android:id="@+id/source_list_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/popup_right_menu_option_listview_item_divider_height"
+        android:background="@color/vp_divider" />
+
+    <ListView
+        android:id="@+id/source_list_items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:listSelector="@drawable/vp_clickable_item_bg" />
+
+</LinearLayout>

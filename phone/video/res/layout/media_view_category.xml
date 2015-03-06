@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.video.widget.media.MediaViewCategory xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/media_view_category"
+    android:layout_width="@dimen/cover_category_banner_width"
+    android:layout_height="wrap_content" >
+
+    <com.miui.video.widget.media.MediaPosterView
+        android:id="@+id/poster"
+        android:layout_width="@dimen/cover_category_banner_width"
+        android:layout_height="@dimen/cover_category_banner_height" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/poster"
+        android:background="@drawable/com_bg_white_corner_d" >
+
+        <ImageView
+            android:id="@+id/category_icon"
+            android:layout_width="@dimen/category_icon_width"
+            android:layout_height="@dimen/category_icon_height"
+            android:layout_marginLeft="@dimen/category_media_icon_left_margin"
+            android:layout_marginTop="@dimen/category_media_icon_top"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/category_media_desc_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/category_media_name_height"
+            android:layout_marginLeft="@dimen/category_media_name_left_margin"
+            android:layout_toRightOf="@id/category_icon"
+            android:gravity="bottom"
+            android:textColor="@color/orange"
+            android:textIsSelectable="false"
+            android:textSize="@dimen/font_size_48" />
+
+        <TextView
+            android:id="@+id/category_media_desc_count"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/category_media_name_height"
+            android:layout_marginLeft="@dimen/category_media_name_left_margin"
+            android:paddingBottom="@dimen/category_media_count_bottom"
+            android:layout_toRightOf="@id/category_icon"
+            android:gravity="bottom"
+            android:textColor="@color/p_30_black"
+            android:textIsSelectable="false"
+            android:textSize="@dimen/font_size_36" />
+
+        <TextView
+            android:id="@+id/category_media_desc_media"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/category_media_desc_height"
+            android:layout_below="@id/category_media_desc_name"
+            android:paddingLeft="@dimen/category_media_name_left_margin"
+            android:paddingRight="@dimen/category_media_name_left_margin"
+            android:layout_marginTop="@dimen/category_media_desc_name_top_margin"
+            android:layout_toRightOf="@id/category_icon"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/color_sub_text"
+            android:textSize="@dimen/font_size_36" />
+    </RelativeLayout>
+
+    <!--
+    LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+	    <FrameLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/category_media_poster_height">
+	        <FrameLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:background="@drawable/default_border_corner_up">
+	            <ImageView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:src="@drawable/default_poster_pic"
+	                android:layout_gravity="center"
+	                android:contentDescription="@string/app_name"/>
+	        </FrameLayout>
+		    <ImageView
+		        android:id="@+id/category_media_poster" 
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:scaleType="fitXY"
+		        android:contentDescription="@string/app_name"/>             
+	    </FrameLayout> 
+		<FrameLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content">
+		    <RelativeLayout 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="@dimen/video_common_interval_40"
+		        android:layout_marginBottom="@dimen/video_common_interval_45">
+		        <TextView 
+			        android:id="@+id/category_media_desc_name"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="@dimen/category_media_desc_name_left_margin"
+			        android:textSize="@dimen/font_size_48"
+			        android:textColor="@color/orange"
+			        android:textIsSelectable="false"/>
+		        <TextView 
+			        android:id="@+id/category_media_desc_count"
+			        android:layout_toRightOf="@id/category_media_desc_name"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="@dimen/category_media_desc_count_left_margin"
+			        android:layout_marginTop="@dimen/category_media_desc_count_top_margin"
+			        android:textSize="@dimen/font_size_36"
+			        android:textColor="@color/p_30_black"
+			        android:textIsSelectable="false"/>
+		        <TextView
+		            android:id="@+id/category_media_desc_media" 
+		            android:layout_below="@id/category_media_desc_name"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="@dimen/category_media_desc_name_top_margin"
+			        android:layout_marginLeft="@dimen/category_media_desc_name_left_margin"
+			        android:layout_marginRight="@dimen/category_media_desc_name_right_margin"	      			        	           
+		            android:textSize="@dimen/font_size_36"
+			        android:textColor="@color/p_50_black"
+		            android:textIsSelectable="false"
+		            android:singleLine="true"/>
+		    </RelativeLayout>
+		    <ImageView
+		        android:id="@+id/category_media_desc_icon" 
+		        android:layout_width="@dimen/category_icon_width"
+		        android:layout_height="@dimen/category_icon_height"
+		        android:layout_marginLeft="@dimen/category_media_desc_icon_left_margin"
+		        android:layout_gravity="center_vertical"
+		        android:contentDescription="@string/app_name"/>		    
+		</FrameLayout>
+	</LinearLayout -->
+
+</com.miui.video.widget.media.MediaViewCategory>

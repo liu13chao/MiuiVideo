@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="transparent">#00FFFFFF</drawable>
+    
+    <color name="poster_border">#ff424242</color>
+     <color name="gray">#ffd3d3d3</color>
+    
+     <!-- cover start -->
+    <drawable name="cover_mask">#19000000</drawable>
+    <!-- cover end -->
+    
+</resources>

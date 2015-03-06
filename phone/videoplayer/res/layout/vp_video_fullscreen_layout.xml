@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.videoplayer.controller.FullScreenVideoController xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/video_landscape"
+    android:background="#01ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.miui.videoplayer.menu.Menu
+        android:id="@+id/vp_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/left_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/left_mask"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/play_mask_left" />
+
+        <ImageView
+            android:id="@+id/vp_screen_locker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:translationX="@dimen/vp_mc_screen_locker_margin_left"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/vp_screen_locker_bg" />
+    </FrameLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/vp_status_bar" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/vp_media_controller" />
+
+</com.miui.videoplayer.controller.FullScreenVideoController>

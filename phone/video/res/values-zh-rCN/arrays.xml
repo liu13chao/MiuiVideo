@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="movie_channel_tabs">
+        <item>精选</item>
+        <item>热播</item>
+        <item>好评</item>
+        <item>新剧</item>
+    </string-array>
+    <string-array name="variety_channel_tabs">
+        <item>本期精选</item>
+        <item>热播强档</item>
+    </string-array>
+    <string-array name="channel_tabs">
+        <item>精选</item>
+        <item>热播</item>
+        <item>新剧</item>
+    </string-array>
+
+</resources>

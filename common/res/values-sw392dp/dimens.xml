@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- text size start -->
+    <dimen name="text_size_large">17.4sp</dimen>
+    <dimen name="text_size_normal">15.3sp</dimen>
+    <dimen name="text_size_subtitle">13.1sp</dimen>
+    <dimen name="text_size_small">10.9sp</dimen>
+    <dimen name="text_size_tiny">9.5sp</dimen>
+    <dimen name="text_size_26">9.5sp</dimen>
+    <dimen name="text_size_30">10.9sp</dimen>
+    <dimen name="text_size_36">13.1sp</dimen>
+    <dimen name="text_size_42">15.3sp</dimen>
+    <dimen name="text_size_48">17.4sp</dimen>
+
+    <!-- text size end -->
+
+
+    <!-- Cover start -->
+    <dimen name="cover_corner_radius">3.3dp</dimen>
+    <dimen name="cover_mixed_horizontal_width">111.5dp</dimen>
+    <dimen name="cover_mixed_horizontal_height">62.5dp</dimen>
+    <dimen name="cover_horizontal_width">172.2dp</dimen>
+    <dimen name="cover_horizontal_height">97.0dp</dimen>
+    <dimen name="cover_list_horizontal_width">138.1dp</dimen>
+    <dimen name="cover_list_horizontal_height">78.5dp</dimen>
+    <dimen name="cover_list_vertical_width">99.5dp</dimen>
+    <dimen name="cover_list_vertical_height">131.6dp</dimen>
+    <dimen name="cover_vertical_width">111.5dp</dimen>
+    <dimen name="cover_vertical_height">162.1dp</dimen>
+    <dimen name="cover_home_banner_width">377.9dp</dimen>
+    <dimen name="cover_home_banner_height">170.0dp</dimen>
+    <dimen name="cover_info_banner_width">356.1dp</dimen>
+    <dimen name="cover_info_banner_height">199.8dp</dimen>
+    <dimen name="cover_category_banner_width">377.9dp</dimen>
+    <dimen name="cover_category_banner_height">130.8dp</dimen>
+    <dimen name="cover_feature_width">183.4dp</dimen>
+    <dimen name="cover_feature_height">82.5dp</dimen>
+     <dimen name="cover_tv_icon_width">65.4dp</dimen>
+    <dimen name="cover_tv_icon_height">36.3dp</dimen>
+    <dimen name="cover_tv_width">111.9dp</dimen>
+    <dimen name="cover_tv_height">62.9dp</dimen>
+    <dimen name="cover_padding">1.1dp</dimen>
+    <!-- Cover end -->
+
+
+    <!-- web media start -->
+    <dimen name="page_progress_height">8.7dp</dimen>
+    <dimen name="page_progress_top_margin">-2.2dp</dimen>
+    <dimen name="page_btn_fullscreen_width">45.8dp</dimen>
+    <dimen name="page_btn_fullscreen_height">45.8dp</dimen>
+    <!-- web media end -->
+
+
+    <!-- media  start -->
+    <dimen name="video_thumb_width">109.0dp</dimen>
+    <dimen name="video_thumb_height">74.7dp</dimen>
+    <dimen name="poster_corner_radius">4.4dp</dimen>
+    <!-- media  start -->
+
+</resources>

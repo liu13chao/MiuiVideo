@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/loading_textview"
+        style="@style/vp_loading_buffering_textview_style_v5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/buffering_video_netplay_label_v5" />
+
+    <TextView
+        android:id="@+id/buffer_percent_textview"
+        style="@style/vp_loading_buffering_textview_style_v5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"   />
+
+</LinearLayout>

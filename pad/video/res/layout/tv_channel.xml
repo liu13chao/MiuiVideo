@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true" >
+
+    <FrameLayout
+        android:id="@+id/tv_title_top" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+	        android:id="@+id/tv_title_back"
+	        android:layout_marginLeft="@dimen/tv_title_back_left_margin"
+	        android:layout_marginTop="@dimen/tv_title_back_top_margin"
+	        android:layout_width="@dimen/tv_title_back_width"
+	        android:layout_height="@dimen/tv_title_back_height"
+	        android:gravity="center_vertical"
+	        android:clickable="false"
+	        android:background="@drawable/btn_title_back"/>
+    	<TextView
+	        android:id="@+id/tv_title_name" 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="@dimen/video_common_left_margin"
+	        android:layout_marginTop="@dimen/tv_title_name_top_margin"
+	        android:textSize="@dimen/font_size_19"
+	        android:textColor="@color/white"
+	        android:text="@string/app_name" />
+    </FrameLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_divider_height"
+        android:layout_marginTop="@dimen/tv_channel_divider_top_margin"
+        android:layout_marginLeft="@dimen/video_common_left_margin"
+        android:layout_marginRight="@dimen/video_common_right_margin"
+        android:background="@drawable/divider_bg_10"/>
+    
+    <com.miui.video.widget.LoadingListView
+        android:id="@+id/tv_channel_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/video_common_left_margin"
+        android:layout_marginRight="@dimen/video_common_right_margin"
+        android:layout_marginTop="@dimen/tv_channel_list_top_margin"/>
+</FrameLayout>

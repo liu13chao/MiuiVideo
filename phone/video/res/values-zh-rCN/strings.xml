@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- declaration start -->
+    <string name="declaration_allow">同意</string>
+    <string name="declaration_content_td_custom">您将使用视频功能，在使用过程中可能会联网，您是否同意？</string>
+    <string name="declaration_content">1、您将使用搜狐视频、爱奇艺等提供的在线视频服务，点击“确定”接受<a href="http://www.youku.com/pub/youku/service/agreement.shtml#agr1">《使用条款》</a>并继续\n2、为更好的为您提高用户播放体验，部分设备和播放数据会被上传\n3、为享受高清播放和极速下载体验， 我们将为您下载高清组件\n4、在使用过程中需要联网，您是否同意？
+        </string>
+    <string name="declaration">声明</string>
+    <string name="no_longer_tips">不再提示</string>
+    <!-- declaration end -->
+    
+    <!-- access user data stream start -->
+    <string name="userdata_alert_title">数据网络提示</string>
+    <string name="userdata_alert_content">您目前正在使用数据网络，可能会产生大量的流量费用，确定要继续吗？</string>
+    <string name="userdata_alert_ok">继续</string>
+    <string name="check_network">网络连接不可用，请检查网络</string>
+    <!-- access user data stream end -->
+    
+    <!-- search result start -->
+    <string name="search">搜索</string>
+    <string name="clear_search_history">清空搜索记录</string>
+    <string name="count_ge_result">为您找到%d个结果</string>
+    <string name="search_result_input_hint">请输入搜索关键字</string>
+    <string name="search_result_empty_text">没有你搜索的视频</string>
+    <string name="search_recommend_media_hint">大家都在看</string>
+    <string name="search_recommend_word_hint">大家都在搜</string>
+    <string name="filter_program">筛选节目</string>
+    <!-- search result end -->
+    
+    <!-- home start -->
+    <string name="hot">热点</string>
+    <string name="category">分类</string>
+    <string name="choice">精选</string>
+    <string name="my">我的</string>
+    <string name="search_hint">搜索影片、精选、明星</string>
+    
+    <string name="video">视频</string>
+    <!-- home end -->
+    
+    <!-- about start -->
+    <string name="about">关于</string>
+    <string name="video_xiaomi">小米视频</string>
+    <string name="video_version">%s版</string>
+    <string name="video_declare">版权说明&#160;&#160;&#160;|&#160;&#160;&#160;免责声明</string>
+    <!-- about end -->
+    
+    <!-- online video start -->
+    <string name="more">进入%s频道</string>
+    <!-- online video end -->
+    
+    <!-- myvideo start -->
+    <string name="local_video">本地视频</string>
+    <string name="my_favorite">我的收藏</string>
+    <string name="my_offline">我的离线</string>
+    <string name="play_history">播放历史</string>
+    <string name="addon">热门专区</string>
+    <string name="share_device">共享设备</string>
+    <string name="personal_center">个人中心</string>
+    <string name="not_login">未登录</string>
+    <string name="click_to_login">点击头像登录</string>
+    <string name="gong_count_ge">共&#x0020;%d&#x0020;个</string>
+    <!-- myvideo end -->
+    
+    <!-- myvideo entry start -->
+    <string name="online_video">在线视频</string>
+    <!-- myvideo entry end -->
+    
+    <!-- empty hint start -->
+    <string name="error_empty_title">抱歉, 出错啦</string>
+    <string name="error_empty_filter_title">未找到筛选结果</string>
+    <string name="local_media_empty_title">暂无本地视频</string>
+    <string name="local_media_empty_sub_title">离线影片到本地，无网络也能看视频</string>
+    <string name="play_his_empty_title">暂无播放历史</string>
+    <string name="local_favorite_empty_title">暂无我的收藏</string>
+    <string name="offline_media_empty_title">暂无离线视频</string>
+	<string name="device_empty_hint">暂无共享设备</string>
+	<string name="device_media_empty_hint">暂无共享视频</string>
+    <!-- empty hint end -->
+    
+    <!-- history start -->
+    <string name="delete">删除</string>
+    <string name="today">今天</string>
+    <string name="yesterday">昨天</string>
+    <!-- history end -->
+    
+    <!-- addon start -->
+    <string name="addon_all">所有专区</string>
+    <string name="installed">已安装</string>
+    <string name="addon_installed_empty_hint">沒有已安裝的专区</string>
+    <!-- addon end -->
+
+    <!-- local favorite start -->
+    <string name="edit">编辑</string>
+    <string name="unfavorite">取消收藏</string>
+    <!-- local favorite end -->
+    
+    <!-- action mode start -->
+    <string name="delete_action_text">删除 （%d）</string>
+    <!-- action mode  end -->
+    
+    <!-- media detail start -->
+    <string name="gong_count_ji">共&#x0020;%d&#x0020;集</string>
+    <string name="similar">类似影片</string>
+    <string name="all_ep">全部剧集</string>
+    <string name="play">播放</string>
+    <string name="connecting">连接中</string>
+    <string name="introduce">简介</string>
+    <string name="comment">评论</string> 
+	<string name="douban_score">评分</string>
+    <string name="write_comment">我要评论</string>
+    <string name="see_all_count_comment">查看全部%d条评论</string>
+    <string name="detail_comment_empty">暂无评论</string>
+    <string name="offline">离线</string>
+    <string name="favorite">收藏</string>
+    <string name="add_favorite_success">收藏成功</string>
+    <string name="cancel_favorite_success">取消收藏成功</string>
+    <!-- media detail end -->
+    
+    <!-- channel start -->
+    <string name="all">全部</string>
+    <string name="channel_recommend">推荐</string>
+    <string name="channel_hot">热播</string>
+    <string name="channel_new">新剧</string>
+    <string name="channel_choice">精选</string>
+    <string name="channel_score">好评</string>
+    <string name="channel_latest">最新</string>
+    <string name="channel_variety_choice">本期精选</string>
+    <string name="channel_variety_hot">热播强档</string>
+    <string name="channel_ok">确定</string>
+    <string name="filter">筛选</string>
+    <!-- channel end -->
+    
+    <!-- category start -->
+    <string name="gong_count_bu">共%d部</string>
+    <!-- category end -->
+    
+    <!-- information start -->
+    <string name="play_count_ci">播放：%d次</string>
+    <!-- information end -->
+    
+    <!-- Tv start -->
+    <string name="tv_channel_empty_hint">没有找到相关的内容</string>
+    <!-- Tv end -->
+    
+    <!-- Tv player start -->
+    <string name="defaults">默认</string>
+    <string name="fullscreen">全屏</string>
+    <!-- Tv player end -->
+    
+    <!-- score status view start -->
+     <string name="percent_status">%.0f%%</string>
+    <!--score status view end -->
+    
+    <!-- quick entry start -->
+	<string name="tv_series">电视剧</string>
+	<string name="film">电影</string>
+	<string name="variety">综艺</string>	
+	<string name="recent_play">最近观看</string>
+	<string name="offline_media">我的离线</string>
+	<string name="tv">电视直播</string>
+    <!-- quick entry end -->
+    
+    <!-- comment review start -->
+    <string name="edit_comment">写评论</string>
+    <string name="average_score">平均得分</string>
+    <string name="count_comment">%d人评分</string>
+    <string name="count_comment_wan">%.2f万人评分</string>
+    <string name="avg_score">%.1f</string>
+    <string name="positive_comment">好评</string>
+    <string name="negative_comment">差评</string>
+    <string name="xiaomi_user">用户</string>
+    <string name="star5">5&#160;星</string>
+    <string name="star4">4&#160;星</string>
+    <string name="star3">3&#160;星</string>
+    <string name="star2">2&#160;星</string>
+    <string name="star1">1&#160;星</string>
+    <!-- comment review end -->
+    
+    <!-- comment edit start -->
+    <string name="send">发布</string>
+    <string name="media_name_comment">%s的评论</string>
+    <string name="comment_edit_et_hint">最多输入300字</string>
+    <string name="comment_edit_start_hint">轻按星星来评分</string>  
+    <string name="comment_count_less_tip">请至少输入%d个字</string>
+    <string name="comment_count_much_tip">每条评论最多%d个字</string>   
+    <string name="click_star_rate">点击星星评分</string>
+    <!-- comment edit end -->
+    
+    <!-- download start -->
+    <string name="offline_no_source">没有可用的离线源</string>
+    <string name="download_is_in_tasklist">该视频已在离线列表中</string>
+    <string name="download_add_success">已成功加入离线列表</string>   
+    <string name="offline_alert_title">离线提示</string>
+    <string name="good">好</string>
+    <string name="offline_no_selected_item_hint">请选择要下载的集数</string>
+    <string name="offline_alert_wifi">您目前正在使用数据网络，为了节约您的流量，将在连接无线网络后自动为您离线视频</string>
+    <string name="datastream_alert_play">您在使用2G/3G/4G网络播放视频，可能产生较高流量费用</string>
+    <string name="datastream_alert_download">您在使用2G/3G/4G网络下载视频，可能产生较高流量费用</string>
+    <string name="datastream_alert_hint">您可在"设置-系统应用-视频"中,关闭该提示</string>
+    <string name="datastream_alert_positive_button">继续</string>
+    <string name="datastream_alert_negative_button">取消</string>
+    <string name="datastream_alert_title">流量提示</string>
+    <!-- download end -->
+    
+    <!-- ep select start -->
+    <string name="all_media">全部视频</string>
+    <string name="ji">集</string>
+    <string name="series_ep">第%d集</string>
+    <!-- ep select end -->
+    
+    <!-- action mode start -->
+    <string name="select_all">全选</string>
+    <string name="select_none">全不选</string>
+    <string name="select_count_xiang">已选中%d项</string>
+    <!-- action mode end -->
+    
+    <!-- settings start -->
+    <string name="system_setting">系统设置</string>
+    <string name="setting">设置</string>
+    <string name="offline_setting">离线设置</string>
+    <string name="use_cellular_play_title">2G/3G/4G网络播放视频提示</string>
+    <string name="use_cellular_play_summary">为节省流量费用，建议打开</string>
+    <string name="use_cellular_network">允许使用数据网络缓存视频</string>
+    <string name="use_cellular_network_summary">可能产生较高流量费用，建议关闭</string>
+    <string name="use_cellular_offlinedownload_title">2G/3G/4G网络离线视频提示</string>
+    <string name="use_cellular_offlinedownload_summary">为节省流量费用，建议打开</string>
+	<string name="mipush_setting">推送设置</string>
+	<string name="receive_mipush">接收小米推送</string>
+	<string name="receive_mipush_summary">开启后，接收最新及热门影片通知</string>
+    <string name="other_setting">其他</string>
+    <string name="clear_cache">清除其它缓存</string>
+    <string name="clear_cache_summary">清除在手机上缓存的视频封面</string>
+    <string name="clear_cache_success">成功清除缓存</string>
+    <string name="priority_storage">优先使用外置SD卡</string>
+    <string name="priority_storage_summary">使用外置SD卡时，此功能生效</string>
+    <!-- settings end -->
+    
+    <!-- loading start -->
+    <string name="loading"> <CDATA>正在加载...</CDATA> </string>
+    <string name="reload_title_ep">无法获取全部剧集</string>
+    <string name="reload_title">网络不可用</string>
+    <string name="reload_sub_title">点击屏幕重试</string>
+    <string name="retry">重试</string>
+    <!-- loading end -->
+    
+    <!-- Mipush start -->
+    <string name="updatedalready">已更新</string>
+    <!-- Mipush end -->
+    
+    <!-- tv player start -->
+    <string name="select_tv">选台</string>
+    <string name="forecast">预告</string>
+    <string name="select_tv_empty_hint">没有电台信息</string>
+    <string name="forecast_empty_hint">没有节目信息</string>
+    <string name="select_tvs">选择电台</string>
+    <string name="forecasts">节目预告</string>
+    <string name="key_back_down_toast">再次按下返回键退出</string>
+    <!-- tv player end -->
+    <!-- update miuivideo apk begin -->
+    <string name="update_button">立即升级</string>
+    <string name="cancel_button">暂不升级</string>
+    <string name="update_title">升级提示</string>
+    <string name="update_version_prefix"><CDATA>推荐您升级新版本:</CDATA></string>
+    <string name="update_size_prefix"><CDATA>大小:</CDATA></string>
+    <string name="update_apk_statusbar">视频新版本下载中</string>
+    <!-- update miuivideo apk end -->
+    <!-- rank start -->
+    <string name="area_unknown">未知地区</string>
+    <string name="score">评分&#160;&#160;</string>
+    <string name="place_at">No.%d</string>
+    
+    <!-- offline start -->
+    <string name="download_with">已下载 %1$s / %2$s</string>
+    <string name="offline_loading">正在离线</string>
+    <string name="offline_loaded">离线视频</string>
+    <string name="download_task_with">%d个任务正在离线</string>
+    <string name="offline_status_loading">下载中</string>
+    <string name="offline_status_waiting">等待中</string>
+    <string name="offline_status_paused">已暂停</string>
+    <string name="offline_status_failed">失败</string>
+    <string name="offline_status_finished">已完成</string>
+    <string name="storage_remain">剩余空间：</string>
+    <string name="storage_total">总空间：</string>
+    <string name="offline_with">离线（%d）</string>
+    <string name="delete_with">删除（%d）</string>
+    <!-- offline end -->
+    
+    <!-- info channel start -->
+    <string name="info_channel_title">资讯频道</string>
+    <!-- info channel end -->
+    
+    <!-- local media start -->
+    <string name="video_count">%d 个视频</string>
+    <!-- local media end -->
+    <string name="updateapk_intro">更新日志</string>
+    <string name="maintitle_prefix">发现新版本</string>
+    <string name="subtitle_prefix">当前版本</string>
+    <string name="hot_recommend">热门推荐</string>
+</resources>

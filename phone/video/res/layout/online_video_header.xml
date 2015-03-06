@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_common_interval_30" />
+
+    <com.miui.video.widget.banner.BannerView
+        android:id="@+id/online_banner_view"
+        android:layout_width="@dimen/cover_home_banner_width"
+        android:layout_height="@dimen/cover_home_banner_height"
+        android:layout_marginBottom="@dimen/video_common_interval_30"/>
+
+    <com.miui.video.widget.QuickEntryView
+        android:id="@+id/online_entry_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="@dimen/video_common_interval_21"/>
+
+</LinearLayout>

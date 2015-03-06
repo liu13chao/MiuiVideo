@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- font size start -->
+    <dimen name="vp_text_size_50">65px</dimen>
+    <dimen name="vp_text_size_40">52px</dimen>
+    <dimen name="vp_text_size_38">49px</dimen>
+    <dimen name="vp_text_size_36">47px</dimen>
+    <dimen name="vp_text_size_34">44px</dimen>
+    <dimen name="vp_text_size_32">42px</dimen>
+    <dimen name="vp_text_size_30">39px</dimen>
+    <dimen name="vp_text_size_28">36px</dimen>
+    <dimen name="vp_text_size_26">34px</dimen>
+    <dimen name="vp_text_size_24">31px</dimen>
+    <dimen name="vp_text_size_23">30px</dimen>
+    <dimen name="vp_text_size_20">26px</dimen>
+    <!-- font size end -->
+    
+    <dimen name="popup_bottom_controller_position_duration_textview_width">42dp</dimen>
+    <dimen name="popup_bottom_seekbar_height">4px</dimen>
+    <dimen name="popup_center_time_progress_textview_width">200dp</dimen>
+    <dimen name="popup_center_time_progress_textview_font_size_small">32dp</dimen>
+    <dimen name="popup_center_time_progress_textview_font_size_big">48dp</dimen>
+    <dimen name="popup_top_status_media_name_textview_length">200dp</dimen>
+    <dimen name="popup_top_status_media_name_textview_margin_left">13dp</dimen>
+    <dimen name="popup_top_status_media_name_textview_font_size">16dp</dimen>
+    <dimen name="popup_top_status_time_textview_width">33dp</dimen>
+    <dimen name="popup_top_status_time_textview_margin_right">13dp</dimen>
+    <dimen name="popup_top_status_time_textview_font_size">13dp</dimen>
+    <dimen name="popup_right_menu_option_listview_item_height">49dp</dimen>
+    <dimen name="popup_right_menu_option_listview_item_textview_font_size">14dp</dimen>
+    <dimen name="popup_right_menu_option_listview_item_textview_margin_left">20dp</dimen>
+    <dimen name="popup_left_menu_option_listview_item_divider_height">1px</dimen>
+    <dimen name="popup_brightness_imageview_left_margin">9dp</dimen>
+    <dimen name="vertical_seekbar_width">6px</dimen>
+    <dimen name="popup_volume_imageview_margin_left">2dp</dimen>
+    <dimen name="popup_volume_imageview_margin_right">-130dp</dimen>
+    <dimen name="popup_volume_seekbar_margin_left">-1dp</dimen>
+    <dimen name="popup_volume_seekbar_margin_right">-130dp</dimen>
+    <dimen name="popup_left_control_listview_item_height">49dp</dimen>
+    <dimen name="popup_vertical_seekbar_length">144dp</dimen>
+    <dimen name="popup_vertical_seekbar_vertical_space">10dp</dimen>
+    <dimen name="popup_bottom_controller_center_imageview_margin_left">60dp</dimen>
+    <dimen name="popup_bottom_controller_controllist_imageview_margin_left">18dp</dimen>
+    <dimen name="popup_bottom_controller_two_group_vertical_space">5dp</dimen>
+    <dimen name="popup_bottom_controller_first_group_margin_top">3dp</dimen>
+    <dimen name="popup_top_status_height">40dp</dimen>
+    <dimen name="popup_left_menu_option_width">250dp</dimen>
+    <dimen name="popup_bottom_progress_bar_only_height">36dp</dimen>
+    <dimen name="popup_left_control_listview_width">250dp</dimen>
+    <dimen name="popup_left_control_listview_item_textview_margin_left">15dp</dimen>
+    <dimen name="popup_left_control_listview_item_imageview_margin_right">15dp</dimen>
+    <dimen name="popup_left_control_listview_item_textview_width">186dp</dimen>
+    <dimen name="vertical_seekbar_group_margin_top">53dp</dimen>
+    <dimen name="popup_center_progress_time_margin_top_small">93dp</dimen>
+    <dimen name="popup_center_progress_time_margin_top_big">73dp</dimen>
+    <dimen name="vertical_seekbar_thumb_offset">8dp</dimen>
+    <dimen name="vertical_seekbar_padding_left">9dp</dimen>
+    <dimen name="vertical_seekbar_padding_right">9dp</dimen>
+    <dimen name="horizontal_seekbar_padding_left">10dp</dimen>
+    <dimen name="horizontal_seekbar_padding_right">10dp</dimen>
+    <dimen name="airkan_background_duokan_imageview_margin_top">103dp</dimen>
+    <dimen name="popup_bottom_airkan_devices_selection_group_height">100dp</dimen>
+	<dimen name="popup_bottom_controller_big_height">110dp</dimen>
+	<dimen name="popup_bottom_controller_controllist_big_imageview_margin_left">18dp</dimen>
+	<dimen name="popup_bottom_controller_center_big_imageview_margin_left">60dp</dimen>
+	<dimen name="popup_bottom_airkan_device_item_name_width">70dp</dimen>
+	<dimen name="sub_option_menu_listview_item_textview_size">15dp</dimen>
+	<dimen name="popup_right_volume_margin_right">0dp</dimen>
+	<dimen name="popup_bottom_airkan_device_item_margin_left">37dp</dimen>
+	
+	<dimen name="vertical_seekbar_thumb_offset_v5">12.5dp</dimen>
+    <dimen name="vertical_seekbar_padding_left_v5">12.5dp</dimen>
+    <dimen name="vertical_seekbar_padding_right_v5">5dp</dimen>
+    <dimen name="popup_top_status_back_media_name_margin_top_v5">0dp</dimen>
+    <dimen name="popup_bottom_controller_pause_margin_bottom">0dp</dimen>
+    <dimen name="popup_bottom_controller_progress_margin_bottom">13dp</dimen>
+    <dimen name="popup_receive_event_height">250dp</dimen>
+    <dimen name="popup_receive_event_width">500dp</dimen>
+    <dimen name="popup_left_menu_option_listview_item_height_v5">55dp</dimen>
+    <dimen name="top_status_bar_media_name_textview_font_size_v5">27dp</dimen>
+    <dimen name="top_status_bar_sub_title_textview_font_size_v5">13.5dp</dimen>
+    <dimen name="top_status_bar_sub_title_textview_margin_top_v5">6dp</dimen>
+    <dimen name="popup_center_time_progress_textview_font_size_v5">31dp</dimen>
+    <dimen name="popup_right_menu_option_width_v5">223.5dp</dimen>
+    <dimen name="popup_left_selection_menu_option_width_v5">228.5dp</dimen>
+    <dimen name="loading_buffering_textview_font_size">18dp</dimen>
+    <dimen name="loading_buffering_to_be_play_textview_font_size">11.5dp</dimen>
+    <dimen name="popup_bottom_menu_vertical_space">30dp</dimen>
+	<dimen name="popup_center_time_progress_v5_margin_top">30dp</dimen>
+	<dimen name="popup_center_time_progress_v5_arrow_margin_top">0dp</dimen>
+	
+	<dimen name="popup_right_volume_margin_right_v5">0dp</dimen>
+	<dimen name="popup_right_volume_width_v5">110dp</dimen>
+
+    <dimen name="popup_left_control_listview_height">384dp</dimen>
+	<dimen name="popup_right_vertical_seekbar_group_progress_text_container_margin_left_v5">107dp</dimen>
+	<dimen name="popup_volume_seekbar_margin_left_v5">106dp</dimen>
+
+    <dimen name="popup_right_volume_popupwindow_width">420px</dimen>
+	<dimen name="popup_bottom_airkan_tips_margin_right">10dp</dimen>
+	
+	<dimen name="popup_left_select_list_width">600px</dimen>
+	<dimen name="vp_radiogroup_button_padding">49.5px</dimen>
+	<dimen name="vp_radiobutton_marginTop_1">16.5dp</dimen>
+	<dimen name="vp_radiobutton_marginTop_2">11.5dp</dimen>
+	<dimen name="vp_drawablePadding">-8dp</dimen>
+	
+    <dimen name="select_ci_item_height">180px</dimen>
+    <dimen name="select_ci_text_margin_left">60px</dimen>
+    <dimen name="select_ci_icon_margin_right">20px</dimen>
+    <dimen name="select_ci_popup_tv_width">120dp</dimen>
+    <dimen name="select_ci_popup_variety_width">240dp</dimen>
+
+    <dimen name="ci_popup_button_width">90dp</dimen>
+    <dimen name="ci_popup_button_height">100dp</dimen>
+    <dimen name="ci_popup_screen_margin">10dp</dimen>
+    
+    <dimen name="divider_height">1dp</dimen>
+    
+    <dimen name="vp_airkan_padding">15dp</dimen>
+    
+    
+    <!-- ****************************分割线**************************** -->
+    
+    
+    <!-- common start -->
+    <dimen name="vp_common_divider_height">1px</dimen>
+    <dimen name="vp_common_ctrl_item_height">66dp</dimen>
+    <dimen name="vp_common_ctrl_left_margin">48dp</dimen>
+    <dimen name="vp_common_ctrl_right_margin">48dp</dimen>
+    <dimen name="vp_common_fade_edge_length">20dp</dimen>
+    <!-- common end -->
+    
+    <!-- font size start -->
+    <dimen name="vp_font_size_25">25dp</dimen>
+    <dimen name="vp_font_size_19">19dp</dimen>
+    <dimen name="vp_font_size_18">18dp</dimen>
+    <dimen name="vp_font_size_17">17dp</dimen>
+    <dimen name="vp_font_size_16">16dp</dimen>
+    <dimen name="vp_font_size_15">15dp</dimen>
+    <dimen name="vp_font_size_14">14dp</dimen>
+    <dimen name="vp_font_size_13">13dp</dimen>
+    <dimen name="vp_font_size_12">12dp</dimen>
+    <dimen name="vp_font_size_11">11dp</dimen>
+    <dimen name="vp_font_size_10">10dp</dimen>
+    <!-- font size end -->
+    
+    <!-- title top start -->
+    <dimen name="vp_title_top_top_margin">32dp</dimen>
+    <dimen name="vp_title_top_left_margin">17dp</dimen>
+    <dimen name="vp_title_top_paddingH">3dp</dimen>
+    <dimen name="vp_title_top_paddingV">3dp</dimen>
+    <dimen name="vp_title_top_marginV">2dp</dimen>
+    <!-- title top end -->
+    
+    <!-- brightness and volume start -->
+    <dimen name="popup_vertical_seekbar_vertical_space_v5">39dp</dimen>
+    <dimen name="popup_vertical_seekbar_group_height">365dp</dimen>
+	<dimen name="vertical_seekbar_group_margin_top_v5">200dp</dimen>
+    <dimen name="vertical_seekbar_width_v5">5dp</dimen>
+    <dimen name="popup_vertical_seekbar_length_v5">364dp</dimen>
+    <dimen name="popup_vertical_seekbar_padding_v5">30dp</dimen>
+    <dimen name="popup_brightness_imageview_left_margin_v5">32dp</dimen>
+	<dimen name="popup_brightness_textview_margin_left_v5">67dp</dimen>
+	<dimen name="popup_brightness_seekbar_margin_top_v5">174dp</dimen>
+	<dimen name="popup_brightness_seekbar_margin_left_v5">-141dp</dimen>
+	<dimen name="popup_volume_imageview_margin_right_v5">32dp</dimen>
+	<dimen name="popup_volume_textview_margin_right_v5">67dp</dimen>
+	<dimen name="popup_volume_seekbar_margin_top_v5">174dp</dimen>
+	<dimen name="popup_volume_seekbar_margin_right_v5">-141dp</dimen>
+    <!-- brightness and volume end -->
+    
+    <!-- load view start -->
+    <dimen name="vp_loading_percent_top_margin">18dp</dimen>
+    <!-- load view end -->
+    
+    <!-- menu item start -->
+    <dimen name="vp_ctrl_menu_item_icon_width">24dp</dimen>
+    <dimen name="vp_ctrl_menu_item_icon_height">24dp</dimen>
+    <dimen name="vp_ctrl_menu_item_text_left_margin">11dp</dimen>
+    <dimen name="vp_ctrl_menu_item_width">67dp</dimen>
+    <!-- menu item end -->
+    
+    <!-- select ci start -->
+    <dimen name="vp_ctrl_select_ci_pop_width_ep">183dp</dimen>
+    <dimen name="vp_ctrl_select_ci_pop_width_variety">268dp</dimen>
+    <dimen name="vp_ctrl_select_ci_item_height">66dp</dimen>
+    <!-- select ci end -->
+    
+    <!-- airkan start -->
+    <dimen name="vp_ctrl_airkan_pop_width">183dp</dimen>
+    <!-- airkan end -->
+    
+    <!-- select source start -->
+    <dimen name="vp_ctrl_select_source_pop_width">183dp</dimen>
+    <!-- select source end -->
+    
+    <!-- function start -->
+    <dimen name="vp_ctrl_function_pop_width">183dp</dimen>
+    <dimen name="vp_ctrl_scale_screen_pop_width">183dp</dimen>
+    <!-- function end -->
+    
+    <!-- fullscreen start -->
+    <dimen name="vp_ctrl_fullscreen_bg_top_height">154dp</dimen>
+    <dimen name="vp_ctrl_fullscreen_bg_bottom_height">154dp</dimen>
+    <dimen name="vp_ctrl_fullscreen_bg_left_width">605dp</dimen>
+    <!-- fullscreen end -->
+    
+    <!-- bottom start -->
+    <dimen name="vp_ctrl_bottom_pop_height">100dp</dimen>
+    <dimen name="vp_ctrl_bottom_pop_height_v5">100dp</dimen>
+    <dimen name="vp_ctrl_bottom_left_margin">25dp</dimen>
+    <dimen name="vp_ctrl_bottom_right_margin">25dp</dimen>
+    <dimen name="vp_ctrl_bottom_bottom_margin">20dp</dimen>
+    <dimen name="vp_ctrl_bottom_line_left_margin">25dp</dimen>
+    <dimen name="vp_ctrl_bottom_seekbar_top_margin">-4dp</dimen>
+    <dimen name="vp_ctrl_bottom_seekbar_height_v5">2dp</dimen>
+    <dimen name="vp_ctrl_bottom_pause_width">50dp</dimen>
+    <dimen name="vp_ctrl_bottom_pause_height">50dp</dimen>
+    <!-- bottom end -->
+    
+    <!-- video info start -->
+    <dimen name="vp_ctrl_media_info_horizontal_space">10dp</dimen>
+    <dimen name="vp_ctrl_media_info_location_x">48dp</dimen>
+	<dimen name="vp_ctrl_media_info_location_y">80dp</dimen>
+    <!-- video info end -->
+</resources>

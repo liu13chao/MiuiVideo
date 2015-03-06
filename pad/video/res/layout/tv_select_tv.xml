@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+	<include layout="@layout/vp_popup_ctrl_item_top_title"/>
+	
+	<com.miui.video.widget.LoadingListView
+	    android:id="@+id/tv_select_tv_loading_list_view"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginLeft="@dimen/vp_common_ctrl_left_margin"
+        android:dividerHeight="@dimen/video_divider_height"
+        android:divider="@drawable/vp_divider_bg_07"/>
+    
+</LinearLayout>

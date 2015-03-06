@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <include
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vp_title_top_top_margin"
+        android:layout_marginLeft="@dimen/vp_title_top_left_margin"
+        layout="@layout/vp_title_top"/>
+    
+    <com.miui.videoplayer.widget.VpCtrlMenu
+        android:id="@+id/tv_ctrl_menu"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/vp_common_ctrl_left_margin"
+        android:layout_marginRight="@dimen/vp_common_ctrl_right_margin"/>
+</RelativeLayout>

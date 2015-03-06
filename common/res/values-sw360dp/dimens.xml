@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- text size start -->
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="text_size_subtitle">12sp</dimen>
+    <dimen name="text_size_small">10sp</dimen>
+    <dimen name="text_size_tiny">8.7sp</dimen>
+    <dimen name="text_size_26">8.7sp</dimen>
+    <dimen name="text_size_30">10sp</dimen>
+    <dimen name="text_size_36">12sp</dimen>
+    <dimen name="text_size_42">14sp</dimen>
+    <dimen name="text_size_48">16sp</dimen>
+
+    <!-- text size end -->
+
+
+    <!-- Cover start -->
+    <dimen name="cover_corner_radius">3dp</dimen>
+    <dimen name="cover_mixed_horizontal_width">102.3dp</dimen>
+    <dimen name="cover_mixed_horizontal_height">57.3dp</dimen>
+    <dimen name="cover_horizontal_width">158dp</dimen>
+    <dimen name="cover_horizontal_height">89dp</dimen>
+    <dimen name="cover_list_horizontal_width">126.7dp</dimen>
+    <dimen name="cover_list_horizontal_height">72dp</dimen>
+    <dimen name="cover_list_vertical_width">91.3dp</dimen>
+    <dimen name="cover_list_vertical_height">120.7dp</dimen>
+    <dimen name="cover_vertical_width">102.3dp</dimen>
+    <dimen name="cover_vertical_height">148.7dp</dimen>
+    <dimen name="cover_home_banner_width">346.7dp</dimen>
+    <dimen name="cover_home_banner_height">156dp</dimen>
+    <dimen name="cover_info_banner_width">326.7dp</dimen>
+    <dimen name="cover_info_banner_height">183.3dp</dimen>
+    <dimen name="cover_category_banner_width">346.7dp</dimen>
+    <dimen name="cover_category_banner_height">120dp</dimen>
+    <dimen name="cover_feature_width">168.3dp</dimen>
+    <dimen name="cover_feature_height">75.7dp</dimen>
+    <dimen name="cover_tv_icon_width">60dp</dimen>
+    <dimen name="cover_tv_icon_height">33.3dp</dimen>
+    <dimen name="cover_tv_width">102.7dp</dimen>
+    <dimen name="cover_tv_height">57.7dp</dimen>
+    <dimen name="cover_padding">1dp</dimen>
+    <!-- Cover end -->
+
+
+    <!-- web media start -->
+    <dimen name="page_progress_height">8dp</dimen>
+    <dimen name="page_progress_top_margin">-2dp</dimen>
+    <dimen name="page_btn_fullscreen_width">42dp</dimen>
+    <dimen name="page_btn_fullscreen_height">42dp</dimen>
+    <!-- web media end -->
+
+
+    <!-- media  start -->
+    <dimen name="video_thumb_width">100dp</dimen>
+    <dimen name="video_thumb_height">68.5dp</dimen>
+    <dimen name="poster_corner_radius">4dp</dimen>
+    <!-- media  start -->
+
+</resources>

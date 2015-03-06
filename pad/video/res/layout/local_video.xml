@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/local_video_divider_top_margin"
+    android:paddingLeft="@dimen/video_common_left_margin"
+    android:paddingRight="@dimen/video_common_left_margin"
+    android:orientation="vertical">
+
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_divider_height"
+        android:background="@drawable/divider_bg_10"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+        
+	    <LinearLayout
+	        android:id="@+id/menu_list"
+	        android:layout_width="@dimen/local_video_menu_item_width" 
+	        android:layout_height="match_parent"
+	        android:layout_marginRight="@dimen/local_video_menu_margin_right" 
+	        android:gravity="center_horizontal"
+	        android:orientation="vertical">
+
+			<TextView
+			    android:id="@+id/play_history"
+			    android:layout_width="wrap_content"
+			    android:layout_height="@dimen/local_video_menu_item_height"
+			    android:gravity="center_vertical"
+			    android:clickable="true"
+			    android:text="@string/play_history"
+			    android:textSize="@dimen/font_size_19"
+			    android:textColor="@drawable/item_text_color_white"
+			    android:drawablePadding="@dimen/local_video_menu_text_padding"
+			    android:drawableLeft="@drawable/icon_history" />
+				
+		    <View 
+		        android:layout_width="match_parent"
+		        android:layout_height="@dimen/video_divider_height"
+			    android:layout_gravity="bottom"
+		        android:background="@drawable/divider_bg_10" />
+	        
+			<TextView
+			    android:id="@+id/my_favorite" 
+			    android:layout_width="wrap_content"
+			    android:layout_height="@dimen/local_video_menu_item_height"
+			    android:gravity="center_vertical"
+			    android:clickable="true"
+			    android:text="@string/my_favorite"
+			    android:textSize="@dimen/font_size_19"
+			    android:textColor="@drawable/item_text_color_white"
+			    android:drawablePadding="@dimen/local_video_menu_text_padding"
+			    android:drawableLeft="@drawable/icon_favorite" />
+				
+		    <View 
+		        android:layout_width="match_parent"
+		        android:layout_height="@dimen/video_divider_height"
+			    android:layout_gravity="bottom"
+		        android:background="@drawable/divider_bg_10" />
+	        
+			<TextView
+			    android:id="@+id/local_video" 
+			    android:layout_width="wrap_content"
+			    android:layout_height="@dimen/local_video_menu_item_height"
+			    android:gravity="center_vertical"
+			    android:clickable="true"
+			    android:text="@string/local_video"
+			    android:textSize="@dimen/font_size_19"
+			    android:textColor="@drawable/item_text_color_white"
+			    android:drawablePadding="@dimen/local_video_menu_text_padding"
+			    android:drawableLeft="@drawable/icon_local" />
+				
+		    <View 
+		        android:layout_width="match_parent"
+		        android:layout_height="@dimen/video_divider_height"
+			    android:layout_gravity="bottom"
+		        android:background="@drawable/divider_bg_10" />
+		    
+			<TextView
+			    android:id="@+id/offline_video" 
+			    android:layout_width="wrap_content"
+			    android:layout_height="@dimen/local_video_menu_item_height"
+			    android:gravity="center_vertical"
+			    android:clickable="true"
+			    android:text="@string/offline_video"
+			    android:textSize="@dimen/font_size_19"
+			    android:textColor="@drawable/item_text_color_white"
+			    android:drawablePadding="@dimen/local_video_menu_text_padding"
+			    android:drawableLeft="@drawable/icon_offline" />
+				
+		    <View 
+		        android:layout_width="match_parent"
+		        android:layout_height="@dimen/video_divider_height"
+			    android:layout_gravity="bottom"
+		        android:background="@drawable/divider_bg_10" />
+	        
+			<TextView
+			    android:id="@+id/shared_devices" 
+			    android:layout_width="wrap_content"
+			    android:layout_height="@dimen/local_video_menu_item_height"
+			    android:gravity="center_vertical"
+			    android:clickable="true"
+			    android:text="@string/shared_devices"
+			    android:textSize="@dimen/font_size_19"
+			    android:textColor="@drawable/item_text_color_white"
+			    android:drawablePadding="@dimen/local_video_menu_text_padding"
+			    android:drawableLeft="@drawable/icon_share" />
+				
+		    <View 
+		        android:layout_width="match_parent"
+		        android:layout_height="@dimen/video_divider_height"
+			    android:layout_gravity="bottom"
+		        android:background="@drawable/divider_bg_10" />
+		    
+	    </LinearLayout>
+
+	    <FrameLayout 
+	        android:id="@+id/contents_view"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent">
+	    </FrameLayout>
+
+	</LinearLayout>
+	
+</LinearLayout>

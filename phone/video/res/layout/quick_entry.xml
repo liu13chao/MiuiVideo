@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/quick_entry_tv_series"
+            android:layout_width="@dimen/quick_entry_channel_width"
+            android:layout_height="@dimen/quick_entry_channel_height"
+            android:background="@drawable/quick_entry_tv_series_bg"
+            android:clickable="true"
+            android:drawablePadding="@dimen/size_5"
+            android:drawableTop="@drawable/quick_entry_tv_series"
+            android:gravity="center"
+            android:paddingTop="@dimen/size_28"
+            android:text="@string/tv_series"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_36" />
+
+        <TextView
+            android:id="@+id/quick_entry_film"
+            android:layout_width="@dimen/quick_entry_channel_width"
+            android:layout_height="@dimen/quick_entry_channel_height"
+            android:layout_marginLeft="@dimen/quick_entry_channel_intervalH"
+            android:background="@drawable/quick_entry_film_bg"
+            android:clickable="true"
+            android:drawablePadding="@dimen/size_6"
+            android:drawableTop="@drawable/quick_entry_film"
+            android:gravity="center"
+            android:paddingTop="@dimen/size_28"
+            android:text="@string/film"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_36" />
+
+        <TextView
+            android:id="@+id/quick_entry_variety"
+            android:layout_width="@dimen/quick_entry_channel_width"
+            android:layout_height="@dimen/quick_entry_channel_height"
+            android:layout_marginLeft="@dimen/quick_entry_channel_intervalH"
+            android:background="@drawable/quick_entry_variety_bg"
+            android:clickable="true"
+            android:drawablePadding="@dimen/size_3"
+            android:drawableTop="@drawable/quick_entry_variety"
+            android:gravity="center"
+            android:paddingTop="@dimen/size_30"
+            android:text="@string/variety"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_36" />
+
+        <TextView
+            android:id="@+id/quick_entry_all"
+            android:layout_width="@dimen/quick_entry_channel_width"
+            android:layout_height="@dimen/quick_entry_channel_height"
+            android:layout_marginLeft="@dimen/quick_entry_channel_intervalH"
+            android:background="@drawable/quick_entry_all_bg"
+            android:clickable="true"
+            android:drawablePadding="@dimen/size_5"
+            android:drawableTop="@drawable/quick_entry_all"
+            android:gravity="center"
+            android:paddingTop="@dimen/size_24"
+            android:text="@string/all"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_36" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/quick_entry_user_height"
+        android:layout_marginTop="@dimen/video_common_interval_30"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/quick_entry_play_his"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/com_bg_white_corner_l"
+            android:clickable="true"
+            android:drawableLeft="@drawable/quick_entry_play_his"
+            android:drawablePadding="@dimen/quick_entry_user_drawable_padding"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/quick_entry_user_content_paddingH"
+            android:text="@string/play_history"
+            android:textColor="@color/p_80_black"
+            android:textSize="@dimen/quick_entry_user_text_size" />
+
+        <View
+            android:layout_width="@dimen/divider"
+            android:layout_height="match_parent"
+            android:background="@drawable/home_quick_entry_line"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/quick_entry_offline"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/com_bg_white_corner_h_m"
+            android:clickable="true"
+            android:drawableLeft="@drawable/quick_entry_offline"
+            android:drawablePadding="@dimen/quick_entry_user_drawable_padding"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/quick_entry_user_content_paddingH"
+            android:text="@string/offline_media"
+            android:textColor="@color/p_80_black"
+            android:textSize="@dimen/quick_entry_user_text_size" />
+
+        <View
+            android:layout_width="@dimen/divider"
+            android:layout_height="match_parent"
+            android:background="@drawable/home_quick_entry_line"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/quick_entry_fav"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/com_bg_white_corner_r"
+            android:clickable="true"
+            android:drawableLeft="@drawable/quick_entry_fav"
+            android:drawablePadding="@dimen/quick_entry_user_drawable_padding"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/quick_entry_user_content_paddingH"
+            android:paddingRight="@dimen/quick_entry_user_content_paddingH"
+            android:text="@string/my_favorite"
+            android:textColor="@color/p_80_black"
+            android:textSize="@dimen/quick_entry_user_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

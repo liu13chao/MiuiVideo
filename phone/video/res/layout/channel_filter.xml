@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/com_bg_white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/channel_filter_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_bottom_bar_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/com_bg_white" >
+
+        <TextView
+            android:id="@+id/channel_filter_btn"
+            android:layout_width="@dimen/detail_play_width"
+            android:layout_height="@dimen/detail_play_height"
+            android:layout_gravity="center"
+            android:background="@drawable/com_btn_bg_3"
+            android:gravity="center"
+            android:text="@string/channel_ok"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_36" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/video_common_divider_height"
+            android:background="@drawable/com_10_black" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/channel_filter_bottom"
+        android:layout_below="@id/title_top"
+        android:layout_marginTop="@dimen/page_title_offset"
+        android:background="@drawable/com_bg_gray" >
+
+        <com.miui.video.widget.ListViewEx
+            android:id="@+id/channel_filter_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/video_common_interval_20"
+            android:layout_marginRight="@dimen/video_common_interval_20" >
+        </com.miui.video.widget.ListViewEx>
+    </FrameLayout>
+
+    <include
+        android:id="@+id/title_top"
+        layout="@layout/title_top" />
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/history_title_header_height"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider"
+        android:background="@color/gray_separate_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/select_all"
+            android:layout_width="@dimen/delete_bottom_button_wdith"
+            android:layout_height="@dimen/delete_bottom_button_height"
+            android:background="@drawable/com_btn_bg"
+            android:text="@string/select_all"
+            android:textColor="@color/color_title_text"
+            android:textSize="@dimen/text_size_subtitle"/>
+
+        <Button
+            android:id="@+id/delete"
+            android:enabled="false"
+            android:layout_width="@dimen/delete_bottom_button_wdith"
+            android:layout_height="@dimen/delete_bottom_button_height"
+            android:layout_marginLeft="@dimen/delete_bottom_button_margin"
+            android:background="@drawable/com_btn_bg_3"
+            android:textColor="@color/com_btn_3_text_color"
+            android:textSize="@dimen/text_size_subtitle"/>
+    </LinearLayout>
+
+</LinearLayout>

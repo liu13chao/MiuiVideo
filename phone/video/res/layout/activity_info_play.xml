@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/com_bg_white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_common_title_top_height"
+        layout="@layout/title_top" />
+
+    <FrameLayout
+        android:id="@+id/video_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/info_channel_play_window_height"
+        android:layout_marginTop="@dimen/video_common_interval_negtive_10"
+        android:background="#000000" >
+
+    </FrameLayout>
+
+    <fragment
+        android:id="@+id/list_fragment"
+        android:name="com.miui.video.info.InfoChannelListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

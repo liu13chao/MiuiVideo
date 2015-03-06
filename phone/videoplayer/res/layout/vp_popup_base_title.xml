@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/vp_menu_popup_title_height" >
+
+    <TextView
+        android:id="@+id/vp_popup_base_title_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/vp_menu_popup_title_margin_bottom"
+        android:layout_marginLeft="@dimen/vp_menu_popup_title_margin_left"
+        android:textColor="@color/vp_white_30"
+        android:textSize="@dimen/vp_text_size_36" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/vp_common_divider_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/vp_divider_bg_30" />
+
+</RelativeLayout>

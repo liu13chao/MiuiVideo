@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/icon_network_error_light" />
+
+    <TextView
+        android:id="@+id/retry_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/reload_view_title_top_margin"        
+        android:layout_gravity="center_horizontal"
+        android:text="@string/reload_title"
+        android:textSize="@dimen/font_size_42"
+        android:textColor="@color/p_50_white" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/reload_view_sub_title_top_margin"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/reload_sub_title"
+        android:textSize="@dimen/font_size_36"
+        android:textColor="@color/p_30_white" />
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true" >
+
+	<com.miui.video.widget.pager.PagerView 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:id="@+id/home_pager_view">
+	</com.miui.video.widget.pager.PagerView>
+	
+	<Button
+        android:id="@+id/home_online_video" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/video_common_left_margin"
+        android:layout_marginTop="@dimen/home_tab_top_margin"
+        android:background="@drawable/transparent"
+        android:textSize="@dimen/font_size_17"
+        android:textColor="@drawable/btn_text_color_white"
+        android:textStyle="bold"
+        android:text="@string/online_video" />
+    <Button
+        android:id="@+id/home_local_video" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/home_tab_myvideo_left_margin"
+        android:layout_marginTop="@dimen/home_tab_top_margin"
+        android:background="@drawable/transparent"
+        android:textSize="@dimen/font_size_17"
+        android:textColor="@drawable/btn_text_color_white"
+        android:textStyle="bold"
+        android:text="@string/my_video" />
+    
+	<FrameLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="@dimen/home_search_top_margin"
+	    android:layout_marginRight="@dimen/video_common_right_margin"
+	    android:layout_alignParentRight="true"
+	    android:focusable="true"
+	    android:focusableInTouchMode="true" >
+	    <com.miui.video.widget.searchbox.SearchBox
+	        android:id="@+id/home_search_box"
+	        style="@style/SearchEditTextStyle" 
+	        android:layout_width="@dimen/home_search_width"
+	        android:layout_height="@dimen/home_search_height" />
+	</FrameLayout>
+	
+</RelativeLayout>

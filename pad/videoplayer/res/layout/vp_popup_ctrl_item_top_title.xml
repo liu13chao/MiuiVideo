@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="@dimen/vp_common_ctrl_item_height"
+     android:layout_marginLeft="@dimen/vp_common_ctrl_left_margin">
+     <TextView
+         android:id="@+id/vp_popup_ctrl_top_title_name" 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerVertical="true"
+         android:textSize="@dimen/vp_font_size_19"
+         android:textColor="@color/vp_white"
+         android:textStyle="bold" />
+     <View 
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/vp_common_divider_height"
+         android:background="@drawable/vp_divider_bg_30"
+         android:layout_alignParentBottom="true"/>
+ </RelativeLayout>

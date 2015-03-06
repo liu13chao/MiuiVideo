@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_top"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/video_common_title_top_height"
+    android:background="@drawable/com_bg_white_shadow" >
+
+    <ImageButton
+        android:id="@+id/title_top_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/title_top_iv_left_margin"
+        android:background="@drawable/back_left"
+        android:clickable="true"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/selectsource"
+        android:layout_width="@dimen/sourceslogo_width"
+        android:layout_height="@dimen/sourceslogo_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:contentDescription="@string/app_name" />
+
+    <TextView	
+        android:id="@+id/title_top_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/title_top_tv_left_margin"
+        android:layout_marginTop="@dimen/title_top_text_margin_top"
+        android:layout_toLeftOf="@id/selectsource"
+        android:layout_toRightOf="@id/title_top_back"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:singleLine="true"
+        android:text="@string/app_name"
+        android:textColor="@color/color_sub_text"
+        android:textSize="@dimen/text_size_normal" />
+
+</RelativeLayout>

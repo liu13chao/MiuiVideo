@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="@dimen/media_information_width"
+        android:layout_height="@dimen/media_information_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/size_30" >
+
+        <ImageView
+            android:id="@+id/horizontal_item_poster"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/horizontal_item_south_west_extra"
+            style="@style/ExtraTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="@dimen/size_20"
+            android:layout_marginLeft="@dimen/size_20"
+            android:gravity="left|center_vertical"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/horizontal_item_south_east_extra"
+            style="@style/ExtraTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/size_20"
+            android:layout_marginRight="@dimen/size_20"
+            android:gravity="right|center_vertical"
+            android:maxLines="1" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/horizontal_item_title"
+        style="@style/TitleTextViewStyle"
+        android:layout_width="@dimen/media_information_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="@dimen/size_20"
+        android:gravity="left|center_vertical"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/horizontal_item_subtitle"
+        style="@style/SubtitleTextViewStyle"
+        android:layout_width="@dimen/media_information_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="@dimen/size_20"
+        android:gravity="left|center_vertical"
+        android:maxLines="1" />
+
+</LinearLayout>

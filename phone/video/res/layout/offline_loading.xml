@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/com_bg_white"
+    android:fitsSystemWindows="true" >
+
+    <com.miui.video.widget.TitleView
+        android:id="@+id/offline_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_common_title_top_height"
+        android:background="@drawable/com_bg_white_shadow" />
+
+    <com.miui.video.widget.ButtonPair
+        android:id="@+id/offline_pair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/com_bg_white"
+        android:visibility="invisible" />
+
+    <com.miui.video.widget.StorageView
+        android:id="@+id/offline_storage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/com_bg_white" />
+
+    <View
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/video_common_divider_height"
+		android:layout_alignTop="@id/offline_pair"
+		android:background="@drawable/com_10_black"/>
+    
+    <com.miui.video.widget.LoadingListView
+        android:id="@+id/offline_loading_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/offline_storage"
+        android:layout_below="@id/offline_title"
+        android:layout_marginTop="@dimen/video_common_interval_negtive_10"
+        android:background="@drawable/com_bg_gray" />
+
+</RelativeLayout>

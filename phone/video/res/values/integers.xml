@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- media size per row start -->
+    <integer name="banner_size_per_row">1</integer>
+    <integer name="video_size_per_row">3</integer>
+    <integer name="detail_size_per_row">3</integer>
+    <integer name="history_size_per_row">3</integer>
+    <integer name="information_size_per_row">2</integer>
+    <!-- media size per row end -->
+    
+    <!-- page view start -->
+    <integer name="tab_text_shadow_dx">0</integer>
+    <integer name="tab_text_shadow_dy">4</integer>
+    <integer name="tab_text_shadow_radius">9</integer>
+    <!-- page view end -->
+    
+    <!-- comment edit start -->
+    <integer name="comment_min_length">5</integer>
+    <integer name="comment_max_length">300</integer>
+    <!-- comment edit end -->
+</resources>

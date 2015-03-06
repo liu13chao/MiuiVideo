@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/media_status"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|center_horizontal"
+    android:maxLines="1"
+    android:paddingBottom="@dimen/media_view_status_bottom_margin"
+    android:paddingLeft="@dimen/media_view_status_left_margin"
+    android:textColor="@color/color_media_status"
+    android:textSize="@dimen/text_size_small" />

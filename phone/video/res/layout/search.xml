@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/com_bg_white"
+    android:fitsSystemWindows="true" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/com_bg_gray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_common_title_top_height"
+        android:background="@drawable/com_bg_white_shadow" >
+
+        <FrameLayout
+            android:id="@+id/title_top_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:paddingLeft="@dimen/title_top_iv_left_margin"
+            android:paddingRight="@dimen/search_box_left_margin"
+            android:paddingTop="@dimen/title_top_iv_top_margin" >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_left"
+                android:contentDescription="@string/app_name" />
+        </FrameLayout>
+
+        <com.miui.video.widget.searchbox.SearchBox
+            android:id="@+id/search_result_search_box"
+            style="@style/SearchEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/search_box_height"
+            android:layout_marginRight="@dimen/search_box_right_margin"
+            android:layout_marginTop="@dimen/search_box_top_margin"
+            android:layout_toRightOf="@id/title_top_back"
+            android:background="@drawable/com_btn_bg_n"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/search_hint"
+            android:paddingLeft="@dimen/video_common_interval_30" />
+
+        <TextView
+            android:id="@+id/search_result_search"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/search_box_height"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/video_common_interval_20"
+            android:layout_marginTop="@dimen/search_box_top_margin"
+            android:background="@drawable/com_btn_bg"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/video_common_title_top_btn_paddingH"
+            android:paddingRight="@dimen/video_common_title_top_btn_paddingH"
+            android:text="@string/search"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/font_size_42" />
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/search_recommend"
+        android:name="com.miui.video.fragment.SearchRecommendFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/video_common_content_top_margin" />
+
+    <fragment
+        android:id="@+id/search_hint"
+        android:name="com.miui.video.fragment.SearchHintFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/video_common_content_top_margin" />
+
+    <fragment
+        android:id="@+id/search_empty"
+        android:name="com.miui.video.fragment.SearchEmptyFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/video_common_content_top_margin" />
+
+    <fragment
+        android:id="@+id/search_result"
+        android:name="com.miui.video.fragment.SearchResultFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/video_common_content_top_margin" />
+
+    <fragment
+        android:id="@+id/search_load"
+        android:name="com.miui.video.fragment.SearchLoadingFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/video_common_content_top_margin" />
+
+</FrameLayout>

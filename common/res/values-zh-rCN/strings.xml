@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- app start -->
+    <string name="app_name">视频</string>
+    <!-- app end -->
+    
+    <!-- user manager start -->
+    <string name="xiaomi_account_type_unsupported">您的系统不支持小米账号</string>
+    <string name="no_login_xiaomi_account">请先登录小米账户后再进行评论</string>
+    <string name="authenticating"><CDATA>账号认证中...</CDATA></string>
+    <string name="authenticated_failed">账号认证失败</string>
+    <string name="authenticating_manually">账号认证失败</string>
+    <!-- user manager end -->
+    
+    <!-- media view start -->
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="update">更新</string>
+    <string name="count_ji_quan">%d集全</string>
+    <string name="update_to_count_ji">更新至%d集</string>
+    <string name="update_to_count_qi">更新至%s期</string>
+    <string name="count_qi">%s期</string>
+    <string name="score_by">评分：%s</string>
+    <string name="minute">分</string>
+    <string name="second">秒</string>
+    <!-- media view end -->
+    
+    <!-- offline start -->
+    <string name="count_ge_media">%d个视频</string>
+    <string name="download_geturl_fail">获取链接失败，请检查网络后稍后再试</string>
+    <string name="download_percent_hint">下载中 %d%%</string>
+    <string name="waiting_to_download">等待下载</string>
+    <string name="pause">暂停</string>
+    <string name="di_count_ji">第%d集</string>
+    
+    <string name="init">初始化中</string>
+    <string name="file_error">文件读写失败</string>
+    <string name="connect_error">网络连接失败</string>
+    <string name="source_error">获取视频源失败</string>
+    <string name="download_error">离线失败</string>
+    <string name="download_file_fail">读写本地文件失败，可能为存储空间不足。</string>
+    
+    <string name="offline_max_promote">任务等待中，最多开始%d个任务</string>
+    <!-- offline end -->
+    
+    <!-- addon start -->
+    <string name="addon">插件</string>
+    <string name="addon_category">我的热门专区</string>
+    <string name="add_more_addons">添加更多热门专题</string>
+    <string name="pick_addon_to_delete">请选择要删除的插件</string>
+    <string name="delete_addon">删除插件</string>
+    <string name="delete_addon_content">确认要删除这些插件吗?</string>
+    <string name="install_comfirm">确认安装</string>
+    <string name="start_addon">进入专区</string>
+    <string name="addon_install_complete_disc">您已完成%s专区插件的安装，您可直接启动进入专区，或从“我的视频”里进入专区</string>
+    <string name="addon_update_desc">发现有更新版本，是否现在安装升级？</string>
+    <string name="upgrade">升级</string>
+    <string name="loading"> <CDATA>正在加载...</CDATA> </string>
+    <!-- addon end -->
+    
+    <!-- device browser start -->
+    <string name="sdcard_storage">手机存储</string>
+    <string name="disk_volume">移动存储设备</string>
+    <!-- device browser end -->
+    
+    <!-- data variety start -->
+    <string name="gong_count_dlna">共%d个DLNA资源</string>
+    <string name="gong_count_xiang">共%d项</string>
+    <string name="count_ge">%d个</string>
+    <string name="video">视频</string>
+    <string name="favorite">收藏</string>
+    <string name="myfavorite">收藏</string>
+    <string name="recentplay">最近播放</string>
+    <string name="mycamera">我拍摄的视频</string>
+    <string name="dlna_name">网络共享设备</string>
+    <string name="dlna_list_name">DLNA设备</string>
+    <string name="myfavorite_onlylocal">我的收藏</string>
+    <!-- data variety end -->
+    
+    <!-- authenticate start -->
+    <string name="login_tip_title">请登录小米账号</string>
+    <string name="login_tip_content">您尚未登录小米账号，登录小米账号可以自动同步您的收藏与追剧。</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <!-- authenticate end -->
+    
+    <!-- select source start-->
+    <string name="qiyi">奇艺</string>
+    <string name="souhu">搜狐</string>
+    <string name="tencent">腾讯</string>
+    <string name="youku">优酷</string>
+    <string name="netease">网易</string>
+    <string name="yinyuetai">音悦台</string>
+    <string name="wasu">华数</string>
+    <string name="sina">新浪</string>
+    <string name="pptv">PPTV</string>
+    <string name="pps">PPS</string>
+    <string name="funshion">风行</string>
+    <string name="bestv">百视通</string>
+    <string name="icntv">iCNTV</string>
+    <string name="fenghuang">凤凰</string>
+    <string name="tudou">土豆</string>
+    <string name="lekan">乐看</string>
+    <string name="dianyingwang">电影网</string>
+    <string name="letv">乐视</string>
+    <string name="cnlive">视讯中国</string>
+    <string name="unknown_source">未知源</string>
+    
+    <string name="clarity_unknown">未知清晰度</string>
+    <string name="clarity_supper">超清</string>
+    <string name="clarity_high">高清</string>
+    <string name="clarity_standard">标清</string>
+    <!-- select source end -->
+    <string name="vp_unknown_source">未知源</string>
+    <string name="vp_download_file_fail">读写本地文件失败，可能为存储空间不足。 </string>
+    <string name="vp_download_connect_fail">获取链接失败，请检查网络后稍后再试</string>
+</resources>

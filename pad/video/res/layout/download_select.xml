@@ -1,0 +1,55 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/video_dialog_width"
+    android:layout_height="@dimen/video_dialog_height" >
+    
+     <RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	    <Button 
+	        android:id="@+id/download_select_back"
+	        android:layout_width="@dimen/download_select_btn_cancel_width"
+	        android:layout_height="@dimen/download_select_btn_cancel_height"
+	        android:layout_marginLeft="@dimen/download_select_btn_left_margin"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentLeft="true"
+	        android:textSize="@dimen/font_size_13"
+	        android:textColor="@drawable/btn_top_dialog_text_color"
+	        android:background="@drawable/btn_light_bg"
+	        android:text="@string/back"/>
+	    <TextView
+	        android:id="@+id/download_select_top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/font_size_17"
+            android:textColor="@color/p_80_black"
+            android:textStyle="bold"
+            android:text="@string/select_offline_media"/>
+	    <Button 
+	        android:id="@+id/download_select_manage"
+	        android:layout_width="@dimen/download_select_btn_manage_width"
+	        android:layout_height="@dimen/download_select_btn_manage_height"
+	        android:layout_marginRight="@dimen/download_select_btn_right_margin"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentRight="true"
+	        android:textSize="@dimen/font_size_13"
+	        android:textColor="@drawable/btn_top_dialog_text_color"
+	        android:background="@drawable/btn_light_bg"
+	        android:text="@string/manage"/>
+        <View
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/video_divider_height"
+	        android:layout_marginTop="@dimen/download_select_title_divider_top_margin"
+	        android:background="@drawable/divider_bg_black_10"/>
+	</RelativeLayout>
+    
+    <com.miui.video.widget.LoadingListView
+       android:id="@+id/download_select_list"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginLeft="@dimen/download_select_common_left_margin"
+       android:layout_marginRight="@dimen/download_select_common_right_margin"
+       android:layout_marginTop="@dimen/download_select_list_top_margin"
+       android:layout_marginBottom="@dimen/download_select_list_bottom_margin"/>
+</RelativeLayout>

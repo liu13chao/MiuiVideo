@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/media_duration"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|left"
+        android:maxLines="1"
+        android:paddingBottom="@dimen/media_view_status_bottom_margin"
+        android:paddingLeft="@dimen/media_view_status_left_margin"
+        android:textColor="@color/color_media_status"
+        android:textSize="@dimen/text_size_small" />
+
+    <TextView
+        android:id="@+id/media_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="@dimen/media_view_status_bottom_margin"
+        android:layout_marginRight="@dimen/media_view_status_left_margin"
+        android:background="@drawable/com_btn_bg_4_n"
+        android:paddingBottom="@dimen/video_common_interval_10"
+        android:paddingLeft="@dimen/video_common_interval_24"
+        android:paddingRight="@dimen/video_common_interval_24"
+        android:paddingTop="@dimen/video_common_interval_10"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_small" />
+
+</merge>

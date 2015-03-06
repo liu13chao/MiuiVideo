@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+	<!-- 
+	<FrameLayout
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:layout_marginLeft="@dimen/video_common_left_margin"
+		android:layout_marginRight="@dimen/video_common_right_margin"
+		android:layout_marginTop="@dimen/local_video_list_top_margin">
+	
+	</FrameLayout>
+		 -->
+
+	<View
+	    android:id="@+id/local_video_line_time"
+	    android:layout_height="match_parent"
+	    android:layout_width="@dimen/video_divider_width"
+	    android:layout_marginTop="@dimen/local_video_time_line_top_margin"
+		android:layout_marginLeft="@dimen/local_video_time_line_left_margin"
+	    android:background="@drawable/divider_bg_10"
+	    android:alpha="0.5" />
+		
+	<com.miui.video.widget.LoadingListView
+		android:id="@+id/play_his_list"
+	    android:layout_marginTop="@dimen/local_video_time_line_top_margin"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" />
+	
+</FrameLayout>

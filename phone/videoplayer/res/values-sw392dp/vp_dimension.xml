@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- font size start -->
+    <dimen name="vp_text_size_27">9.8dp</dimen>
+    <dimen name="vp_text_size_36">13.1dp</dimen>
+    <dimen name="vp_text_size_42">15.3dp</dimen>
+    <dimen name="vp_text_size_48">17.4dp</dimen>
+    <dimen name="vp_text_size_57">20.7dp</dimen>
+    <dimen name="vp_text_size_xxlarge">26.2dp</dimen>
+    <dimen name="vp_text_size_title">22.9dp</dimen>
+    
+
+    <!-- font size end -->
+
+    <dimen name="text_size_10">11.2dp</dimen>
+    <dimen name="text_size_13">14.2dp</dimen>
+    <dimen name="text_size_15">15.9dp</dimen>
+    <dimen name="text_size_16">17.0dp</dimen>
+    <dimen name="vp_info_video_loading_textsize">15.3dp</dimen>
+    <dimen name="popup_right_menu_option_listview_item_divider_height">1px</dimen>
+    <dimen name="popup_bottom_controller_position_duration_textview_width">45.8dp</dimen>
+    <dimen name="popup_volume_imageview_margin_left">2.2dp</dimen>
+    <dimen name="popup_volume_imageview_margin_right">25.1dp</dimen>
+    <dimen name="popup_volume_seekbar_margin_left">-1.1dp</dimen>
+    <dimen name="popup_volume_seekbar_margin_right">-107.9dp</dimen>
+    <dimen name="vertical_seekbar_thumb_offset">13.6dp</dimen>
+    <dimen name="vertical_seekbar_padding_left">9.8dp</dimen>
+    <dimen name="vertical_seekbar_padding_right">9.8dp</dimen>
+    <dimen name="horizontal_seekbar_padding_left">10.9dp</dimen>
+    <dimen name="horizontal_seekbar_padding_right">10.9dp</dimen>
+    <dimen name="airkan_background_duokan_imageview_margin_top">155.9dp</dimen>
+    <dimen name="sub_option_menu_listview_item_textview_size">16.4dp</dimen>
+    <dimen name="top_status_bar_media_name_textview_font_size">29.4dp</dimen>
+    <dimen name="popup_center_time_progress_textview_font_size">33.8dp</dimen>
+    <dimen name="popup_right_menu_option_width">243.6dp</dimen>
+    <dimen name="loading_buffering_textview_font_size">19.6dp</dimen>
+    <dimen name="loading_buffering_to_be_play_textview_font_size">12.5dp</dimen>
+    <dimen name="popup_center_time_progress_margin_top">21.8dp</dimen>
+    <dimen name="popup_center_time_progress_arrow_margin_top">9.8dp</dimen>
+    <dimen name="ci_popup_button_width">98.1dp</dimen>
+    <dimen name="ci_popup_button_height">109.0dp</dimen>
+
+    <!-- ****************************分割线**************************** -->
+    <!-- common start -->
+    <dimen name="vp_common_divider_height">1px</dimen>
+    <dimen name="vp_common_setting_popup_item_width">279.8dp</dimen>
+    <dimen name="vp_common_setting_popup_item_height">61.8dp</dimen>
+    <dimen name="vp_common_popup_item_height">61.4dp</dimen>
+    <dimen name="vp_common_menu_left_margin">18.5dp</dimen>
+    <dimen name="vp_common_menu_right_margin">18.5dp</dimen>
+    <dimen name="vp_common_menu_top_margin">25.1dp</dimen>
+    <dimen name="vp_common_menu_title_marginV">30.9dp</dimen>
+    <dimen name="vp_common_menu_title_gap">39.2dp</dimen>
+    <dimen name="vp_common_menu_title_drawble_padding">14.5dp</dimen>
+    <dimen name="vp_common_menu_switch_btn_right_margin">36.3dp</dimen>
+    <dimen name="vp_common_menu_seekbar_btn_paddingH">30.5dp</dimen>
+    <dimen name="vp_common_menu_seekbar_btn_right_margin">10.9dp</dimen>
+    <dimen name="vp_common_menu_seekbar_length">138.1dp</dimen>
+    <dimen name="vp_common_fade_edge_length">21.8dp</dimen>
+    <dimen name="vp_common_ctrl_item_height">61.4dp</dimen>
+    <dimen name="vp_common_ctrl_left_margin">18.5dp</dimen>
+    <dimen name="vp_common_ctrl_right_margin">18.5dp</dimen>
+    <!-- common end -->
+
+
+    <!-- font size start -->
+    <dimen name="vp_font_size_25">27.3dp</dimen>
+    <dimen name="vp_font_size_19">20.7dp</dimen>
+    <dimen name="vp_font_size_18">19.6dp</dimen>
+    <dimen name="vp_font_size_17">18.5dp</dimen>
+    <dimen name="vp_font_size_16">17.4dp</dimen>
+    <dimen name="vp_font_size_15">16.4dp</dimen>
+    <dimen name="vp_font_size_14">15.3dp</dimen>
+    <dimen name="vp_font_size_13">14.2dp</dimen>
+    <dimen name="vp_font_size_12">13.1dp</dimen>
+    <dimen name="vp_font_size_11">12.0dp</dimen>
+    <dimen name="vp_font_size_10">10.9dp</dimen>
+    <dimen name="vp_font_size_8">8.7dp</dimen>
+    <!-- font size end -->
+
+
+    <!-- title top start -->
+    <dimen name="vp_title_top_top_margin">28.3dp</dimen>
+    <dimen name="vp_title_top_left_margin">18.5dp</dimen>
+    <dimen name="vp_title_top_paddingH">12.8dp</dimen>
+    <dimen name="vp_title_subtitle_top_padding">2.9dp</dimen>
+    <dimen name="vp_title_back_top_margin">5.5dp</dimen>
+    <!-- title top end -->
+
+
+    <!-- brightness and volume start -->
+    <dimen name="popup_vertical_seekbar_vertical_space">29.4dp</dimen>
+    <dimen name="popup_vertical_seekbar_group_height">279.0dp</dimen>
+    <dimen name="vertical_seekbar_group_margin_top">152.6dp</dimen>
+    <dimen name="vertical_seekbar_width">5.5dp</dimen>
+    <dimen name="popup_vertical_seekbar_length">278.0dp</dimen>
+    <dimen name="popup_vertical_seekbar_padding">22.9dp</dimen>
+    <dimen name="popup_brightness_imageview_left_margin">25.1dp</dimen>
+    <dimen name="popup_brightness_textview_margin_left">51.2dp</dimen>
+    <dimen name="popup_brightness_seekbar_margin_top">138.4dp</dimen>
+    <dimen name="popup_brightness_seekbar_margin_left">-107.9dp</dimen>
+    <dimen name="popup_volume_textview_margin_right">51.2dp</dimen>
+    <dimen name="popup_volume_seekbar_margin_top">138.4dp</dimen>
+    <dimen name="vp_brightness_icon_margin_top">-14.5dp</dimen>
+    <dimen name="vp_brightness_percent_margin_top">22.6dp</dimen>
+    <dimen name="vp_brightness_percent_margin_right">0.0dp</dimen>
+    <dimen name="vp_volumn_icon_margin_top">-14.5dp</dimen>
+    <dimen name="vp_volumn_percent_margin_top">22.6dp</dimen>
+    <dimen name="vp_volumn_percent_margin_right">0.0dp</dimen>
+    <!-- brightness and volume end -->
+
+
+    <!-- load view start -->
+    <dimen name="vp_loading_percent_top_margin">16.4dp</dimen>
+    <dimen name="vp_info_video_loading_margin_top">8.0dp</dimen>
+    <!-- load view end -->
+
+
+    <!-- base popup start -->
+    <dimen name="vp_base_popup_width">139.5dp</dimen>
+    <dimen name="vp_variety_popup_width">228.9dp</dimen>
+    <!-- base popup end -->
+
+
+    <!-- menu item start -->
+    <dimen name="vp_ctrl_menu_item_icon_width">18.5dp</dimen>
+    <dimen name="vp_ctrl_menu_item_icon_height">18.5dp</dimen>
+    <dimen name="vp_ctrl_menu_item_text_left_margin">8.7dp</dimen>
+    <dimen name="vp_ctrl_menu_item_width">63.2dp</dimen>
+    <!-- menu item end -->
+
+
+    <!-- screen locker start -->
+    <dimen name="vp_ctrl_screen_locker_margin_left">33.8dp</dimen>
+    <dimen name="vp_ctrl_screen_locker_big_margin_left">-21.8dp</dimen>
+    <!-- scraeen locker end -->
+
+
+    <!-- select ci start -->
+    <dimen name="vp_ctrl_select_ci_item_height">50.1dp</dimen>
+    <!-- select ci end -->
+
+
+    <!-- airkan start -->
+    <dimen name="vp_ctrl_airkan_pop_width">139.5dp</dimen>
+    <!-- airkan end -->
+
+
+    <!-- select source start -->
+    <dimen name="vp_ctrl_select_source_pop_width">139.5dp</dimen>
+    <!-- select source end -->
+
+
+    <!-- function start -->
+    <dimen name="vp_ctrl_function_pop_width">174.4dp</dimen>
+    <dimen name="vp_ctrl_scale_screen_pop_width">174.4dp</dimen>
+    <!-- function end -->
+
+
+    <!-- fullscreen start -->
+    <dimen name="vp_ctrl_fullscreen_bg_top_height">224.5dp</dimen>
+    <dimen name="vp_ctrl_fullscreen_bg_bottom_height">224.5dp</dimen>
+    <dimen name="vp_ctrl_fullscreen_bg_left_width">659.5dp</dimen>
+    <!-- fullscreen end -->
+
+
+    <!-- bottom start -->
+    <dimen name="vp_ctrl_bottom_pop_height">76.3dp</dimen>
+    <dimen name="vp_ctrl_bottom_left_margin">17.8dp</dimen>
+    <dimen name="vp_ctrl_bottom_right_margin">9.8dp</dimen>
+    <dimen name="vp_ctrl_bottom_bottom_margin">14.5dp</dimen>
+    <dimen name="vp_ctrl_bottom_line_left_margin">6.9dp</dimen>
+    <dimen name="vp_ctrl_bottom_seekbar_top_margin">-4.7dp</dimen>
+    <dimen name="vp_ctrl_bottom_seekbar_height">1.6dp</dimen>
+    <dimen name="vp_ctrl_bottom_seekbar_padding_left">8.7dp</dimen>
+    <dimen name="vp_ctrl_bottom_seekbar_padding_right">8.7dp</dimen>
+    <dimen name="vp_ctrl_bottom_pause_width">41.4dp</dimen>
+    <dimen name="vp_ctrl_bottom_pause_height">41.4dp</dimen>
+    <dimen name="vp_ctrl_bottom_next_ci_margin_left">10.9dp</dimen>
+    <dimen name="vp_ctrl_bottom_next_ci_margin_right">7.6dp</dimen>
+    <!-- bottom end -->
+
+
+    <!-- video info start -->
+    <dimen name="vp_ctrl_media_info_horizontal_space">7.6dp</dimen>
+    <dimen name="vp_ctrl_media_info_location_x">36.5dp</dimen>
+    <dimen name="vp_ctrl_media_info_location_y">68.7dp</dimen>
+    <dimen name="vp_ctrl_media_info_progress_height">1.4dp</dimen>
+    <dimen name="vp_ctrl_media_info_orientation_padding">8.0dp</dimen>
+    <!-- video info end -->
+    <dimen name="vp_menuitem_width">109.0dp</dimen>
+    <dimen name="vp_menuitem_height">61.0dp</dimen>
+    <dimen name="popup_left_control_listview_height">418.6dp</dimen>
+
+    <!-- added later -->
+    <dimen name="popup_center_time_progress_v5_margin_top">32.7dp</dimen>
+    <dimen name="popup_center_time_progress_v5_arrow_margin_top">0.0dp</dimen>
+    <dimen name="popup_bottom_controller_height_v5">218.0dp</dimen>
+    <dimen name="vp_ad_padding">10.9dp</dimen>
+    <dimen name="vp_ad_width">76.3dp</dimen>
+    <dimen name="vp_ad_height">27.3dp</dimen>
+    <dimen name="vp_countdown_width">103.6dp</dimen>
+    <dimen name="vp_countdown_height">21.8dp</dimen>
+    <dimen name="vp_countdown_margin">10.9dp</dimen>
+    <dimen name="popup_bottom_seekbar_height_v5">1.6dp</dimen>
+    <dimen name="popup_center_time_progress_textview_font_size_v5">33.8dp</dimen>
+    <dimen name="popup_bottom_controller_seekbar_line_margin_left">13.1dp</dimen>
+    <dimen name="popup_bottom_seekbar_height">2.2dp</dimen>
+    <dimen name="popup_center_time_progress_textview_width">245.3dp</dimen>
+    <dimen name="popup_center_time_progress_textview_font_size_small">39.2dp</dimen>
+    <dimen name="popup_center_time_progress_textview_font_size_big">58.9dp</dimen>
+    <dimen name="popup_top_status_media_name_textview_length">245.3dp</dimen>
+    <dimen name="popup_top_status_media_name_textview_font_size">19.6dp</dimen>
+    <dimen name="popup_top_status_time_textview_margin_right">16.4dp</dimen>
+    <dimen name="popup_top_status_time_textview_font_size">16.4dp</dimen>
+    <dimen name="popup_media_info_horizontal_space">16.4dp</dimen>
+    <dimen name="popup_bottom_controller_height">122.1dp</dimen>
+    <dimen name="popup_top_status_height">49.1dp</dimen>
+    <dimen name="popup_bottom_progress_bar_only_height">44.7dp</dimen>
+    <dimen name="popup_bottom_controller_big_height">134.1dp</dimen>
+    <dimen name="popup_bottom_airkan_device_item_name_width">85.0dp</dimen>
+    <dimen name="popup_media_info_location_x">54.5dp</dimen>
+    <dimen name="popup_media_info_location_y">75.2dp</dimen>
+
+    <!-- added for sohu download -->
+    <dimen name="vp_popup_sources_width">140.3dp</dimen>
+    <dimen name="vp_listview_sources_item_height">61.4dp</dimen>
+    <dimen name="vp_listview_sources_item_width">114.8dp</dimen>
+    <dimen name="vp_listview_sources_right_margin">18.2dp</dimen>
+    <dimen name="vp_listview_sources_left_margin">7.3dp</dimen>
+    <dimen name="vp_source_panel_height">34.9dp</dimen>
+    <dimen name="vp_source_panel_padding">7.3dp</dimen>
+    <dimen name="vp_source_panel_gap">7.3dp</dimen>
+    <dimen name="vp_source_panel_left_margin">14.5dp</dimen>
+    <dimen name="vp_source_view_margin">18.2dp</dimen>
+    <dimen name="vp_source_view_margin_H">18.2dp</dimen>
+    <dimen name="vp_source_view_margin_V">31.6dp</dimen>
+    <dimen name="alert_dialog_content_margin_left">3.6dp</dimen>
+    <dimen name="loading_text_margin_left">3.3dp</dimen>
+
+    <!-- menu offline start -->
+    <dimen name="vp_menu_offline_item_width">179.9dp</dimen>
+    <dimen name="vp_menu_offline_item_title_width">76.3dp</dimen>
+    <dimen name="vp_menu_offline_item_height">53.8dp</dimen>
+    <dimen name="vp_menu_offline_item_status_width">43.6dp</dimen>
+    <dimen name="vp_menu_offline_item_status_margin_top">5.5dp</dimen>
+    <dimen name="vp_menu_offline_status_drawable_padding1">5.5dp</dimen>
+    <dimen name="vp_menu_offline_status_drawable_padding2">7.3dp</dimen>
+    <!-- menu offline end -->
+
+    <!-- loading start -->
+    <!-- dimen name="video_common_progress_padding">5dp</dimen -->
+    <dimen name="vp_loading_progress_width">26.2dp</dimen>
+    <dimen name="vp_loading_progress_height">26.2dp</dimen>
+    <dimen name="vp_loading_progress_text_margin_top">7.3dp</dimen>
+    <!-- loading end -->
+
+    <!-- media controller start -->
+    <dimen name="vp_mc_pause_left_margin">21.8dp</dimen>
+    <dimen name="vp_mc_pause_bottom_margin">15.3dp</dimen>
+    <dimen name="vp_mc_next_left_margin">12.0dp</dimen>
+    <dimen name="vp_mc_next_bottom_margin">20.7dp</dimen>
+    <dimen name="vp_mc_seekbar_left_margin">14.9dp</dimen>
+    <dimen name="vp_mc_seekbar_right_margin">17.4dp</dimen>
+    <dimen name="vp_mc_seekbar_bottom_margin">24.0dp</dimen>
+    <dimen name="vp_mc_time_bottom_margin">14.5dp</dimen>
+    <dimen name="vp_mc_screen_locker_margin_left">34.1dp</dimen>
+    <dimen name="vp_mc_screen_locker_big_margin_left">-33.8dp</dimen>
+    <!-- media controller start -->
+
+
+    <!-- menu start -->
+    <dimen name="vp_menu_item_width">109.0dp</dimen>
+    <dimen name="vp_menu_item_height">53.4dp</dimen>
+    <dimen name="vp_menu_item_line_width">77.4dp</dimen>
+    <dimen name="vp_menu_item_icon_left_margin">6.5dp</dimen>
+    <dimen name="vp_menu_item_icon_right_margin">14.2dp</dimen>
+    <dimen name="vp_menu_popup_title_height">54.2dp</dimen>
+    <dimen name="vp_menu_popup_title_margin_left">3.3dp</dimen>
+    <dimen name="vp_menu_popup_title_margin_bottom">6.5dp</dimen>
+    <dimen name="vp_menu_popup_list_margin_right">33.8dp</dimen>
+    <dimen name="vp_menu_ep_item_height">54.5dp</dimen>
+    <dimen name="vp_menu_ep_item_left_margin">3.3dp</dimen>
+    <dimen name="vp_menu_popup_ep_width">152.6dp</dimen>
+    <dimen name="vp_menu_popup_variety_width">228.9dp</dimen>
+    <dimen name="vp_menu_popup_settings_height">61.8dp</dimen>
+    <dimen name="vp_menu_popup_settings_width">261.3dp</dimen>
+    <dimen name="vp_menu_popup_settings_item_margin_left">8.7dp</dimen>
+    <dimen name="vp_menu_popup_settings_icon_drawble_padding">13.1dp</dimen>
+    <dimen name="vp_menu_popup_settings_seekbar_margin_left">9.8dp</dimen>
+    <dimen name="vp_menu_popup_settings_seekbar_margin_right">0.0dp</dimen>
+    <dimen name="vp_menu_popup_settings_seekbar_width">154.4dp</dimen>
+    <dimen name="vp_menu_popup_settings_seekbar_height">2.2dp</dimen>
+    <dimen name="vp_menu_popup_settings_seekbar_padding_left">12.0dp</dimen>
+    <dimen name="vp_menu_popup_settings_seekbar_padding_right">12.0dp</dimen>
+    <dimen name="vp_menu_airkan_text_margin_top">9.8dp</dimen>
+    <!-- media end -->
+    <dimen name="vp_sourceslogo_width">54.5dp</dimen>
+    <dimen name="vp_sourceslogo_height">54.5dp</dimen>
+    <dimen name="vp_sourceslogo_marginleft">-7.6dp</dimen>
+    <dimen name="vp_selectsource_popup_width">184.2dp</dimen>
+    <dimen name="vp_selectsource_listview_height">78.5dp</dimen>
+    <dimen name="vp_selectpanel_margintop">10.9dp</dimen>
+
+</resources>

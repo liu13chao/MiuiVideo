@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+     <PreferenceCategory
+        android:key="offline_setting"
+        android:title="@string/offline_setting">
+        <CheckBoxPreference
+            android:key="use_cellular"
+            android:title="@string/use_cellular_network"
+            android:defaultValue="false"
+            android:summary="@string/use_cellular_network_summary"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="mipush_setting"
+        android:title="@string/mipush_setting">
+        <CheckBoxPreference
+            android:key="receive_mipush"
+            android:title="@string/receive_mipush"
+            android:defaultValue="true"
+            android:summary="@string/receive_mipush_summary"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="other_setting"
+        android:title="@string/other_setting">
+        <Preference
+            android:key="clear_cache"
+            android:title="@string/clear_cache" 
+            android:summary="@string/clear_cache_summary"/>             
+    </PreferenceCategory>
+
+</PreferenceScreen>

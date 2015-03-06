@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.videoplayer.widget.SelectSourceView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/select_source_pannel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop ="@dimen/vp_source_view_margin_V" 
+    android:paddingLeft ="@dimen/vp_source_view_margin_H" 
+    android:paddingRight="@dimen/vp_source_view_margin_H" >
+
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:id="@+id/select_source_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/select_source_text"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/vp_source_panel_height"
+        android:layout_marginLeft="@dimen/vp_source_panel_left_margin"
+        android:layout_toRightOf="@id/select_source_icon"
+        android:background="@drawable/vp_source_panel_bg"
+        android:drawablePadding="@dimen/vp_source_panel_gap"
+        android:drawableRight="@drawable/vp_source_panel_down"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/vp_source_panel_padding"
+        android:paddingRight="@dimen/vp_source_panel_padding"
+        android:textAppearance="@style/vp_source_panel_text_style" />
+
+</com.miui.videoplayer.widget.SelectSourceView>

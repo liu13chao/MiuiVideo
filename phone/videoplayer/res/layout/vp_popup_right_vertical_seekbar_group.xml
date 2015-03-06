@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/content_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/popup_volume_imageview_margin_right"
+        android:src="@drawable/vp_adjust_volume" />
+    <!--
+         android:maxHeight="@dimen/vertical_seekbar_width"
+        	android:minHeight="@dimen/vertical_seekbar_width"
+    -->
+
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="@dimen/popup_vertical_seekbar_length"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/popup_volume_seekbar_margin_top"
+        android:layout_marginRight="@dimen/popup_volume_seekbar_margin_right"
+        android:paddingLeft="@dimen/popup_vertical_seekbar_padding"
+        android:paddingRight="@dimen/popup_vertical_seekbar_padding"
+        android:max="100"
+        android:maxHeight="@dimen/vertical_seekbar_width"
+        android:minHeight="@dimen/vertical_seekbar_width"
+        android:progressDrawable="@drawable/vp_vertical_progressbar_v5"
+        android:thumb="@drawable/vp_vertical_progressbar_thumb_v5"
+        android:thumbOffset="@dimen/vertical_seekbar_thumb_offset" />
+
+    <LinearLayout
+        android:id="@+id/progress_textview_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/popup_volume_textview_margin_right"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/progress_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/vp_tips_right_v5"
+            android:gravity="center"
+            android:textColor="#B2000000"
+            android:textSize="@dimen/vp_font_size_10"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

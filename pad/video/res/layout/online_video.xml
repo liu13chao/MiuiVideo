@@ -1,0 +1,13 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <com.miui.video.widget.LoadingListView
+        android:id="@+id/online_video_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/online_video_list_top_margin"
+        android:layout_marginLeft="@dimen/video_common_left_margin"
+        android:layout_marginRight="@dimen/video_common_right_margin" />
+</FrameLayout>

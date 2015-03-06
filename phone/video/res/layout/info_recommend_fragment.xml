@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/info_recommend_fragment_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:listSelector="@null"
+        android:paddingLeft="@dimen/video_common_interval_20"
+        android:paddingRight="@dimen/video_common_interval_20"
+        android:paddingTop="@dimen/info_fragment_margin"
+        android:scrollbars="none" />
+
+</LinearLayout>

@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- pixel size start -->
+    <dimen name="pixel_size_87">29dp</dimen>
+    <dimen name="pixel_size_32">10.7dp</dimen>
+    <!-- pixel size end -->
+
+
+    <!-- global start -->
+    <dimen name="divider">1px</dimen>
+    <dimen name="recommend_card_padding">10.7dp</dimen>
+    <dimen name="page_margin">6.3dp</dimen>
+    <dimen name="page_margin_top">10dp</dimen>
+    <dimen name="page_title_offset">-3.7dp</dimen>
+    <dimen name="recommend_cover_space">10dp</dimen>
+    <dimen name="info_fragment_margin">9.3dp</dimen>
+    <dimen name="info_fragment_padding">9.7dp</dimen>
+
+    <!-- global  end -->
+
+
+    <!-- media start -->
+    <dimen name="media_view_status_left_margin">7dp</dimen>
+    <dimen name="media_view_status_bottom_margin">5.7dp</dimen>
+    <dimen name="media_view_name_top_padding">6dp</dimen>
+    <dimen name="media_view_subtitle_top_padding">0dp</dimen>
+    <dimen name="media_view_desc_height">53dp</dimen>
+    <dimen name="media_view_name_height">23.2dp</dimen>
+    <dimen name="media_view_subtitle_height">29.8dp</dimen>
+    <dimen name="media_view_name_left_margin">7dp</dimen>
+    <dimen name="media_view_bottom_margin">5.7dp</dimen>
+    <dimen name="media_view_feature_name_height">49.3dp</dimen>
+    <dimen name="media_view_feature_name_margin_bottom">7.3dp</dimen>
+    <dimen name="media_view_feature_name_padding_left">9.3dp</dimen>
+    <dimen name="media_view_feature_name_padding_top">6dp</dimen>
+    <dimen name="media_view_feature_space">9.7dp</dimen>
+    <dimen name="media_pager_header_height">10dp</dimen>
+    <dimen name="media_pager_header_title_padding_top">11.3dp</dimen>
+    <!-- media end -->
+
+
+    <!-- font size start -->
+    <dimen name="font_size_123">41sp</dimen>
+    <dimen name="font_size_60">20sp</dimen>
+    <dimen name="font_size_50">16.7sp</dimen>
+    <dimen name="font_size_48">16sp</dimen>
+    <dimen name="font_size_46">15.3sp</dimen>
+    <dimen name="font_size_44">14.7sp</dimen>
+    <dimen name="font_size_42">14sp</dimen>
+    <dimen name="font_size_40">13.3sp</dimen>
+    <dimen name="font_size_39">13sp</dimen>
+    <dimen name="font_size_38">12.7sp</dimen>
+    <dimen name="font_size_37">12.3sp</dimen>
+    <dimen name="font_size_36">12sp</dimen>
+    <dimen name="font_size_35">11.7sp</dimen>
+    <dimen name="font_size_34">11.3sp</dimen>
+    <dimen name="font_size_32">10.7sp</dimen>
+    <dimen name="font_size_30">10sp</dimen>
+    <dimen name="font_size_29">9.7sp</dimen>
+    <dimen name="font_size_28">9.3sp</dimen>
+    <dimen name="font_size_26">8.7sp</dimen>
+    <dimen name="font_size_69">23sp</dimen>
+    <!-- font size end -->
+
+    <dimen name="size_1">0.33dp</dimen>
+    <dimen name="size_2">0.67dp</dimen>
+    <dimen name="size_3">1dp</dimen>
+    <dimen name="size_5">1.67dp</dimen>
+    <dimen name="size_6">2dp</dimen>
+    <dimen name="size_10">3.33dp</dimen>
+    <dimen name="size_12">4dp</dimen>
+    <dimen name="size_15">5dp</dimen>
+    <dimen name="size_16">5.33dp</dimen>
+    <dimen name="size_18">6dp</dimen>
+    <dimen name="size_19">6.33dp</dimen>
+    <dimen name="size_20">6.67dp</dimen>
+    <dimen name="size_23">7.67dp</dimen>
+    <dimen name="size_24">8dp</dimen>
+    <dimen name="size_25">8.33dp</dimen>
+    <dimen name="size_26">8.67dp</dimen>
+    <dimen name="size_27">9dp</dimen>
+    <dimen name="size_28">9.33dp</dimen>
+    <dimen name="size_29">9.67dp</dimen>
+    <dimen name="size_30">10dp</dimen>
+    <dimen name="size_32">10.67dp</dimen>
+    <dimen name="size_36">12dp</dimen>
+    <dimen name="size_37">12.33dp</dimen>
+    <dimen name="size_40">13.33dp</dimen>
+    <dimen name="size_45">15dp</dimen>
+    <dimen name="size_46">15.33dp</dimen>
+    <dimen name="size_48">16dp</dimen>
+    <dimen name="size_50">16.67dp</dimen>
+    <dimen name="size_51">17dp</dimen>
+    <dimen name="size_56">18.67dp</dimen>
+    <dimen name="size_60">20dp</dimen>
+    <dimen name="size_62">20.67dp</dimen>
+    <dimen name="size_67">22.33dp</dimen>
+    <dimen name="size_70">23.33dp</dimen>
+    <dimen name="size_74">24.67dp</dimen>
+    <dimen name="size_76">25.3dp</dimen>
+    <dimen name="size_81">27dp</dimen>
+    <dimen name="size_84">28dp</dimen>
+    <dimen name="size_90">30dp</dimen>
+    <dimen name="size_100">33.33dp</dimen>
+    <dimen name="size_106">35.33dp</dimen>
+    <dimen name="size_112">37.3dp</dimen>
+    <dimen name="size_115">38.33dp</dimen>
+    <dimen name="size_162">54dp</dimen>
+    <dimen name="size_168">56dp</dimen>
+    <dimen name="size_172">57.33dp</dimen>
+    <dimen name="size_183">61dp</dimen>
+    <dimen name="size_180">60dp</dimen>
+    <dimen name="size_214">71.33dp</dimen>
+    <dimen name="size_222">74dp</dimen>
+    <dimen name="size_230">76.67dp</dimen>
+    <dimen name="size_472">157.33dp</dimen>
+    <dimen name="size_475">158.33dp</dimen>
+    <dimen name="size_476">158.67dp</dimen>
+    <dimen name="size_608">202.67dp</dimen>
+    <dimen name="size_978">326dp</dimen>
+    <dimen name="size_988">329.33dp</dimen>
+    <dimen name="size_1306">435.33dp</dimen>
+
+    <!-- common start -->
+    <dimen name="video_common_blur_radius">80dp</dimen>
+    <dimen name="video_common_radius_18">6dp</dimen>
+    <dimen name="video_common_radius_9">3dp</dimen>
+    <dimen name="video_common_text_btn_padding_40">13.33dp</dimen>
+    <dimen name="video_common_text_btn_paddingH">7dp</dimen>
+    <dimen name="video_common_text_btn_drawble_padding">4dp</dimen>
+    <dimen name="video_common_text_btn_paddingV">2dp</dimen>
+    <dimen name="video_common_text_btn_paddingH2">15.67dp</dimen>
+    <dimen name="video_common_text_btn_paddingV2">8.67dp</dimen>
+    <dimen name="video_common_text_btn_height">43.3dp</dimen>
+    <dimen name="video_common_dialog_list_item_height">42dp</dimen>
+    <dimen name="video_common_title_top_btn_paddingH">10dp</dimen>
+    <dimen name="video_common_title_top_btn_paddingV">6.3dp</dimen>
+    <dimen name="video_common_title_top_btn_top_margin">7dp</dimen>
+    <dimen name="video_common_list_top_margin">51dp</dimen>
+    <dimen name="video_common_list_top_padding">9dp</dimen>
+    <dimen name="video_common_secondary_list_top_padding">9dp</dimen>
+    <dimen name="video_common_title_top_height">53.3dp</dimen>
+    <dimen name="video_common_content_top_margin">50dp</dimen>
+    <dimen name="video_common_interval_150">50dp</dimen>
+    <dimen name="video_common_interval_57">19dp</dimen>
+    <dimen name="video_common_interval_50">16.7dp</dimen>
+    <dimen name="video_common_interval_45">15dp</dimen>
+    <dimen name="video_common_interval_40">13.3dp</dimen>
+    <dimen name="video_common_interval_36">12dp</dimen>
+    <dimen name="video_common_interval_34">11.3dp</dimen>
+    <dimen name="video_common_interval_30">10dp</dimen>
+    <dimen name="video_common_interval_29">9.7dp</dimen>
+    <dimen name="video_common_interval_27">9dp</dimen>
+    <dimen name="video_common_interval_24">8dp</dimen>
+    <dimen name="video_common_interval_21">7dp</dimen>
+    <dimen name="video_common_interval_20">6.7dp</dimen>
+    <dimen name="video_common_interval_17">5.7dp</dimen>
+    <dimen name="video_common_interval_15">5dp</dimen>
+    <dimen name="video_common_interval_14">4.7dp</dimen>
+    <dimen name="video_common_interval_13">4.3dp</dimen>
+    <dimen name="video_common_interval_10">3.3dp</dimen>
+    <dimen name="video_common_interval_negtive_10">-3.3dp</dimen>
+    <dimen name="video_common_left_margin_49">16.3dp</dimen>
+    <dimen name="video_common_right_margin_49">16.3dp</dimen>
+    <dimen name="video_common_divider_width">1px</dimen>
+    <dimen name="video_common_divider_height">1px</dimen>
+    <dimen name="video_common_progress_width">24dp</dimen>
+    <dimen name="video_common_progress_height">24dp</dimen>
+    <dimen name="video_common_progress_padding">5dp</dimen>
+    <dimen name="video_common_fade_edge_length">75dp</dimen>
+    <dimen name="video_common_empty_top_margin">203dp</dimen>
+    <dimen name="video_common_empty_top_margin2">139dp</dimen>
+    <!-- common end -->
+
+
+    <!-- user head start -->
+    <dimen name="user_head_width">67dp</dimen>
+    <dimen name="user_head_height">67dp</dimen>
+    <dimen name="user_head_name_top_margin">10dp</dimen>
+    <dimen name="user_head_identity_top_margin">0dp</dimen>
+    <!-- user head end -->
+
+
+    <!-- title top start -->
+    <dimen name="title_top_iv_left_margin">15.3dp</dimen>
+    <dimen name="title_top_iv_top_margin">17dp</dimen>
+    <dimen name="title_top_tv_left_margin">13dp</dimen>
+    <dimen name="title_top_action_button_height">26dp</dimen>
+    <dimen name="title_top_action_button_padding">11dp</dimen>
+    <dimen name="title_top_text_margin_top">1dp</dimen>
+    <!-- title top end -->
+
+
+    <!-- retry view start -->
+    <dimen name="reload_view_title_top_margin">2dp</dimen>
+    <dimen name="reload_view_sub_title_top_margin">2dp</dimen>
+    <!-- retry view end -->
+
+
+    <!-- empty view start -->
+    <dimen name="empty_view_title_top_margin">5dp</dimen>
+    <dimen name="empty_view_sub_title_top_margin">2dp</dimen>
+    <!-- empty view end -->
+
+
+    <!-- banner view start -->
+    <dimen name="banner_indicate_view_intervalH">3.3dp</dimen>
+    <dimen name="banner_indicate_view_bottom_margin">9.3dp</dimen>
+    <!-- banner view end -->
+
+
+    <!-- grid view ex start -->
+    <dimen name="grid_item_default_height">33.3dp</dimen>
+    <dimen name="grid_item_default_intervalH">10dp</dimen>
+    <dimen name="grid_item_default_intervalV">10dp</dimen>
+    <dimen name="grid_text_default_paddingH">13.3dp</dimen>
+    <!-- grid view ex end -->
+
+
+    <!-- MediaView start -->
+    <dimen name="media_view_v_poster_width">102dp</dimen>
+    <dimen name="media_view_v_poster_height">149dp</dimen>
+    <dimen name="media_view_h_poster_width">157.7dp</dimen>
+    <dimen name="media_view_h_poster_height">89dp</dimen>
+    <dimen name="media_view_tv_poster_width">102dp</dimen>
+    <dimen name="media_view_tv_poster_height">58dp</dimen>
+    <dimen name="media_view_his_poster_width">102dp</dimen>
+    <dimen name="media_view_his_poster_height">149dp</dimen>
+    <dimen name="media_view_his_blur_poster_height">57.3dp</dimen>
+    <dimen name="media_list_cover_v_width">91.3dp</dimen>
+    <dimen name="media_list_cover_v_height">120.6dp</dimen>
+    <dimen name="media_list_cover_h_width">126.7dp</dimen>
+    <dimen name="media_list_cover_h_height">73dp</dimen>
+    <dimen name="media_small_cover_width">80dp</dimen>
+    <dimen name="media_small_cover_height">116dp</dimen>
+    <dimen name="media_small_cover_bg_width">82dp</dimen>
+    <dimen name="media_small_cover_bg_height">118dp</dimen>
+    <dimen name="media_small_cover_padding">1dp</dimen>
+    <dimen name="media_cover_width">102dp</dimen>
+    <dimen name="media_cover_bg_width">104dp</dimen>
+    <dimen name="media_cover_bg_height">151dp</dimen>
+    <dimen name="media_cover_padding">0.33dp</dimen>
+    <dimen name="media_banner_width">346.7dp</dimen>
+    <dimen name="media_banner_height">155.7dp</dimen>
+    <dimen name="media_information_width">157.7dp</dimen>
+    <dimen name="media_information_height">89dp</dimen>
+    <dimen name="media_info_top_margin_v">7dp</dimen>
+    <dimen name="media_info_top_margin_h">6dp</dimen>
+    <dimen name="media_info_status_top_margin">1.3dp</dimen>
+
+    <!-- Media View List V start -->
+    <dimen name="media_view_list_v_text_interval_v">1dp</dimen>
+    <!-- Media View List V end -->
+
+
+    <!-- score status start -->
+    <dimen name="score_status_width">203dp</dimen>
+    <dimen name="score_status_progress_width">136dp</dimen>
+    <dimen name="score_status_progress_height">1.7dp</dimen>
+    <dimen name="score_status_progress_left_margin">32.3dp</dimen>
+    <dimen name="score_status_intervalV">11dp</dimen>
+    <!-- score status end -->
+
+
+    <!-- rating view start -->
+    <dimen name="rating_view_padding">2.3dp</dimen>
+    <!-- rating view end -->
+
+
+    <!-- scoring view start -->
+    <dimen name="scoring_view_padding">8.3dp</dimen>
+    <!-- scoring view end -->
+
+
+    <!-- status btn start -->
+    <dimen name="status_btn_left_intervalH">4dp</dimen>
+    <dimen name="status_btn_left_width">18dp</dimen>
+    <dimen name="status_btn_left_height">18dp</dimen>
+    <dimen name="status_btn_iv_width">18dp</dimen>
+    <dimen name="status_btn_iv_height">18dp</dimen>
+    <dimen name="status_btn_font_size">13dp</dimen>
+    <!-- status btn end -->
+
+
+    <!-- loading view start -->
+    <dimen name="loading_text_margin_left">6dp</dimen>
+    <dimen name="loading_text_margin_top">6dp</dimen>
+    <!-- loading view end -->
+
+
+    <!-- page view start -->
+    <dimen name="pager_title_height">53.3dp</dimen>
+    <dimen name="pager_title_min_space">27.3dp</dimen>
+    <dimen name="pager_secondary_title_height">42.67dp</dimen>
+    <dimen name="pager_top_margin">50dp</dimen>
+    <dimen name="pager_secondary_top_margin">39.7dp</dimen>
+    <dimen name="pager_title_internalh_margin_2">47.33dp</dimen>
+    <dimen name="pager_title_internalh_padding_2">75.33dp</dimen>
+    <dimen name="pager_title_internalh_margin_3">34dp</dimen>
+    <dimen name="pager_title_internalh_padding_3">66.67dp</dimen>
+    <dimen name="pager_title_internalh_margin_4">19.33dp</dimen>
+    <dimen name="pager_title_internalh_padding_4">44dp</dimen>
+    <dimen name="pager_title_internalh_margin_5">16.67dp</dimen>
+    <dimen name="pager_title_internalh_padding_5">33.33dp</dimen>
+    <dimen name="pager_title_internalh_margin_6">0dp</dimen>
+    <dimen name="pager_title_internalh_padding_6">20dp</dimen>
+    <!-- page view end -->
+
+
+    <!-- media pager view start -->
+    <dimen name="media_pager_title_text_width">108.7dp</dimen>
+    <dimen name="media_pager_title_text_height">34dp</dimen>
+    <dimen name="media_pager_title_bg_height">40dp</dimen>
+    <dimen name="media_pager_title_top_margin">1dp</dimen>
+    <dimen name="media_pager_tab_bg_width">107.3dp</dimen>
+    <dimen name="media_pager_tab_bg_height">34dp</dimen>
+    <dimen name="media_pager_tab_bg_corner_width">4.3dp</dimen>
+    <dimen name="media_pager_tab_bg_shadow_length">1.3dp</dimen>
+    <dimen name="media_pager_space">8.3dp</dimen>
+    <dimen name="recommend_home_card_more_btn_height">43.3dp</dimen>
+    <dimen name="recommend_home_card_space">7dp</dimen>
+    <dimen name="recommend_home_card_footer_padding_bottom">11.7dp</dimen>
+    <dimen name="recommend_home_card_header_height">43.3dp</dimen>
+    <dimen name="recommend_home_tab_width">85dp</dimen>
+    <dimen name="recommend_home_tab_height">33.7dp</dimen>
+    <dimen name="recommend_home_tab_bg_width">85dp</dimen>
+    <dimen name="recommend_home_tab_bg_height">38dp</dimen>
+    <dimen name="recommend_home_v_media_view_height">198.7dp</dimen>
+    <dimen name="recommend_home_h_media_view_height">138.7dp</dimen>
+    <dimen name="recommend_home_tv_media_view_height">106dp</dimen>
+    <!-- media pager view end -->
+
+
+    <!-- quick entry view start -->
+    <dimen name="quick_entry_channel_width">80dp</dimen>
+    <dimen name="quick_entry_channel_height">60dp</dimen>
+    <dimen name="quick_entry_channel_intervalH">9dp</dimen>
+    <dimen name="quick_entry_channel_content_paddingT">29dp</dimen>
+    <dimen name="quick_entry_channel_content_paddingB">8.7dp</dimen>
+    <dimen name="quick_entry_channel_drawable_padding">5dp</dimen>
+    <dimen name="quick_entry_user_height">45.7dp</dimen>
+    <dimen name="quick_entry_user_text_size">14dp</dimen>
+    <dimen name="quick_entry_user_content_paddingH">18.7dp</dimen>
+    <dimen name="quick_entry_user_drawable_padding">8dp</dimen>
+    <!-- quick entry view end -->
+
+
+    <!-- ActionMode start -->
+    <dimen name="action_mode_top_view_height">60dp</dimen>
+    <dimen name="action_mode_top_btn_edge_margin">20dp</dimen>
+    <dimen name="action_mode_top_btn_bottom_margin">11dp</dimen>
+    <dimen name="action_mode_top_title_bottom_margin">17dp</dimen>
+    <dimen name="action_mode_bottom_view_height">85dp</dimen>
+    <dimen name="action_mode_bottom_menu_height">65dp</dimen>
+    <dimen name="action_mode_bottom_menu_item_left_margin">12dp</dimen>
+    <dimen name="action_mode_bottom_menu_item_icon_width">42dp</dimen>
+    <dimen name="action_mode_bottom_menu_item_icon_height">42dp</dimen>
+    <dimen name="action_mode_bottom_menu_item_text_top_margin">6dp</dimen>
+    <dimen name="action_mode_top_bg_height">60dp</dimen>
+    <dimen name="action_mode_top_bg_mask_height">125dp</dimen>
+    <dimen name="action_mode_bottom_bg_height">769dp</dimen>
+    <!-- ActionMode end -->
+
+
+    <!-- home start -->
+    <dimen name="home_pager_title_padding">43dp</dimen>
+    <dimen name="home_search_top_margin">11.3dp</dimen>
+    <dimen name="home_quick_entry_divider_height">20.3dp</dimen>
+    <dimen name="menu_pop_window_width">139.3dp</dimen>
+    <dimen name="menu_pop_window_xoff">-5dp</dimen>
+    <dimen name="menu_pop_window_yoff">6.7dp</dimen>
+    <dimen name="menu_pop_window_item_height">66.7dp</dimen>
+    <!-- home end -->
+
+
+    <!-- OnlineVideo start -->
+    <dimen name="online_video_empty_top_margin">303dp</dimen>
+    <dimen name="online_video_item_btn_height">43.3dp</dimen>
+    <!-- OnlineVieeo end -->
+
+
+    <!-- category media start -->
+    <dimen name="category_icon_width">32dp</dimen>
+    <dimen name="category_icon_height">32dp</dimen>
+    <dimen name="category_media_view_width">351.3dp</dimen>
+    <dimen name="category_media_poster_height">120dp</dimen>
+    <dimen name="category_media_desc_name_right_margin">34dp</dimen>
+    
+    <dimen name="category_media_desc_name_top_margin">0dp</dimen>
+    <dimen name="category_media_desc_height">28dp</dimen>
+    <dimen name="category_media_name_height">31.7dp</dimen>
+    <dimen name="category_media_icon_top">13.7dp</dimen>
+    <dimen name="category_media_icon_left_margin">13.6dp</dimen>
+    <dimen name="category_media_name_left_margin">9.7dp</dimen>
+    <dimen name="category_media_count_left_margin">7dp</dimen>
+    <dimen name="category_media_count_bottom">4dp</dimen>
+    <!-- category media end -->
+
+
+    <!-- FeatureMediaView start -->
+    <dimen name="feature_media_view_width">173.3dp</dimen>
+    <dimen name="feature_media_view_height">127.3dp</dimen>
+    <dimen name="feature_media_poster_height">75.7dp</dimen>
+    <dimen name="feature_media_desc_top_margin">80.7dp</dimen>
+    <dimen name="feature_media_desc_left_margin">10dp</dimen>
+    <dimen name="feature_media_desc_right_margin">10dp</dimen>
+    <dimen name="feature_media_favorite_right_margin">10dp</dimen>
+    <dimen name="feature_media_favorite_bottom_margin">10dp</dimen>
+    <!-- FeatureMediaView end -->
+
+
+    <!-- MyVideo start -->
+    <dimen name="my_video_list_margin_top">20dp</dimen>
+    <dimen name="my_video_avatar_padding_bottom">19.7dp</dimen>
+    <dimen name="my_video_view_width">168.7dp</dimen>
+    <dimen name="my_video_view_height">138.3dp</dimen>
+    <dimen name="my_video_view_drawable_padding">13dp</dimen>
+    <dimen name="my_video_view_item_top_margin">24dp</dimen>
+    <dimen name="my_video_view_desc_height">38dp</dimen>
+    <!-- MyVideo end -->
+
+
+    <!-- search box start -->
+    <dimen name="search_box_height">30dp</dimen>
+    <dimen name="search_box_btn_del_width">27.7dp</dimen>
+    <dimen name="search_box_btn_del_height">27.7dp</dimen>
+    <dimen name="search_hint_item_height">53.3dp</dimen>
+    <dimen name="search_hint_tv_left_margin">27dp</dimen>
+    <!-- search box end -->
+
+
+    <!-- search result start -->
+    <dimen name="search_box_top_margin">9dp</dimen>
+    <dimen name="search_box_left_margin">14dp</dimen>
+    <dimen name="search_box_right_margin">63dp</dimen>
+    <dimen name="search_recommend_word_hint_height">37dp</dimen>
+    <dimen name="search_empty_hint_top_margin">114.3dp</dimen>
+    <dimen name="search_empty_media_top_margin">100dp</dimen>
+    <dimen name="search_result_filter_top_margin">24.3dp</dimen>
+    <!-- search result end -->
+
+
+    <!-- addon start -->
+    <dimen name="addon_pager_view_top_margin">38dp</dimen>
+    <dimen name="addon_list_top_margin">4dp</dimen>
+    <!-- addon end -->
+
+
+    <!-- offline start -->
+    <dimen name="offline_loading_progress_width">129.7dp</dimen>
+    <dimen name="offline_title_btn_width">46dp</dimen>
+    <dimen name="offline_title_btn_height">26.67dp</dimen>
+    <dimen name="offline_loading_list_poster_padding_top">9.3dp</dimen>
+    <dimen name="offline_play_item_height">72.7dp</dimen>
+    <dimen name="offline_play_item_padding_left">21.3dp</dimen>
+    <dimen name="offline_play_item_padding_right">19.3dp</dimen>
+    <!-- offline end -->
+
+
+    <!-- select ep start -->
+    <dimen name="select_ep_group_heignt">40dp</dimen>
+    <!-- select ep end -->
+
+
+    <!-- media detail start -->
+    <dimen name="detail_poster_height">470dp</dimen>
+    <dimen name="detail_poster_mask_height">366dp</dimen>
+    <dimen name="detail_poster_bottom_mask_height">25dp</dimen>
+    <dimen name="detail_play_view_top_margin">131.7dp</dimen>
+    <dimen name="detail_scroll_top_padding">148dp</dimen>
+    <dimen name="detail_scroll_info_height">265dp</dimen>
+    <dimen name="detail_scroll_item_title_height">41dp</dimen>
+    <dimen name="detail_scroll_item_btn_height">43.3dp</dimen>
+    <dimen name="detail_info_actorname_paddingV">5dp</dimen>
+    <dimen name="detail_info_actorname_paddingH">7.3dp</dimen>
+    <dimen name="detail_info_actorname_padding">26.3dp</dimen>
+    <dimen name="detail_info_divider_left_margin">8.3dp</dimen>
+    <dimen name="detail_info_divider_right_margin">8.3dp</dimen>
+    <dimen name="detail_info_score_count_top_margin">-4dp</dimen>
+    <dimen name="detail_info_score_desc_top_margin">-3dp</dimen>
+    <dimen name="detail_info_type_top_margin">1.3dp</dimen>
+    <dimen name="detail_variety_item_height">87.7dp</dimen>
+    <dimen name="detail_introduce_line_space">1.7dp</dimen>
+    <dimen name="detail_ep_item_load_width">26dp</dimen>
+    <dimen name="detail_ep_item_load_height">26dp</dimen>
+    <dimen name="detail_ep_multy_btn_width">74dp</dimen>
+    <dimen name="detail_ep_multy_btn_height">33.3dp</dimen>
+    <dimen name="detail_bottom_bar_height">60dp</dimen>
+    <dimen name="detail_bottom_bar_content_intervalH">14.7dp</dimen>
+    <dimen name="detail_bottom_bar_drawable_padding">6.3dp</dimen>
+    <dimen name="detail_favorite_width">72dp</dimen>
+    <dimen name="detail_favorite_height">33.3dp</dimen>
+    <dimen name="detail_favorite_left_margin">17dp</dimen>
+    <dimen name="detail_download_width">72dp</dimen>
+    <dimen name="detail_download_height">33.3dp</dimen>
+    <dimen name="detail_download_right_margin">17dp</dimen>
+    <dimen name="detail_play_width">156dp</dimen>
+    <dimen name="detail_play_height">33.3dp</dimen>
+    <dimen name="detail_review_item_user_top_margin">9.7dp</dimen>
+    <dimen name="detail_review_item_rate_left_margin">3.7dp</dimen>
+    <dimen name="detail_review_item_comment_top_margin">31dp</dimen>
+    <dimen name="detail_review_item_divider_top_margin">11dp</dimen>
+    <dimen name="detail_page_episode_row_height">36dp</dimen>
+    <dimen name="detail_variety_item_name_left_margin">17.5dp</dimen>
+    <dimen name="detail_variety_item_name_right_margin">20dp</dimen>
+    <dimen name="detail_comment_write_btn_paddingH">17dp</dimen>
+    <dimen name="detail_comment_write_btn_paddingV">5.7dp</dimen>
+    <dimen name="detail_comment_empty_icon_top_margin">48dp</dimen>
+    <dimen name="detail_comment_empty_icon_bottom_margin">68dp</dimen>
+    <dimen name="detail_similar_name_height">33.7dp</dimen>
+    <!-- media detail end -->
+
+
+    <!-- channel start -->
+    <dimen name="channel_title_btn_width">45.33dp</dimen>
+    <dimen name="channel_title_btn_height">26.67dp</dimen>
+    <dimen name="channel_banner_left_margin">3dp</dimen>
+    <dimen name="channel_banner_right_margin">3dp</dimen>
+    <dimen name="channel_banner_top_margin">9.3dp</dimen>
+    <dimen name="channel_banner_bottom_margin">10dp</dimen>
+    <dimen name="channel_choise_list_divider_height">4dp</dimen>
+    <dimen name="channel_choice_top_margin">4dp</dimen>
+    <!-- channel end -->
+
+
+    <!-- filter view start -->
+    <dimen name="media_filter_view_item_icon_left_margin">10dp</dimen>
+    <dimen name="media_filter_view_item_text_left_margin">23.3dp</dimen>
+    <!-- filter view end -->
+
+
+    <!-- comment review start -->
+    <dimen name="comment_review_score_height">126dp</dimen>
+    <dimen name="comment_review_score_width">96dp</dimen>
+    <dimen name="comment_review_avg_hint_height">34.3dp</dimen>
+    <dimen name="comment_review_rate_top_margin">2dp</dimen>
+    <dimen name="comment_review_item_user_top_margin">9.7dp</dimen>
+    <dimen name="comment_review_item_rate_left_margin">3.7dp</dimen>
+    <dimen name="comment_review_item_comment_top_margin">31dp</dimen>
+    <dimen name="comment_review_item_divider_top_margin">11dp</dimen>
+    <!-- comment review end -->
+
+
+    <!-- comment edit start -->
+    <dimen name="comment_edit_et_height">186dp</dimen>
+    <!-- comment edit end -->
+
+
+    <!-- web media start -->
+    <dimen name="page_progress_height">8dp</dimen>
+    <dimen name="page_progress_top_margin">-2dp</dimen>
+    <dimen name="page_btn_fullscreen_width">42dp</dimen>
+    <dimen name="page_btn_fullscreen_height">42dp</dimen>
+    <!-- web media end -->
+
+
+    <!-- tv player start -->
+    <dimen name="tv_forecast_item_height">56.3dp</dimen>
+    <dimen name="tv_forecast_width">183dp</dimen>
+    <dimen name="tv_selecttv_item_height">56.3dp</dimen>
+    <dimen name="tv_selecttv_width">183dp</dimen>
+    <!-- tv player end -->
+
+
+    <!-- alert dialog start -->
+    <dimen name="alert_dialog_content_margin_left">50px</dimen>
+    <!-- alert dialog end -->
+
+
+    <!-- info start -->
+    <dimen name="info_filter_view_item_height">40dp</dimen>
+    <dimen name="info_channel_list_item_height">86.3dp</dimen>
+    <dimen name="info_channel_list_poster_width">118.7dp</dimen>
+    <dimen name="info_channel_list_poster_height">66.7dp</dimen>
+    <dimen name="info_channel_recommend_banner_height">220dp</dimen>
+    <dimen name="info_channel_recommend_banner_cover_width">326.7dp</dimen>
+    <dimen name="info_channel_recommend_banner_cover_height">183.3dp</dimen>
+    <dimen name="info_channel_recommend_media_view_width">158dp</dimen>
+    <dimen name="info_channel_recommend_media_view_height">141dp</dimen>
+    <dimen name="info_channel_recommend_subtitle_padding_left">2.7dp</dimen>
+    <dimen name="info_channel_recommend_subtitle_padding_bottom">13dp</dimen>
+    <dimen name="info_channel_recommend_play_text_padding_bottom">55dp</dimen>
+    <dimen name="info_channel_recommend_play_text_padding_left">6.7dp</dimen>
+    <dimen name="info_channel_recommend_banner_play_text_padding_bottom">43.3dp</dimen>
+    <dimen name="info_channel_recommend_media_cover_width">158dp</dimen>
+    <dimen name="info_channel_recommend_media_cover_height">89dp</dimen>
+    <dimen name="info_channel_recommend_list_space">10dp</dimen>
+    <dimen name="info_channel_recommend_card_header_height">51dp</dimen>
+    <dimen name="info_channel_recommend_card_header_padding_bottom">10dp</dimen>
+    <dimen name="info_channel_recommend_card_margin_bottom">7dp</dimen>
+    <dimen name="info_channel_play_window_height">202.7dp</dimen>
+
+    <!-- info end -->
+
+
+    <!-- storage bar start -->
+    <dimen name="storage_bar_height">60dp</dimen>
+    <dimen name="storage_bar_progress_width">320dp</dimen>
+    <dimen name="storage_bar_progress_height">3.33dp</dimen>
+    <!-- storage bar end -->
+
+
+    <!-- edit mode start -->
+    <dimen name="delete_bottom_view_height">60dp</dimen>
+    <dimen name="delete_bottom_button_height">33.3dp</dimen>
+    <dimen name="delete_bottom_button_wdith">158.3dp</dimen>
+    <dimen name="delete_bottom_button_margin">10.3dp</dimen>
+    <!-- edit mode end -->
+
+
+    <!-- history start -->
+    <dimen name="history_title_header_height">46.3dp</dimen>
+    <dimen name="history_title_header_padding_bottom">10dp</dimen>
+    <dimen name="history_title_header_line_margin_left">11dp</dimen>
+    <dimen name="history_title_header_text_margin_left">33.3dp</dimen>
+    <dimen name="history_title_header_icon_margin_left">11.7dp</dimen>
+    <dimen name="history_title_header_icon_margin_bottom">11.3dp</dimen>
+    <dimen name="history_title_header_text_margin_bottom">11.3dp</dimen>
+    <!-- history end -->
+	<dimen name="mediadetail_selectsource_width">138dp</dimen>
+	<dimen name="mediadetail_selectsource_item_height">66dp</dimen>
+	<dimen name="sourceslogo_width">58dp</dimen>
+    <dimen name="sourceslogo_height">58dp</dimen>
+	<dimen name="sourceslogo_marginleft">8dp</dimen>
+	<dimen name="notification_text_size">16dp</dimen>
+	<dimen name="updateapk_alertdialog_margintop">20dp</dimen>
+	<dimen name="updateapk_alertdialog_marginbottom">14dp</dimen>
+	<dimen name="mediadetail_selectsource_popup_margintop">3.3dp</dimen>
+	<dimen name="detail_ep_single_item_recommend_height">40dp</dimen>
+	<dimen name="detail_ep_single_item_height">65dp</dimen>
+	<dimen name="detail_ep_single_item_icon_width">45.3dp</dimen>
+	<dimen name="detail_ep_single_item_icon_height">45.3dp</dimen>
+	<dimen name="detail_ep_single_item_text_left_margin">7dp</dimen>
+	<dimen name="detail_ep_single_item_subtitle_top_margin">2.3dp</dimen>
+	<dimen name="detail_ep_single_item_left_right_margin">10dp</dimen>
+</resources>

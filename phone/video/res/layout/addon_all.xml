@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true" >
+    <com.miui.video.widget.LoadingListView
+        android:id="@+id/addon_all_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/video_common_interval_20"
+        android:layout_marginRight="@dimen/video_common_interval_20"
+        android:layout_marginTop="@dimen/addon_list_top_margin"/>
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/com_bg_white"
+    android:fitsSystemWindows="true" >
+    <include
+        android:id="@+id/title_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_common_title_top_height"
+        layout="@layout/title_top"/>
+    <TextView
+        android:id="@+id/comment_review_write_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/video_common_title_top_btn_paddingH"
+        android:paddingRight="@dimen/video_common_title_top_btn_paddingH"
+        android:paddingTop="@dimen/video_common_title_top_btn_paddingV"
+        android:paddingBottom="@dimen/video_common_title_top_btn_paddingV"	 
+        android:layout_marginTop="@dimen/video_common_title_top_btn_top_margin"
+        android:layout_marginRight="@dimen/video_common_interval_40"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/font_size_36"
+        android:textColor="@color/p_80_black"
+        android:text="@string/edit_comment"
+        android:gravity="center"
+        android:background="@drawable/com_btn_bg"/>
+	<com.miui.video.widget.pager.PagerView 
+	    android:id="@+id/comment_review_pager_view"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="@dimen/video_common_content_top_margin"
+	    android:background="@drawable/com_bg_gray">
+	</com.miui.video.widget.pager.PagerView>
+</RelativeLayout>

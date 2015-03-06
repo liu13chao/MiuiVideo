@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+   <attr name="ratingStarStyle" format="reference" />
+   <declare-styleable name="RatingStar">
+      <attr name="ratingStarType">
+	       <enum name="small" value="0"></enum>
+	       <enum name="normal" value="1"></enum>
+   	  </attr>
+   	  <attr name="ratingStarScore">
+   	      <enum name="score1" value="2"></enum>
+	      <enum name="score2" value="4"></enum>
+	      <enum name="score3" value="6"></enum>
+	      <enum name="score4" value="8"></enum>
+	      <enum name="score5" value="10"></enum>
+   	  </attr>
+   </declare-styleable> 
+   
+   <attr name="mediaViewStyle" format="reference" />   
+   <declare-styleable name="MediaViewCom">
+      <attr name="mediaType">
+          <enum name="poster" value="0" />
+          <enum name="banner" value="1" />
+          <enum name="tv" value="2" />
+      </attr>
+      <attr name="showText" format="boolean"/>
+      <attr name="showMask" format="boolean"/>
+   </declare-styleable>
+   
+   <attr name="v5_editmode_hide_icon" format="reference"/>
+   <attr name="v5_editmode_unhide_icon" format="reference"/>
+   <attr name="v5_delete_icon" format="reference"/>
+
+   <declare-styleable name="PagerTitle">
+         <attr name="height">
+             <enum name="first" value="0" />
+         	 <enum name="second" value="1" />
+         </attr>
+    </declare-styleable>
+   
+</resources>

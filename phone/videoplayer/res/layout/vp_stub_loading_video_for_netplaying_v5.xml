@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:background="@color/vp_black">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:background="@drawable/vp_background_grid_full">
+    </LinearLayout>
+    
+    
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/vp_title_top"/>
+    
+ 	<LinearLayout 
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_gravity="center"
+ 	    android:orientation="vertical">
+ 	    <ProgressBar 
+            style="@style/vp_normal_progress_style"
+ 	        android:layout_width="@dimen/vp_ctrl_bottom_pause_width"
+	        android:layout_height="@dimen/vp_ctrl_bottom_pause_height"
+	        android:layout_gravity="center_horizontal" />
+ 	    <TextView
+ 	        android:id="@+id/vp_loading_percent" 
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:layout_gravity="center_horizontal"
+ 	        android:layout_marginTop="@dimen/vp_loading_percent_top_margin"
+ 	        android:text="@string/vp_loading_video"
+ 	        android:textSize="@dimen/vp_font_size_14"
+ 	        android:textColor="@color/vp_white"/>
+ 	</LinearLayout>
+</FrameLayout>

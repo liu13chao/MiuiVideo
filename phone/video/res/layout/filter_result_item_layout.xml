@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/com_bg_white_corner" >
+
+    <TextView
+        android:id="@+id/channel_filter_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/screen_del"
+        android:gravity="left"
+        android:paddingBottom="@dimen/video_common_text_btn_paddingV2"
+        android:paddingLeft="@dimen/video_common_text_btn_paddingH2"
+        android:paddingRight="@dimen/video_common_text_btn_paddingH2"
+        android:paddingTop="@dimen/video_common_text_btn_paddingV2"
+        android:text="@string/filter"
+        android:textColor="@color/text_color_deep_dark"
+        android:textSize="@dimen/font_size_40" />
+
+</FrameLayout>

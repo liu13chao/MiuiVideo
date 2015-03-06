@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.video.widget.recommend.OfflineLoadingMediaView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.miui.video.widget.media.MediaPosterView
+        android:id="@+id/v_poster"
+        android:layout_width="@dimen/cover_vertical_width"
+        android:layout_height="@dimen/cover_vertical_height"
+        android:layout_marginBottom="@dimen/size_25"
+        android:layout_marginLeft="@dimen/size_30"
+        android:layout_marginRight="@dimen/size_46"
+        android:layout_marginTop="@dimen/size_25" >
+
+        <com.miui.video.widget.media.MediaPosterView
+            android:id="@+id/h_poster"
+            android:layout_width="@dimen/cover_mixed_horizontal_width"
+            android:layout_height="@dimen/cover_mixed_horizontal_height"
+            android:layout_gravity="center" />
+
+        <com.miui.video.widget.media.MediaEditView
+            android:id="@+id/edit_selector"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.miui.video.widget.media.MediaPosterView>
+
+    <TextView
+        android:id="@+id/offline_loading_item_title"
+        style="@style/TitleTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_40"
+        android:layout_toRightOf="@id/v_poster"
+        android:ellipsize="end"
+        android:gravity="left|center_vertical"
+        android:maxLines="1"
+        android:maxWidth="@dimen/size_476"
+        android:textSize="@dimen/font_size_42" />
+
+    <TextView
+        android:id="@+id/offline_loading_item_subtitle"
+        style="@style/SubtitleTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/offline_loading_item_title"
+        android:layout_marginTop="@dimen/size_6"
+        android:layout_toRightOf="@id/v_poster"
+        android:gravity="left|center_vertical"
+        android:maxLines="1"
+        android:maxWidth="@dimen/size_476"
+        android:textSize="@dimen/font_size_36" />
+
+    <ProgressBar
+        android:id="@+id/offline_loading_item_progress"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="@dimen/offline_loading_progress_width"
+        android:layout_height="@dimen/size_5"
+        android:layout_alignBottom="@id/v_poster"
+        android:layout_marginBottom="@dimen/media_small_cover_padding"
+        android:layout_toRightOf="@id/v_poster"
+        android:progressDrawable="@drawable/download_progress" />
+
+    <TextView
+        android:id="@+id/offline_loading_item_status"
+        style="@style/SubtitleTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/offline_loading_item_progress"
+        android:layout_marginBottom="@dimen/size_20"
+        android:layout_toRightOf="@id/v_poster"
+        android:gravity="left|center_vertical"
+        android:maxLines="1"
+        android:textSize="@dimen/font_size_36" />
+
+    <ImageView
+        android:id="@+id/offline_loading_item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/size_40"
+        android:contentDescription="@string/app_name" />
+
+</com.miui.video.widget.recommend.OfflineLoadingMediaView>

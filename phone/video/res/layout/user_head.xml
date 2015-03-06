@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <FrameLayout 
+        android:layout_width="@dimen/user_head_width"
+        android:layout_height="@dimen/user_head_height"
+        android:layout_gravity="center_horizontal">
+        <com.miui.video.widget.UserHeadImageView
+            android:id="@+id/user_head_iv" 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/user_head_mask"
+            android:contentDescription="@string/app_name" />
+    </FrameLayout> 
+    <TextView
+        android:id="@+id/user_head_name" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/user_head_name_top_margin"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/p_80_black"
+        android:textSize="@dimen/font_size_42"
+        android:textIsSelectable="false"/> 
+    <TextView
+        android:id="@+id/user_head_identity" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/user_head_identity_top_margin"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/p_40_black"
+        android:textSize="@dimen/font_size_32"
+        android:textIsSelectable="false"
+        android:visibility="gone"/>   
+</LinearLayout>

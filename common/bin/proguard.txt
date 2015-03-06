@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:16
+-keep class com.miui.video.DKApp { <init>(...); }
+
+# view res/layout/web_media.xml #generated:17
+-keep class com.miui.video.widget.PageProgressView { <init>(...); }
+

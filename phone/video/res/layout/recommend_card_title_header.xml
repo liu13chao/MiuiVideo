@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.video.widget.recommend.MediaPagerTitleHeader xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/info_channel_recommend_card_header_height"
+    android:background="@drawable/media_page_bg_top"
+    android:paddingBottom="@dimen/info_channel_recommend_card_header_padding_bottom"
+    android:paddingLeft="@dimen/info_fragment_padding"
+    android:paddingTop="@dimen/media_pager_header_title_padding_top" >
+
+    <TextView
+        android:id="@+id/name"
+        android:textColor="@color/color_focus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/text_size_42" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider"
+        android:layout_gravity="bottom"
+        android:background="@color/gray_separate_line" />
+
+</com.miui.video.widget.recommend.MediaPagerTitleHeader>

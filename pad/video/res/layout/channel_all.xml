@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/video_common_left_margin"
+        android:layout_marginRight="@dimen/video_common_right_margin"
+        android:layout_marginTop="@dimen/channel_all_filter_btn_top_margin" >
+        <com.miui.video.widget.filter.FilterViewMenu
+            android:id="@+id/channel_all_filter_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+        	android:id="@+id/channel_all_filter_btn"
+       		android:layout_width="@dimen/filter_view_btn_width"
+       		android:layout_height="@dimen/filter_view_btn_height"
+       		android:layout_alignParentRight="true"
+       		android:layout_centerVertical="true"
+        	android:textColor="@color/p_80_white"
+        	android:textSize="@dimen/font_size_13"
+        	android:text="@string/filter"
+        	android:background="@drawable/btn_filter" />
+    </RelativeLayout>
+    
+    <FrameLayout 
+        android:layout_width="match_parent"
+       	android:layout_height="match_parent"
+       	android:layout_marginLeft="@dimen/video_common_left_margin"
+       	android:layout_marginRight="@dimen/video_common_right_margin"
+        android:layout_marginTop="@dimen/channel_all_list_top_margin" >
+        <com.miui.video.widget.LoadingListView
+        	android:id="@+id/channel_all_list"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent" />
+    </FrameLayout>
+</RelativeLayout>

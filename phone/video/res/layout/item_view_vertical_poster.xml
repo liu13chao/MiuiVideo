@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="@dimen/media_cover_bg_width"
+        android:layout_height="@dimen/media_cover_bg_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/size_20" >
+
+        <ImageView 
+	        android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/media_cover_padding"
+            android:scaleType="center"
+	        android:background="@drawable/default_border_right_angle"
+	        android:src="@drawable/default_poster_media"/>
+        <ImageView
+            android:id="@+id/vertical_item_poster"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/media_cover_padding"
+            android:background="@drawable/all_right_angle_line"
+            android:scaleType="fitXY" />
+        <ImageView 
+	        android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/media_cover_padding"
+            android:scaleType="fitXY"
+	        android:src="@drawable/default_cover_border"/>
+
+        <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/media_click_bg"/>
+        
+        <ImageView
+            android:id="@+id/vertical_item_flag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/media_cover_padding"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/vertical_item_south_extra"
+            style="@style/ExtraTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/size_20"
+            android:gravity="bottom|center_horizontal"
+            android:background="@drawable/posters_h_mask"
+            android:visibility="invisible"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/vertical_item_southeast_extra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/size_10"
+            android:layout_marginRight="@dimen/size_10"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:maxLines="1"
+            android:textSize="@dimen/font_size_30"
+            android:textColor="@color/white"
+            android:paddingTop="@dimen/size_10"
+		    android:paddingBottom="@dimen/size_10"
+		    android:paddingLeft="@dimen/size_20"
+		    android:paddingRight="@dimen/size_20"
+		    android:background="@drawable/com_btn_bg_4_n" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/vertical_item_title"
+        style="@style/TitleTextViewStyle"
+        android:layout_width="@dimen/media_cover_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/size_20"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/vertical_item_subtitle"
+        style="@style/SubtitleTextViewStyle"
+        android:layout_width="@dimen/media_cover_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/size_15"
+        android:gravity="center"
+        android:visibility="gone"
+        android:maxLines="1" />
+
+</LinearLayout>

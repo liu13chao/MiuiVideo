@@ -1,0 +1,21 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/video_common_interval_20"
+        android:orientation="vertical"
+        android:background="@drawable/com_bg_white_corner">
+	    <TextView
+	        android:id="@+id/feature_media_desc"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="@dimen/video_common_interval_30"
+	        android:textSize="@dimen/font_size_42"
+	        android:textColor="@color/p_80_black"
+	        android:text="@string/app_name" />        
+    </LinearLayout>
+</LinearLayout>

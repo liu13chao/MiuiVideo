@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/media_view_list_v_frame" 
+        android:layout_width="@dimen/media_small_cover_width"
+        android:layout_height="@dimen/media_small_cover_height"
+       	android:layout_marginBottom="@dimen/video_common_interval_30"
+        android:layout_marginLeft="@dimen/video_common_interval_30"
+        android:layout_marginRight="@dimen/video_common_interval_40"
+        android:layout_marginTop="@dimen/video_common_interval_30">
+        <FrameLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/default_border_right_angle">
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/default_poster_media"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+	    <ImageView
+	        android:id="@+id/media_view_list_v_poster"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:scaleType="fitXY" />
+		<ImageView 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:scaleType="fitXY"
+		    android:background="@drawable/default_cover_border"/>	               
+    </FrameLayout> 
+
+    <TextView
+        android:id="@+id/media_view_list_v_title"
+        style="@style/TitleTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/video_common_interval_30"
+        android:layout_marginTop="@dimen/video_common_interval_45"
+        android:layout_toRightOf="@id/media_view_list_v_frame"
+        android:gravity="left|center_vertical"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/media_view_list_v_subtitle"
+        style="@style/SubtitleTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/media_view_list_v_title"
+        android:layout_marginRight="@dimen/video_common_interval_30"
+        android:layout_marginTop="@dimen/media_view_list_v_text_interval_v"
+        android:layout_toRightOf="@id/media_view_list_v_frame"
+        android:gravity="left|center_vertical"
+        android:singleLine="true" />
+    <TextView
+        android:id="@+id/media_view_list_v_actor"
+        style="@style/SubtitleTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/media_view_list_v_subtitle"
+        android:layout_marginRight="@dimen/video_common_interval_30"
+        android:layout_marginTop="@dimen/media_view_list_v_text_interval_v"
+        android:layout_toRightOf="@id/media_view_list_v_frame"
+        android:gravity="left|center_vertical"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/media_view_list_v_score_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/media_view_list_v_frame"
+        android:layout_toRightOf="@id/media_view_list_v_frame"
+        android:gravity="left|center_vertical"
+        android:singleLine="true"
+        android:textSize="@dimen/text_size_small"
+        android:textColor="@color/color_sub_text"
+        android:text="@string/score" />
+
+    <TextView
+        android:id="@+id/media_view_list_v_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/media_view_list_v_frame"
+        android:layout_toRightOf="@id/media_view_list_v_score_tag"
+        android:gravity="left|center_vertical"
+        android:singleLine="true"
+        android:textSize="@dimen/font_size_42"
+        android:textColor="@color/orange" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_common_divider_height"
+        android:layout_below="@id/media_view_list_v_frame"
+        android:background="@drawable/com_10_black" />
+
+</RelativeLayout>

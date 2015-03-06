@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <View
+        android:id="@+id/my_video_click"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/com_bg_white_corner" />
+
+    <TextView
+        android:id="@+id/my_video_view_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/my_video_view_item_top_margin"
+        android:drawablePadding="@dimen/my_video_view_drawable_padding"
+        android:gravity="center"
+        android:textColor="@color/p_50_black"
+        android:textIsSelectable="false"
+        android:textSize="@dimen/font_size_36" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_video_view_desc_height"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/video_common_divider_height"
+            android:background="@color/p_3_black" />
+
+        <TextView
+            android:id="@+id/my_video_view_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/p_80_black"
+            android:textIsSelectable="false"
+            android:textSize="@dimen/font_size_42" />
+    </LinearLayout>
+
+</RelativeLayout>

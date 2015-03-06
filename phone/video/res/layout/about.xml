@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/com_bg_white"
+    android:fitsSystemWindows="true" >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/com_bg_gray">
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_centerInParent="true">
+	        <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_horizontal"
+	            android:background="@drawable/ic_launcher"/>
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="@dimen/video_common_interval_24"
+	            android:layout_gravity="center_horizontal"            
+	            android:textSize="@dimen/text_size_42"
+	            android:textColor="@color/p_80_black"
+	            android:text="@string/video_xiaomi"/>
+	        <TextView
+	            android:id="@+id/about_video_version" 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="@dimen/video_common_interval_13"
+	            android:layout_gravity="center_horizontal"            
+	            android:textSize="@dimen/text_size_30"
+	            android:textColor="@color/p_50_black"
+	            android:text="@string/video_version"/>
+	    </LinearLayout>
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginBottom="@dimen/video_common_interval_50"        
+	        android:layout_gravity="center_horizontal"            
+	        android:textSize="@dimen/text_size_36"
+	        android:textColor="@color/p_80_black"
+	        android:text="@string/video_declare"/>         
+    </RelativeLayout>
+    <include
+        android:id="@+id/title_top"
+     	android:layout_width="match_parent"
+     	android:layout_height="@dimen/video_common_title_top_height"
+        layout="@layout/title_top"/>  
+</RelativeLayout>

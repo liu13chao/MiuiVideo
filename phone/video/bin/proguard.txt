@@ -1,0 +1,493 @@
+# view AndroidManifest.xml #generated:204
+-keep class com.miui.video.AboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.miui.video.ChannelActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class com.miui.video.ChannelFilterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class com.miui.video.ChannelFilterResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:104
+-keep class com.miui.video.ChannelRankMediaActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:86
+-keep class com.miui.video.ChannelSubActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:216
+-keep class com.miui.video.CommentEditActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:220
+-keep class com.miui.video.CommentReviewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.miui.video.DKApp { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class com.miui.video.FavoriteActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:155
+-keep class com.miui.video.FeatureListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:160
+-keep class com.miui.video.FeatureMediaActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:114
+-keep class com.miui.video.HistoryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.miui.video.HomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:243
+-keep class com.miui.video.LocalDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.miui.video.LocalMediaActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.miui.video.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:247
+-keep class com.miui.video.MediaDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:124
+-keep class com.miui.video.MyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:228
+-keep class com.miui.video.OfflineLoadingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class com.miui.video.OfflineMediaActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:239
+-keep class com.miui.video.OfflineMediaDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:134
+-keep class com.miui.video.OfflineMediaPlayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:174
+-keep class com.miui.video.OpenHtml5ForAdsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:455
+-keep class com.miui.video.PlayStatisticsService { <init>(...); }
+
+# view AndroidManifest.xml #generated:149
+-keep class com.miui.video.SearchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:264
+-keep class com.miui.video.SelectEpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:268
+-keep class com.miui.video.SelectVarietyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:199
+-keep class com.miui.video.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:144
+-keep class com.miui.video.ShareDLNAMediaActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:139
+-keep class com.miui.video.ShareDeviceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:165
+-keep class com.miui.video.WebMediaActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:224
+-keep class com.miui.video.activity.SelectDownloadActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:209
+-keep class com.miui.video.addon.AddonActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:408
+-keep class com.miui.video.db.MediaInfoForPlayerProvider { <init>(...); }
+
+# view res/layout/search.xml #generated:80
+-keep class com.miui.video.fragment.SearchEmptyFragment { <init>(...); }
+
+# view res/layout/search.xml #generated:73
+-keep class com.miui.video.fragment.SearchHintFragment { <init>(...); }
+
+# view res/layout/search.xml #generated:94
+-keep class com.miui.video.fragment.SearchLoadingFragment { <init>(...); }
+
+# view res/layout/search.xml #generated:66
+-keep class com.miui.video.fragment.SearchRecommendFragment { <init>(...); }
+
+# view res/layout/search.xml #generated:87
+-keep class com.miui.video.fragment.SearchResultFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:189
+-keep class com.miui.video.info.InfoChannelActivity { <init>(...); }
+
+# view res/layout/activity_info_play.xml #generated:24
+-keep class com.miui.video.info.InfoChannelListFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:194
+-keep class com.miui.video.info.InfoChannelPlayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:178
+-keep class com.miui.video.live.TvChannelActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:183
+-keep class com.miui.video.live.TvPlayerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:433
+-keep class com.miui.video.mipush.MediaPushMessageReceiver { <init>(...); }
+
+# view res/layout/offline_loading.xml #generated:14
+# view res/layout/offline_media.xml #generated:14
+# view res/layout/offline_media_play_layout.xml #generated:22
+# view res/layout/offline_select_ep_widget.xml #generated:55
+-keep class com.miui.video.widget.ButtonPair { <init>(...); }
+
+# view res/layout/com_media_expandable_list.xml #generated:7
+-keep class com.miui.video.widget.ExpandableLoadingListView { <init>(...); }
+
+# view res/layout/offline_media.xml #generated:176
+-keep class com.miui.video.widget.FreezeGridView { <init>(...); }
+
+# view res/layout/detail_ep_multy.xml #generated:26
+# view res/layout/select_ep_child.xml #generated:12
+-keep class com.miui.video.widget.GridViewEx { <init>(...); }
+
+# view res/layout/channel_filter_layout.xml #generated:2
+# view res/layout/channel_filter_result_gridview.xml #generated:7
+# view res/layout/channel_grid_filter_layout.xml #generated:29
+-keep class com.miui.video.widget.HeaderGridView { <init>(...); }
+
+# view res/layout/channel_filter.xml #generated:41
+-keep class com.miui.video.widget.ListViewEx { <init>(...); }
+
+# view res/layout/offline_select_ep_widget.xml #generated:41
+-keep class com.miui.video.widget.LoadingGridView { <init>(...); }
+
+# view res/layout/activity_media_info_list.xml #generated:7
+# view res/layout/activity_offline_media.xml #generated:19
+# view res/layout/addon_all.xml #generated:7
+# view res/layout/addon_installed.xml #generated:7
+# view res/layout/category_list.xml #generated:7
+# view res/layout/channel_all.xml #generated:7
+# view res/layout/channel_choice.xml #generated:7
+# view res/layout/channel_filter_result.xml #generated:16
+# view res/layout/com_media_list.xml #generated:8
+# view res/layout/comment_review_fragment.xml #generated:6
+# view res/layout/feature_list.xml #generated:7
+# view res/layout/info_channel_fragment.xml #generated:7
+# view res/layout/info_list_fragment.xml #generated:8
+# view res/layout/offline_loading.xml #generated:35
+# view res/layout/offline_media_play_layout.xml #generated:14
+# view res/layout/online_video.xml #generated:5
+# view res/layout/search_hint.xml #generated:5
+# view res/layout/search_result.xml #generated:33
+# view res/layout/tv_forecast.xml #generated:9
+# view res/layout/tv_select_tv.xml #generated:9
+-keep class com.miui.video.widget.LoadingListView { <init>(...); }
+
+# view res/layout/web_media.xml #generated:17
+-keep class com.miui.video.widget.PageProgressView { <init>(...); }
+
+# view res/layout/online_video_header.xml #generated:16
+-keep class com.miui.video.widget.QuickEntryView { <init>(...); }
+
+# view res/layout/comment_review_header.xml #generated:39
+# view res/layout/comment_review_list_item.xml #generated:20
+# view res/layout/detail_review_list_item.xml #generated:18
+-keep class com.miui.video.widget.RatingView { <init>(...); }
+
+# view res/layout/detail_view.xml #generated:29
+-keep class com.miui.video.widget.RetryView { <init>(...); }
+
+# view res/layout/comment_review_header.xml #generated:56
+-keep class com.miui.video.widget.ScoreStatusView { <init>(...); }
+
+# view res/layout/comment_edit.xml #generated:68
+-keep class com.miui.video.widget.ScoringView { <init>(...); }
+
+# view res/layout/search_recommend.xml #generated:35
+-keep class com.miui.video.widget.SearchGridView { <init>(...); }
+
+# view res/layout/activity_offline_media.xml #generated:12
+# view res/layout/offline_loading.xml #generated:22
+# view res/layout/offline_media.xml #generated:22
+-keep class com.miui.video.widget.StorageView { <init>(...); }
+
+# view res/layout/offline_loading.xml #generated:8
+# view res/layout/offline_media.xml #generated:8
+# view res/layout/offline_media_play_layout.xml #generated:8
+-keep class com.miui.video.widget.TitleView { <init>(...); }
+
+# view res/layout/user_head.xml #generated:10
+-keep class com.miui.video.widget.UserHeadImageView { <init>(...); }
+
+# view res/layout/channel_banner.xml #generated:6
+# view res/layout/online_video_header.xml #generated:10
+-keep class com.miui.video.widget.banner.BannerView { <init>(...); }
+
+# view res/layout/detail_info_view.xml #generated:60
+-keep class com.miui.video.widget.detail.ActorsView { <init>(...); }
+
+# view res/layout/detail_comment.xml #generated:43
+-keep class com.miui.video.widget.detail.DetailCommentReviewView { <init>(...); }
+
+# view res/layout/detail_scroll.xml #generated:54
+-keep class com.miui.video.widget.detail.DetailCommentView { <init>(...); }
+
+# view res/layout/detail_info_view.xml #generated:2
+-keep class com.miui.video.widget.detail.DetailInfoView { <init>(...); }
+
+# view res/layout/detail_scroll.xml #generated:36
+-keep class com.miui.video.widget.detail.DetailIntroduceView { <init>(...); }
+
+# view res/layout/detail_view.xml #generated:11
+-keep class com.miui.video.widget.detail.DetailPosterView { <init>(...); }
+
+# view res/layout/detail_scroll.xml #generated:45
+-keep class com.miui.video.widget.detail.DetailRecommendView { <init>(...); }
+
+# view res/layout/detail_scroll.xml #generated:2
+-keep class com.miui.video.widget.detail.DetailScrollView { <init>(...); }
+
+# view res/layout/media_detail.xml #generated:21
+-keep class com.miui.video.widget.detail.DetailView { <init>(...); }
+
+# view res/layout/detail_ep_item_variety.xml #generated:1
+-keep class com.miui.video.widget.detail.ep.DetailEpItemVariety { <init>(...); }
+
+# view res/layout/detail_ep_multy.xml #generated:2
+-keep class com.miui.video.widget.detail.ep.DetailEpMultyView { <init>(...); }
+
+# view res/layout/detail_ep_variety.xml #generated:2
+-keep class com.miui.video.widget.detail.ep.DetailEpVarietyView { <init>(...); }
+
+# view res/layout/detail_ep_variety.xml #generated:7
+-keep class com.miui.video.widget.detail.ep.DetailEpVarietyWrapper { <init>(...); }
+
+# view res/layout/detail_scroll.xml #generated:28
+-keep class com.miui.video.widget.detail.ep.DetailEpView { <init>(...); }
+
+# view res/layout/media_view_grid_h.xml #generated:17
+# view res/layout/media_view_grid_similar.xml #generated:17
+# view res/layout/media_view_grid_v.xml #generated:17
+# view res/layout/mixed_media_view.xml #generated:23
+# view res/layout/offline_loading_media_view.xml #generated:21
+-keep class com.miui.video.widget.media.MediaEditView { <init>(...); }
+
+# view res/layout/media_pager_view_h.xml #generated:43
+# view res/layout/media_pager_view_tv.xml #generated:43
+# view res/layout/media_pager_view_v.xml #generated:43
+-keep class com.miui.video.widget.media.MediaPagerTitle { <init>(...); }
+
+# view res/layout/online_video_item_h.xml #generated:6
+-keep class com.miui.video.widget.media.MediaPagerViewH { <init>(...); }
+
+# view res/layout/online_video_item_tv.xml #generated:6
+-keep class com.miui.video.widget.media.MediaPagerViewTv { <init>(...); }
+
+# view res/layout/online_video_item_v.xml #generated:6
+-keep class com.miui.video.widget.media.MediaPagerViewV { <init>(...); }
+
+# view res/layout/media_view_banner.xml #generated:6
+# view res/layout/media_view_category.xml #generated:7
+# view res/layout/media_view_feature.xml #generated:6
+# view res/layout/media_view_grid_h.xml #generated:6
+# view res/layout/media_view_grid_similar.xml #generated:6
+# view res/layout/media_view_grid_v.xml #generated:6
+# view res/layout/media_view_recommended_h.xml #generated:6
+# view res/layout/media_view_recommended_info_banner.xml #generated:6
+# view res/layout/media_view_recommended_v.xml #generated:6
+# view res/layout/mixed_media_view.xml #generated:11
+# view res/layout/mixed_media_view.xml #generated:6
+# view res/layout/offline_loading_media_view.xml #generated:15
+# view res/layout/offline_loading_media_view.xml #generated:6
+-keep class com.miui.video.widget.media.MediaPosterView { <init>(...); }
+
+# view res/layout/media_view_category.xml #generated:2
+-keep class com.miui.video.widget.media.MediaViewCategory { <init>(...); }
+
+# view res/layout/feature_list_item.xml #generated:10
+# view res/layout/feature_list_item.xml #generated:15
+-keep class com.miui.video.widget.media.MediaViewFeature { <init>(...); }
+
+# view res/layout/media_list_h.xml #generated:6
+# view res/layout/media_pager_view_h.xml #generated:16
+-keep class com.miui.video.widget.media.MediaViewGridH { <init>(...); }
+
+# view res/layout/media_classify_child_his.xml #generated:6
+-keep class com.miui.video.widget.media.MediaViewGridHis { <init>(...); }
+
+# view res/layout/media_list_tv.xml #generated:6
+# view res/layout/media_pager_view_tv.xml #generated:16
+-keep class com.miui.video.widget.media.MediaViewGridTv { <init>(...); }
+
+# view res/layout/media_classify_child_h.xml #generated:6
+# view res/layout/media_classify_child_v.xml #generated:6
+# view res/layout/media_list_v.xml #generated:6
+# view res/layout/media_pager_view_v.xml #generated:16
+# view res/layout/search_empty.xml #generated:39
+# view res/layout/search_recommend.xml #generated:72
+-keep class com.miui.video.widget.media.MediaViewGridV { <init>(...); }
+
+# view res/layout/media_view_h.xml #generated:6
+-keep class com.miui.video.widget.media.MediaViewImageH { <init>(...); }
+
+# view res/layout/media_view_his.xml #generated:6
+-keep class com.miui.video.widget.media.MediaViewImageHis { <init>(...); }
+
+# view res/layout/media_view_tv.xml #generated:6
+-keep class com.miui.video.widget.media.MediaViewImageTv { <init>(...); }
+
+# view res/layout/media_view_v.xml #generated:6
+-keep class com.miui.video.widget.media.MediaViewImageV { <init>(...); }
+
+# view res/layout/my_video_item.xml #generated:10
+# view res/layout/my_video_item.xml #generated:15
+-keep class com.miui.video.widget.media.MyVideoView { <init>(...); }
+
+# view res/layout/addon.xml #generated:7
+# view res/layout/channel.xml #generated:74
+# view res/layout/comment_review.xml #generated:28
+# view res/layout/home.xml #generated:8
+# view res/layout/info_channel.xml #generated:35
+-keep class com.miui.video.widget.pager.PagerView { <init>(...); }
+
+# view res/layout/viewpagerex.xml #generated:3
+-keep class com.miui.video.widget.pager.ViewPagerEx { <init>(...); }
+
+# view res/layout/media_view_grid_h.xml #generated:2
+# view res/layout/media_view_grid_similar.xml #generated:2
+# view res/layout/media_view_grid_v.xml #generated:2
+-keep class com.miui.video.widget.recommend.GridMediaView { <init>(...); }
+
+# view res/layout/history_time_title.xml #generated:2
+-keep class com.miui.video.widget.recommend.HistoryTimeTitleView { <init>(...); }
+
+# view res/layout/recommend_home_card_header.xml #generated:8
+-keep class com.miui.video.widget.recommend.MediaPagerTab { <init>(...); }
+
+# view res/layout/recommend_home_card_header.xml #generated:2
+-keep class com.miui.video.widget.recommend.MediaPagerTabHeader { <init>(...); }
+
+# view res/layout/recommend_card_title_header.xml #generated:2
+-keep class com.miui.video.widget.recommend.MediaPagerTitleHeader { <init>(...); }
+
+# view res/layout/media_view_feature.xml #generated:2
+-keep class com.miui.video.widget.recommend.MediaViewFeature { <init>(...); }
+
+# view res/layout/detail_recommend.xml #generated:24
+-keep class com.miui.video.widget.recommend.MediaViewRows { <init>(...); }
+
+# view res/layout/mixed_media_view.xml #generated:2
+-keep class com.miui.video.widget.recommend.MixedMediaView { <init>(...); }
+
+# view res/layout/offline_loading_media_view.xml #generated:2
+-keep class com.miui.video.widget.recommend.OfflineLoadingMediaView { <init>(...); }
+
+# view res/layout/offline_play_view.xml #generated:2
+-keep class com.miui.video.widget.recommend.OfflinePlayView { <init>(...); }
+
+# view res/layout/media_view_recommended_h.xml #generated:2
+# view res/layout/media_view_recommended_info_banner.xml #generated:2
+# view res/layout/media_view_recommended_v.xml #generated:2
+-keep class com.miui.video.widget.recommend.RecommendedMediaView { <init>(...); }
+
+# view res/layout/recommend_home_card_footer.xml #generated:2
+-keep class com.miui.video.widget.recommend.RecommendedPagerFooter { <init>(...); }
+
+# view res/layout/media_view_grid_tv.xml #generated:2
+-keep class com.miui.video.widget.recommend.TvMediaView { <init>(...); }
+
+# view res/layout/search_box_edit_text.xml #generated:3
+-keep class com.miui.video.widget.searchbox.EditTextIME { <init>(...); }
+
+# view res/layout/search.xml #generated:35
+-keep class com.miui.video.widget.searchbox.SearchBox { <init>(...); }
+
+# view res/layout/detail_episode_row.xml #generated:26
+# view res/layout/detail_episode_row.xml #generated:39
+# view res/layout/detail_episode_row.xml #generated:52
+-keep class com.miui.video.widget.statusbtn.StatusBtn { <init>(...); }
+
+# view AndroidManifest.xml #generated:275
+-keep class com.miui.videoplayer.VideoPlayerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:483
+-keep class com.miui.videoplayer.ads.AdsService { <init>(...); }
+
+# view res/layout/info_video_fragment.xml #generated:2
+# view res/layout/tv_player.xml #generated:2
+# view res/layout/vp_controller_view_new.xml #generated:2
+-keep class com.miui.videoplayer.controller.ControllerView { <init>(...); }
+
+# view res/layout/vp_video_fullscreen_layout.xml #generated:2
+-keep class com.miui.videoplayer.controller.FullScreenVideoController { <init>(...); }
+
+# view res/layout/vp_video_portrait_layout.xml #generated:2
+-keep class com.miui.videoplayer.controller.PortraitVideoController { <init>(...); }
+
+# view res/layout/vp_media_controller.xml #generated:48
+# view res/layout/vp_progress_bar_group.xml #generated:14
+-keep class com.miui.videoplayer.framework.views.DuoKanSeekbar { <init>(...); }
+
+# view res/layout/vp_video_fullscreen_layout.xml #generated:8
+-keep class com.miui.videoplayer.menu.Menu { <init>(...); }
+
+# view res/layout/vp_menu_view.xml #generated:2
+-keep class com.miui.videoplayer.menu.MenuView { <init>(...); }
+
+# view AndroidManifest.xml #generated:479
+-keep class com.miui.videoplayer.playservice.PlayService { <init>(...); }
+
+# view res/layout/vp_media_controller.xml #generated:2
+-keep class com.miui.videoplayer.widget.MediaController { <init>(...); }
+
+# view res/layout/tv_ctrl_view.xml #generated:11
+-keep class com.miui.videoplayer.widget.MenuView { <init>(...); }
+
+# view res/layout/vp_menu_item.xml #generated:2
+-keep class com.miui.videoplayer.widget.MenuViewNew { <init>(...); }
+
+# view res/layout/vp_airkan_playing.xml #generated:2
+-keep class com.miui.videoplayer.widget.MilinkView { <init>(...); }
+
+# view res/layout/vp_popup_offline_media.xml #generated:22
+-keep class com.miui.videoplayer.widget.OfflineStatusView { <init>(...); }
+
+# view res/layout/vp_select_source.xml #generated:2
+-keep class com.miui.videoplayer.widget.SelectSourceView { <init>(...); }
+
+# view res/layout/vp_status_bar.xml #generated:2
+-keep class com.miui.videoplayer.widget.StatusBar { <init>(...); }
+
+# view res/layout/vp_info_video_layout.xml #generated:30
+# view res/layout/vp_video_portrait_layout.xml #generated:28
+-keep class com.miui.videoplayer.widget.VideoProgressView { <init>(...); }
+
+# view AndroidManifest.xml #generated:471
+-keep class com.sohu.tv.news.ads.sdk.core.PadDetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:464
+-keep class com.sohuvideo.player.statistic.LogService { <init>(...); }
+
+# view AndroidManifest.xml #generated:447
+-keep class com.tvplayer.service.WebService { <init>(...); }
+
+# view AndroidManifest.xml #generated:487
+-keep class com.xiaomi.common.PriorityStorageBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:429
+-keep class com.xiaomi.mipush.sdk.MessageHandleService { <init>(...); }
+
+# view AndroidManifest.xml #generated:425
+-keep class com.xiaomi.mipush.sdk.PushMessageHandler { <init>(...); }
+
+# view AndroidManifest.xml #generated:417
+-keep class com.xiaomi.miui.pushads.sdk.MiPushRelayTraceService { <init>(...); }
+
+# view AndroidManifest.xml #generated:421
+-keep class com.xiaomi.push.service.XMPushService { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class org.teleal.cling.android.AndroidUpnpServiceImpl { <init>(...); }
+

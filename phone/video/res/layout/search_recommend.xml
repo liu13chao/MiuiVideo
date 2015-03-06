@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:scrollbars="none">
+	<LinearLayout 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<LinearLayout 
+		    android:id="@+id/search_recommended_words_root"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="@dimen/video_common_interval_20"
+		    android:layout_marginRight="@dimen/video_common_interval_20"
+		    android:layout_marginTop="@dimen/video_common_interval_30"
+		    android:orientation="vertical"
+		    android:background="@drawable/com_bg_white_corner">
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="@dimen/search_recommend_word_hint_height"
+		        android:layout_marginLeft="@dimen/video_common_interval_30"
+		        android:layout_marginBottom="@dimen/size_6"
+		        android:gravity="center_vertical"
+		        android:text="@string/search_recommend_word_hint"
+		        android:textColor="@color/orange"
+		        android:textSize="@dimen/font_size_42"/>
+		    <View 
+		        android:layout_width="match_parent"
+		        android:layout_height="@dimen/video_common_divider_height"
+		        android:layout_marginLeft="@dimen/video_common_interval_30"
+		        android:layout_marginRight="@dimen/video_common_interval_30"	        
+		        android:background="@color/p_10_black"/>
+	    	<com.miui.video.widget.SearchGridView
+	    	    android:id="@+id/search_recommend_word_view"
+	    	    android:layout_width="match_parent"
+	    	    android:layout_height="wrap_content"
+		        android:layout_marginLeft="@dimen/video_common_interval_30"
+		        android:layout_marginRight="@dimen/video_common_interval_30"
+	    	    android:layout_marginTop="@dimen/video_common_interval_30"
+	    	    android:layout_marginBottom="@dimen/video_common_interval_40"/>	    
+		</LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/search_recommend_media"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="@dimen/video_common_interval_20"
+		    android:layout_marginRight="@dimen/video_common_interval_20"	    
+		    android:layout_marginTop="@dimen/video_common_interval_21"
+		    android:layout_marginBottom="@dimen/video_common_interval_30"
+		    android:orientation="vertical"
+		    android:background="@drawable/com_bg_white_corner" >
+
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="@dimen/search_recommend_word_hint_height"
+	            android:layout_marginBottom="@dimen/size_6"
+	            android:layout_marginLeft="@dimen/video_common_interval_30"
+	            android:gravity="center_vertical"
+	            android:text="@string/search_recommend_media_hint"
+	            android:textColor="@color/orange"
+	            android:textSize="@dimen/font_size_42" />
+
+		    <View 
+		        android:layout_width="match_parent"
+		        android:layout_height="@dimen/video_common_divider_height"
+		        android:layout_marginLeft="@dimen/video_common_interval_30"
+		        android:layout_marginRight="@dimen/video_common_interval_30"	        
+		        android:background="@color/p_10_black"/>        
+	        <com.miui.video.widget.media.MediaViewGridV
+	       		android:id="@+id/search_recommend_media_view_grid"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+		        android:layout_marginLeft="@dimen/video_common_interval_30"
+		        android:layout_marginRight="@dimen/video_common_interval_30"
+	    	    android:layout_marginTop="@dimen/video_common_interval_30"
+	    	    android:layout_marginBottom="@dimen/video_common_interval_30" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

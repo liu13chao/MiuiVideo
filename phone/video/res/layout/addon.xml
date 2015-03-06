@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true" >
+    
+	<com.miui.video.widget.pager.PagerView
+	    android:id="@+id/addon_pager_view" 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="@dimen/addon_pager_view_top_margin">
+	</com.miui.video.widget.pager.PagerView>
+	
+    <include
+        android:id="@+id/title_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_common_title_top_height" 
+        layout="@layout/title_top"/>
+</RelativeLayout>

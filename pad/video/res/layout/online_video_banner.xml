@@ -1,0 +1,49 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    
+    <com.miui.video.widget.reflect.ReflectedView
+        android:id="@+id/online_banner_reflected_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <RelativeLayout
+        android:id="@+id/online_banner_category_wrapper" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/online_video_banner_top_margin" >
+        <TextView
+	        android:id="@+id/online_banner_category_name" 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/online_video_banner_name_top_margin"
+	        android:gravity="center_vertical"
+	        android:textSize="@dimen/font_size_17"
+	        android:textColor="@color/white"
+	        android:text="@string/app_name"/>    
+	    <Button
+	        android:id="@+id/online_banner_btn_more"
+	        android:layout_width="@dimen/online_video_item_btn_width"
+	        android:layout_height="@dimen/online_video_item_btn_height"
+	        android:layout_marginRight="@dimen/online_video_banner_btn_right_margin"
+	        android:layout_marginTop="@dimen/online_video_banner_btn_top_margin"
+	        android:layout_alignParentRight="true"
+	        android:gravity="center"
+	        android:background="@drawable/btn_online_video"
+	        android:textColor="@color/p_60_white"
+	        android:textSize="@dimen/font_size_13"
+	        android:text="@string/more" />  
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/video_divider_height"
+	        android:layout_marginTop="@dimen/online_video_banner_divider_top_margin"
+	        android:background="@drawable/divider_bg_20" />
+	    <com.miui.video.widget.media.MediaViewRow
+	        android:id="@+id/online_banner_category_media_row"
+	        android:layout_marginTop="@dimen/online_video_banner_row_top_margin" 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+   	</RelativeLayout>
+    
+</RelativeLayout>

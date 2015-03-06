@@ -1,0 +1,43 @@
+<com.miui.video.widget.detail.ep.DetailEpItemVariety xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/detail_variety_item_height">
+
+    <ImageView
+        android:id="@+id/detail_variety_item_poster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/size_51"
+        android:background="@drawable/com_btn_play"
+        android:contentDescription="@string/app_name" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_common_divider_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/com_10_black" />
+
+    <TextView
+        android:id="@+id/detail_variety_item_data"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_106"
+        android:layout_marginLeft="@dimen/video_common_interval_50"
+        android:layout_toRightOf="@id/detail_variety_item_poster"
+        android:gravity="bottom"
+        android:textIsSelectable="false"
+        android:textSize="@dimen/font_size_46" />
+
+    <TextView
+        android:id="@+id/detail_variety_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/line"
+        android:layout_below="@id/detail_variety_item_data"
+        android:layout_marginLeft="@dimen/video_common_interval_50"
+        android:layout_marginRight="@dimen/size_51"
+        android:layout_toRightOf="@id/detail_variety_item_poster"
+        android:textIsSelectable="false"
+        android:textSize="@dimen/font_size_46" />
+
+</com.miui.video.widget.detail.ep.DetailEpItemVariety>

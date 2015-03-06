@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.video.widget.recommend.RecommendedMediaView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/cover_info_banner_width"
+    android:layout_height="wrap_content" >
+
+    <com.miui.video.widget.media.MediaPosterView
+        android:id="@+id/poster"
+        android:layout_width="@dimen/cover_info_banner_width"
+        android:layout_height="@dimen/cover_info_banner_height" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/poster_mask_h" />
+
+        <include layout="@layout/media_view_status" />
+    </com.miui.video.widget.media.MediaPosterView>
+
+    <TextView
+        android:id="@+id/info_name"
+        android:layout_below="@+id/poster"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_112"
+        android:ellipsize="end"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/info_channel_recommend_subtitle_padding_left"
+        android:maxLines="1"
+        android:textColor="@color/color_text"
+        android:textSize="@dimen/text_size_normal" />
+
+</com.miui.video.widget.recommend.RecommendedMediaView>

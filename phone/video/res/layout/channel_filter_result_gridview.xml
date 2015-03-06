@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.miui.video.widget.HeaderGridView
+        android:id="@+id/channel_filter_result_filters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/video_common_interval_21"
+        android:horizontalSpacing="@dimen/size_16"
+        android:numColumns="3"
+        android:verticalSpacing="@dimen/video_common_interval_20" >
+    </com.miui.video.widget.HeaderGridView>
+
+</LinearLayout>

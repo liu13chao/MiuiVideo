@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- media size per row start -->
+    <integer name="banner_size_per_row">2</integer>
+    <integer name="video_size_per_row">4</integer>
+    <integer name="detail_size_per_row">4</integer>
+    <integer name="local_size_per_row">4</integer>
+    <!-- media size per row end -->
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/detail_review_list_comment"
+        android:layout_width="0dip"
+        android:layout_height="@dimen/detail_review_list_foot_height"
+        android:layout_marginTop="@dimen/detail_review_list_foot_top_margin"
+        android:layout_weight="1"
+        android:textSize="@dimen/detail_review_btn_font_size"
+        android:textColor="@color/p_80_black"
+        android:text="@string/write_comment"
+        android:background="@drawable/btn_detail_comment_left"
+        style="?android:attr/buttonBarButtonStyle" />
+    <Button
+        android:id="@+id/detail_review_list_more_comment"
+        android:layout_width="0dip"
+        android:layout_height="@dimen/detail_review_list_foot_height"
+        android:layout_marginTop="@dimen/detail_review_list_foot_top_margin"
+        android:layout_weight="1"
+        android:textSize="@dimen/detail_review_btn_font_size"
+        android:textColor="@color/p_80_black"
+        android:text="@string/see_all_count_comment"
+        android:background="@drawable/btn_detail_comment_right"
+        style="?android:attr/buttonBarButtonStyle" />
+</LinearLayout>

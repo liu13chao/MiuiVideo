@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.video.widget.detail.DetailScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detail_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include
+            android:layout_width="match_parent" 
+            android:layout_height="@dimen/detail_scroll_info_height"
+            android:layout_marginBottom="@dimen/video_common_interval_30"
+            android:layout_marginLeft="@dimen/video_common_left_margin_49"
+            android:layout_marginRight="@dimen/video_common_right_margin_49"
+            layout="@layout/detail_info_view"/>
+
+        <LinearLayout
+            android:paddingTop="@dimen/video_common_interval_30"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/com_bg_gray"
+            android:orientation="vertical" >
+
+            <com.miui.video.widget.detail.ep.DetailEpView
+                android:id="@+id/detail_ep_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/video_common_interval_20"
+                android:layout_marginRight="@dimen/video_common_interval_20"
+                android:layout_marginBottom="@dimen/video_common_interval_21" />
+
+            <com.miui.video.widget.detail.DetailIntroduceView
+                android:id="@+id/detail_introduce_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/video_common_interval_20"
+                android:layout_marginRight="@dimen/video_common_interval_20"
+                android:layout_marginBottom="@dimen/video_common_interval_21"
+                android:background="@drawable/com_bg_white_corner" />
+
+            <com.miui.video.widget.detail.DetailRecommendView
+                android:id="@+id/detail_recommend_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/video_common_interval_20"
+                android:layout_marginRight="@dimen/video_common_interval_20"
+                android:layout_marginBottom="@dimen/video_common_interval_21"
+                android:background="@drawable/com_bg_white_corner" />
+
+            <com.miui.video.widget.detail.DetailCommentView
+                android:id="@+id/detail_comment_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/video_common_interval_20"
+                android:layout_marginRight="@dimen/video_common_interval_20"
+                android:layout_marginBottom="@dimen/video_common_interval_21"
+                android:background="@drawable/com_bg_white_corner" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/video_common_interval_57" />
+    </LinearLayout>
+
+</com.miui.video.widget.detail.DetailScrollView>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/detail_scroll_item_title_height"
+        android:layout_marginLeft="@dimen/video_common_interval_30"
+        android:layout_marginRight="@dimen/video_common_interval_30"
+        android:layout_marginBottom="@dimen/size_6"
+        android:gravity="center"
+        android:text="@string/similar"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/font_size_42"
+        android:textIsSelectable="false"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_common_divider_height"
+        android:layout_marginLeft="@dimen/video_common_interval_30"
+        android:layout_marginRight="@dimen/video_common_interval_30"
+        android:background="@drawable/com_10_black" />
+    <com.miui.video.widget.recommend.MediaViewRows
+        android:id="@+id/detail_recommend_media"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/video_common_interval_30"
+        android:layout_marginRight="@dimen/video_common_interval_30"
+        android:layout_marginTop="@dimen/video_common_interval_30"
+        android:layout_marginBottom="@dimen/video_common_interval_57"/>
+</LinearLayout>

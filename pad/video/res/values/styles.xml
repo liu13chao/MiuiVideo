@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="ListViewStyle" parent="@android:style/Widget.ListView">
+        <item name="android:divider">@null</item>
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:listSelector">@color/transparent</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+    <style name="SearchEditTextStyle" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/transparent</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_dark</item>
+        <item name="android:textColor">@color/p_90_white</item>
+        <item name="android:textColorHint">@color/p_30_white</item>
+        <item name="android:textSize">@dimen/font_size_13</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">flagNoExtractUi|actionSearch</item>
+    </style>
+    
+    <style name="NormalProgressStyle" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDrawable">@drawable/loading_rotate</item>
+        <item name="android:background">@drawable/loading_bg_solid</item>
+    </style>
+    <style name="BlackProgressStyle" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDrawable">@drawable/loading_rotate_black</item>
+        <item name="android:background">@drawable/loading_bg_black_solid</item>
+    </style>
+    <style name="BlackSmallProgressStyle" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDrawable">@drawable/loading_rotate_black_small</item>
+        <item name="android:background">@drawable/loading_bg_black_solid_small</item>
+    </style>
+</resources>

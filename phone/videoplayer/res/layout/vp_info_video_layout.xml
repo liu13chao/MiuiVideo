@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/info_video_portrait"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/info_video_controller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/vp_info_video_start"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/info_video_orientation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/vp_ctrl_media_info_orientation_padding"
+            android:layout_marginBottom="@dimen/vp_ctrl_media_info_orientation_padding"
+            android:src="@drawable/vp_info_video_orientation"
+            android:visibility="invisible" />
+
+        <com.miui.videoplayer.widget.VideoProgressView
+            android:id="@+id/info_video_progress"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/vp_ctrl_media_info_progress_height"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/vp_media_controller"/>
+    
+</FrameLayout>

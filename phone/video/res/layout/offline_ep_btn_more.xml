@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/media_page_bg_mid"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/offline_ep_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_scroll_item_btn_height"
+        android:layout_marginBottom="@dimen/size_26"
+        android:layout_marginLeft="@dimen/video_common_interval_30"
+        android:layout_marginRight="@dimen/video_common_interval_30"
+        android:layout_marginTop="@dimen/video_common_interval_30"
+        android:background="@drawable/com_btn_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/all_ep"
+        android:textColor="@color/text_color_deep_dark"
+        android:textSize="@dimen/text_size_normal" />
+
+</LinearLayout>

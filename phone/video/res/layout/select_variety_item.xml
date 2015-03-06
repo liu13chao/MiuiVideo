@@ -1,0 +1,11 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <include
+        android:id="@+id/select_variety_item_variety"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_variety_item_height"
+        layout="@layout/detail_ep_item_variety" />
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/vp_common_menu_title_gap"
+        android:layout_marginTop="@dimen/vp_common_menu_title_marginV"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/vp_menu_popup_settings_item_margin_left"
+            android:drawableLeft="@drawable/vp_adjust_volume"
+            android:drawablePadding="@dimen/vp_menu_popup_settings_icon_drawble_padding"
+            android:text="@string/vp_audio"
+            android:textColor="@color/vp_70_white"
+            android:textSize="@dimen/vp_text_size_36" />
+
+        <SeekBar
+            android:id="@+id/audio_seek_bar"
+            android:layout_width="@dimen/vp_menu_popup_settings_seekbar_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/vp_menu_popup_settings_seekbar_margin_left"
+            android:max="100"
+            android:maxHeight="@dimen/vp_menu_popup_settings_seekbar_height"
+            android:minHeight="@dimen/vp_menu_popup_settings_seekbar_height"
+            android:paddingLeft="@dimen/vp_menu_popup_settings_seekbar_padding_left"
+            android:paddingRight="@dimen/vp_menu_popup_settings_seekbar_padding_right"
+            android:progressDrawable="@drawable/vp_seekbar_progress"
+            android:thumb="@drawable/vp_vertical_progressbar_thumb_v5"
+            android:thumbOffset="@dimen/vertical_seekbar_thumb_offset" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/vp_common_menu_title_marginV"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/vp_menu_popup_settings_item_margin_left"
+            android:drawableLeft="@drawable/vp_adjust_brightness"
+            android:drawablePadding="@dimen/vp_menu_popup_settings_icon_drawble_padding"
+            android:text="@string/vp_brightness"
+            android:textColor="@color/vp_70_white"
+            android:textSize="@dimen/vp_text_size_36" />
+
+        <SeekBar
+            android:id="@+id/brightness_seek_bar"
+            android:layout_width="@dimen/vp_menu_popup_settings_seekbar_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/vp_menu_popup_settings_seekbar_margin_left"
+            android:max="100"
+            android:maxHeight="@dimen/vp_menu_popup_settings_seekbar_height"
+            android:minHeight="@dimen/vp_menu_popup_settings_seekbar_height"
+            android:paddingLeft="@dimen/vp_menu_popup_settings_seekbar_padding_left"
+            android:paddingRight="@dimen/vp_menu_popup_settings_seekbar_padding_right"
+            android:progressDrawable="@drawable/vp_seekbar_progress"
+            android:thumb="@drawable/vp_vertical_progressbar_thumb_v5"
+            android:thumbOffset="@dimen/vertical_seekbar_thumb_offset" />
+    </LinearLayout>
+
+</LinearLayout>

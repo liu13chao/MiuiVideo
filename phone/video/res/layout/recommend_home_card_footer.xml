@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.video.widget.recommend.RecommendedPagerFooter xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/recommend_home_card_space"
+        android:background="@drawable/media_page_bg_bottom"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/recommend_home_card_footer_padding_bottom"
+        android:paddingLeft="@dimen/recommend_card_padding"
+        android:paddingRight="@dimen/recommend_card_padding" >
+
+        <TextView
+            android:id="@+id/media_pager_btn_more"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/recommend_home_card_more_btn_height"
+            android:background="@drawable/com_btn_bg"
+            android:gravity="center"
+            android:text="@string/more"
+            android:textColor="@color/color_text"
+            android:textSize="@dimen/text_size_normal" />
+    </LinearLayout>
+</com.miui.video.widget.recommend.RecommendedPagerFooter>

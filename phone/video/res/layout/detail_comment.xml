@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_scroll_item_title_height"
+        android:layout_marginLeft="@dimen/video_common_interval_30"
+        android:layout_marginRight="@dimen/video_common_interval_30">
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:layout_centerVertical="true"
+	        android:paddingBottom="@dimen/size_6"
+	        android:text="@string/comment"
+	        android:textColor="@color/orange"
+	        android:textSize="@dimen/font_size_42"
+	        android:textIsSelectable="false"/>  
+	    <TextView
+	        android:id="@+id/detail_comment_write"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="@dimen/detail_comment_write_btn_paddingH"
+	        android:paddingRight="@dimen/detail_comment_write_btn_paddingH"
+	        android:paddingTop="@dimen/detail_comment_write_btn_paddingV"
+	        android:paddingBottom="@dimen/detail_comment_write_btn_paddingV"
+	        android:layout_alignParentRight="true"		        	        
+	        android:layout_centerVertical="true"
+	        android:text="@string/write_comment"
+	        android:textColor="@color/p_50_black"
+	        android:textSize="@dimen/font_size_36"
+	        android:background="@drawable/com_btn_bg"
+	        android:textIsSelectable="false"/>	              
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_common_divider_height"
+        android:layout_marginLeft="@dimen/video_common_interval_30"
+        android:layout_marginRight="@dimen/video_common_interval_30"
+        android:background="@drawable/com_10_black" />
+    <com.miui.video.widget.detail.DetailCommentReviewView
+       android:id="@+id/detail_comment_review"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="@dimen/video_common_interval_30"
+       android:layout_marginRight="@dimen/video_common_interval_30"/>
+	<TextView 
+	    android:id="@+id/detail_comment_btn"
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/detail_scroll_item_btn_height"
+        android:layout_marginLeft="@dimen/video_common_interval_30"
+        android:layout_marginRight="@dimen/video_common_interval_30"
+        android:layout_marginTop="@dimen/video_common_interval_30"
+        android:layout_marginBottom="@dimen/video_common_interval_30"         	    	    
+	    android:textColor="@color/p_80_black"
+	    android:textSize="@dimen/font_size_42"
+	    android:background="@drawable/com_btn_bg"
+	    android:gravity="center"
+	    android:clickable="true"
+	    android:text="@string/all_ep"/>        
+</LinearLayout>

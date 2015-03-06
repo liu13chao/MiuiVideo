@@ -1,0 +1,44 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true" >
+    
+    <FrameLayout 
+        android:id="@+id/title_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/feature_media_title_left_margin"
+        android:layout_marginTop="@dimen/feature_media_title_top_margin">
+        <include layout="@layout/title_top"/>
+    </FrameLayout>
+    
+    <com.miui.video.widget.TextViewFocus
+        android:id="@+id/feature_media_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/feature_media_name_left_margin"
+        android:layout_marginTop="@dimen/feature_media_name_top_margin"
+        android:textSize="@dimen/font_size_15"
+        android:textColor="@color/white"
+        android:text="@string/app_name"
+        android:singleLine="true" 
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever" />
+
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_divider_height"
+        android:layout_marginLeft="@dimen/video_common_left_margin"
+        android:layout_marginRight="@dimen/video_common_right_margin"
+        android:layout_marginTop="@dimen/feature_media_divider_top_margin"
+        android:background="@drawable/divider_bg_10"/>
+    
+    <com.miui.video.widget.LoadingListView
+        android:id="@+id/feature_media_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/video_common_left_margin"
+        android:layout_marginRight="@dimen/video_common_right_margin"
+        android:layout_marginTop="@dimen/feature_media_list_top_margin" />
+</RelativeLayout>

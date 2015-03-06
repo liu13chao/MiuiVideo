@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:miui="http://schemas.android.com/apk/res/miui"
+    package="com.miui.video"
+	android:versionCode="2013091710"
+	android:versionName="3.9.17" >
+
+    <uses-sdk android:minSdkVersion="15" />
+<!--<permission 
+        android:name="com.miui.video.permission.pushwatermark"
+        android:protectionLevel="normal" ></permission>  
+    <permission 
+        android:name="com.miui.video.permission.readwatermark"
+        android:protectionLevel="normal" ></permission> -->
+
+    <application
+        android:name=".DKApp"
+        android:largeHeap="true">
+        
+	    <meta-data android:name="Test"  android:value="true" />
+	    <meta-data android:name="ShowTv"  android:value="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/home_menu_bg">
+    <FrameLayout
+	    android:id="@+id/popup_menu_setting"         
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_pop_window_item_height"
+        android:clickable="true"
+        android:background="@drawable/com_list_selector_bg">
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:drawableLeft="@drawable/icon_menu_setting"
+	        android:drawablePadding="@dimen/video_common_interval_34"
+	        android:textSize="@dimen/font_size_42"
+	        android:textColor="@color/black"
+	        android:text="@string/setting"/>        
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_common_divider_height"
+        android:background="@drawable/com_10_black"/>
+    <FrameLayout
+	    android:id="@+id/popup_menu_about"  
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_pop_window_item_height"
+        android:clickable="true"
+        android:background="@drawable/com_list_selector_bg">
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:drawableLeft="@drawable/icon_menu_about"
+	        android:drawablePadding="@dimen/video_common_interval_34"
+	        android:textSize="@dimen/font_size_42"
+	        android:textColor="@color/black"	        
+	        android:text="@string/about"/>        
+    </FrameLayout>
+</LinearLayout>

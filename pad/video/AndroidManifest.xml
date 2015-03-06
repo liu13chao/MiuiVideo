@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:miui="http://schemas.android.com/apk/res/miui"
+    package="com.miui.video"
+	android:versionCode="2014082616"
+	android:versionName="4.8.26" >
+
+    <uses-sdk android:minSdkVersion="16" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    
+    <uses-permission android:name="com.xiaomi.permission.CLOUD_MANAGER" />
+    
+    <permission android:name="com.miui.video.permission.MIPUSH_RECEIVE"
+        		android:protectionLevel="signatureOrSystem" />
+    <uses-permission android:name="com.miui.video.permission.MIPUSH_RECEIVE" />
+    
+<!--<permission 
+        android:name="com.miui.video.permission.pushwatermark"
+        android:protectionLevel="normal" ></permission>  
+    <permission 
+        android:name="com.miui.video.permission.readwatermark"
+        android:protectionLevel="normal" ></permission> -->
+
+    <application
+        android:name=".DKApp"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/DefaultTheme"
+        android:largeHeap="true" >
+        
+	    <meta-data android:name="Test"  android:value="true" />
+	    <meta-data android:name="ShowTv"  android:value="true" />
+	    
+	    <service android:name="org.teleal.cling.android.AndroidUpnpServiceImpl" />
+	     
+	    <activity
+            android:name=".HomeActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+	    </activity>
+	    
+	    <activity 
+	        android:name=".ChannelActivity"
+	        android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+	        android:windowSoftInputMode="adjustPan" >
+	    </activity>
+        	    
+	    <activity 
+	        android:name=".MyFavoriteActivity"
+	        android:configChanges="orientation|keyboard|keyboardHidden|screenSize" >
+	    </activity>
+	    
+	    <activity 
+	        android:name=".SearchResultActivity"
+	        android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+	        android:windowSoftInputMode="adjustPan" >
+	    </activity>
+	    
+	    <activity 
+	        android:name=".FeatureListActivity"
+	        android:configChanges="orientation|keyboard|keyboardHidden|screenSize">
+	    </activity>
+	    
+	    <activity 
+	        android:name=".FeatureMediaActivity"
+	        android:configChanges="orientation|keyboard|keyboardHidden|screenSize">
+	    </activity>
+	    
+	    <activity 
+	        android:name=".WebMediaActivity"
+	        android:configChanges="orientation|keyboard|keyboardHidden|screenSize" >
+	    </activity>
+	    
+	    <activity 
+	        android:name=".OpenHtml5ForAdsActivity"
+	        android:configChanges="orientation|keyboard|keyboardHidden|screenSize" >
+	    </activity>	
+	    
+	    <activity 
+	        android:name=".tv.TvChannelActivity"
+	        android:configChanges="orientation|keyboard|keyboardHidden|screenSize">
+	    </activity>
+	    
+	    <activity 
+	        android:name=".tv.TvPlayerActivity"
+	        android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+	        android:theme="@style/DefaultTheme" >
+	    </activity>
+	    
+	    <activity 
+	        android:name=".SettingActivity">
+	    	<intent-filter android:priority="80">
+         		<action android:name="miui.intent.action.APP_SETTINGS"/>
+			</intent-filter>
+	    </activity>
+	    
+	    <!-- dialog start -->
+	    <activity 
+	        android:name=".dialog.CommentEditDialog"
+	        android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+	        android:theme="@style/DefaultDialogTheme">
+	    </activity>
+	    
+	    <activity 
+	        android:name=".dialog.CommentReviewDialog"
+	        android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+	        android:theme="@style/DefaultDialogTheme"
+	        android:windowSoftInputMode="adjustResize">
+	    </activity>
+	    
+	     <activity 
+	        android:name=".dialog.DownloadSelectDialog"
+	        android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+	        android:theme="@style/DefaultDialogTheme">
+	    </activity>
+	    
+	    <activity 
+	        android:name=".dialog.OfflineMediaDetailDialog"
+	        android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+	        android:theme="@style/DefaultDialogTheme">
+	    </activity>
+	    
+	     <activity 
+	        android:name=".dialog.LocalDetailDialog"
+	        android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+	        android:theme="@style/DefaultDialogTheme">
+	    </activity>
+	    
+	     <activity 
+	        android:name=".dialog.ShareDLNAMediaDialog"
+	        android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+	        android:theme="@style/DefaultDialogTheme">
+	    </activity>
+	    
+	     <activity 
+	        android:name=".dialog.MediaDetailDialogFragment"
+	        android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+	        android:exported="true"
+	        android:theme="@style/DefaultDialogTheme"
+	        android:windowSoftInputMode="adjustResize">
+	    </activity>
+	    <!-- dialog end -->
+        
+        <activity
+            android:name="com.miui.videoplayer.VideoPlayerActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/DefaultFullscreenTheme"
+            android:launchMode="singleInstance"
+            android:process="com.miui.videoplayer"
+            android:screenOrientation="fullSensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="rtsp" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="video/mpeg4" />
+                <data android:mimeType="video/mp4" />
+                <data android:mimeType="video/3gp" />
+                <data android:mimeType="video/3gpp" />
+                <data android:mimeType="video/3gpp2" />
+                <data android:mimeType="video/webm" />
+                <data android:mimeType="video/3g2b" />
+                <data android:mimeType="video/m4v"/>
+               	<data android:mimeType="video/avi"/>
+                
+                <data android:mimeType="video/x-flv" />
+                <data android:mimeType="video/x-matroska" />
+                <data android:mimeType="video/quicktime" />
+                <data android:mimeType="video/MP2T" />
+                <data android:mimeType="video/mpeg" />
+                <data android:mimeType="video/x-msvideo" />
+                <data android:mimeType="video/x-ms-wmv" />
+                <data android:mimeType="video/x-ms-asf" />
+                <data android:mimeType="video/x-pn-realvideo"/>
+                <data android:mimeType="application/sdp" />
+                
+                <data android:mimeType="video/mp2p"/>
+                <data android:mimeType="video/mp2ts"/>
+                <data android:mimeType="video/x-matroska"/>
+            </intent-filter>
+            <intent-filter>
+                <!-- HTTP live support -->
+
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data android:mimeType="audio/x-mpegurl" />
+                <data android:mimeType="audio/mpegurl" />
+                <data android:mimeType="application/vnd.apple.mpegurl" />
+                <data android:mimeType="application/x-mpegurl" />
+            </intent-filter>
+            
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:host="*" />
+                <!-- 
+                    <data android:scheme="ftp" />
+	                <data android:scheme="rtsp" />
+	                <data android:scheme="rtmp" />
+	                <data android:scheme="mms" />
+	                <data android:scheme="tcp" />
+	                <data android:scheme="udp" />
+	                <data android:scheme="gopher" />
+	                <data android:pathPattern=".*\\.avi" />
+	                <data android:pathPattern=".*\\.asf" />
+	                <data android:pathPattern=".*\\.f4v" />
+	                <data android:pathPattern=".*\\.flv" />
+	                <data android:pathPattern=".*\\.mkv" />
+	                <data android:pathPattern=".*\\.mpeg" />
+	                <data android:pathPattern=".*\\.mpg" />
+	                <data android:pathPattern=".*\\.mov" />
+	                <data android:pathPattern=".*\\.rm" />
+	                <data android:pathPattern=".*\\.vob" />
+	                <data android:pathPattern=".*\\.wmv" />
+	                <data android:pathPattern=".*\\.ts" />
+	                <data android:pathPattern=".*\\.tp" />
+	                <data android:pathPattern=".*\\.m4v" />
+	                <data android:pathPattern=".*\\.mp4" />
+	                 <data android:pathPattern=".*\\.m3u" />
+                 -->
+                <data android:mimeType="application/octet-stream" android:pathPattern=".*\\.VOB"/>
+                <data android:mimeType="application/octet-stream" android:pathPattern=".*\\.vob"/>
+                <data android:pathPattern=".*\\.m3u8" />
+               
+            </intent-filter>
+             <intent-filter>
+                <!-- DuoKanVideo intent filter -->
+                <action android:name="duokan.intent.action.VIDEO_PLAY" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme=""/>
+                <data android:scheme="file" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <!-- DuoKanVideo intent filter -->
+                <action android:name="duokan.intent.action.VIDEO_PLAY" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="content" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DuoKanTempMediaListActivity"
+            android:label="@string/app_name" >
+            <!-- 
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+             -->
+           
+        </activity>
+          <activity
+            android:name=".DuoKanTempPlayHistoryListActivity">
+        </activity>
+        
+        <!-- media url for player start -->
+        <provider 
+            android:exported="true"
+            android:name="com.miui.video.db.MediaInfoForPlayerProvider"
+            android:authorities="com.miui.video.provider.MediaInfoForPlayerProvider">
+        </provider>
+        <!-- media url for player end -->
+        
+        <!-- MiPush start -->
+        <service
+            android:enabled="true"
+            android:exported="false"
+            android:name="com.xiaomi.miui.pushads.sdk.MiPushRelayTraceService"/>
+        
+        <service
+  			android:enabled="true"
+  			android:process=":pushservice"
+  			android:name="com.xiaomi.push.service.XMPushService"/>
+		<service
+  			android:enabled="true"
+  			android:exported="true"
+  			android:name="com.xiaomi.mipush.sdk.PushMessageHandler" />
+		
+        <service android:enabled="true"
+            android:name="com.xiaomi.mipush.sdk.MessageHandleService" />
+        
+		<receiver
+  			android:exported="true"
+  			android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver" >
+  			<intent-filter>
+    			<action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+    			<category android:name="android.intent.category.DEFAULT" />
+  			</intent-filter>
+		</receiver>
+		<receiver
+  			android:exported="false"
+  			android:process=":pushservice"
+  			android:name="com.xiaomi.push.service.receivers.PingReceiver" >
+  			<intent-filter>
+    		<action android:name="com.xiaomi.push.PING_TIMER" />
+  			</intent-filter>
+		</receiver>
+		
+		<receiver
+  			android:exported="true"
+  			android:name="com.miui.video.mipush.MediaPushMessageReceiver">
+  			<intent-filter>
+    			<action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+  			</intent-filter>
+  			<intent-filter>
+    			<action android:name="com.xiaomi.mipush.ERROR" />
+  			</intent-filter>
+		</receiver>
+        <!-- MiPush end -->
+        
+        <!-- tv start -->
+        <service android:name="com.tvplayer.service.WebService" 
+            android:exported="false">
+            <intent-filter >
+                <action android:name="com.tvplayer.service.WebService"/>
+            </intent-filter>
+        </service>
+        <!-- tv end -->
+
+		<receiver android:name="PriorityStorageBroadcastReceiver"
+			android:enabled="false">
+			<intent-filter>
+				<action android:name="miui.intent.action.PRIORITY_STORAGE" />
+			</intent-filter>
+			<meta-data
+			    android:name="miui.intent.extra.PRIORITY_STORAGE_KILL_APP"
+			    android:value="1" />
+		</receiver>
+		
+    </application>
+</manifest>

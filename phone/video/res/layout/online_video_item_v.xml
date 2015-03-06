@@ -1,0 +1,15 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <com.miui.video.widget.media.MediaPagerViewV
+	    android:id="@+id/online_video_media_pager_view" 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/video_common_interval_13"
+        android:layout_marginRight="@dimen/video_common_interval_13"/>
+	<View 
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/video_common_interval_20"/>
+</LinearLayout>

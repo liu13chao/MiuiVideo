@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/com_bg_white"
+    android:fitsSystemWindows="true" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/com_bg_gray" />
+
+    <include
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_bottom_bar_height"
+        android:layout_alignParentBottom="true"
+        layout="@layout/detail_bottom" />
+
+    <com.miui.video.widget.detail.DetailView
+        android:id="@+id/detail_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_bar"
+        android:layout_below="@id/title_top"
+        android:layout_marginTop="@dimen/page_title_offset"
+        android:background="@drawable/transparent" />
+
+    <include
+        android:id="@+id/title_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mediadetail_selectsource_item_height"
+        layout="@layout/detail_title_top" />
+
+</RelativeLayout>

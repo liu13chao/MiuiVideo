@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="low_translucent">#9000</color>
+    <color name="full_translucent">#0000</color>
+    <color name="vp_white">#ffffff</color>
+    <color name="vp_select_color">#f95f22</color>
+    <color name="vp_black">#000000</color>
+    <color name="vp_ad_darkred">#ff4444</color>
+    <color name="option_menu_background">#282828</color>
+    <color name="option_menu_list_view_divider">#484848</color>
+    <color name="line_stroke_color">#26FFFFFF</color>
+    <color name="control_list_view_divider">#484848</color>
+    <color name="airkan_devices_selection_list_view_divider_v5">#21FFFFFF</color>
+    <color name="option_menu_listview_textview_text_color_v5">#B2000000</color>
+    <color name="vp_divider">#515151</color>
+    <color name="vp_color_pressed_yellow">#ffcc00</color>
+    
+    <color name="vp_white_30">#48ffffff</color>
+    <color name="vp_white_70">#C8ffffff</color>
+        
+    <!-- ********************************分割线******************************* -->
+    
+    
+    <!-- drawable start -->
+    <drawable name="vp_transparent">#00FFFFFF</drawable>
+    <!-- drawable end -->
+    
+ 	<!-- color start -->
+    <color name="vp_90_white">#e6ffffff</color>
+    <color name="vp_80_white">#ccffffff</color>
+    <color name="vp_70_white">#b3ffffff</color>
+    <color name="vp_50_white">#7fffffff</color>
+    <color name="vp_30_white">#4cffffff</color>
+    <color name="vp_06_white">#10ffffff</color>
+    <color name="vp_03_white">#08ffffff</color>
+    <color name="vp_90_blue">#e60096ff</color>
+    <color name="vp_30_blue">#4c0096ff</color>
+    <!-- color end -->
+    
+    <color name="vp_source_item_text_color">#E5999999</color>
+    <color name="vp_source_item_text_color_selected">#FF0096FF</color>
+</resources>

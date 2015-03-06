@@ -1,0 +1,129 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+-ignorewarnings
+
+-keepattributes Signature 
+-keepattributes *Annotation*
+
+-libraryjars common/libs/cling.jar
+-libraryjars common/libs/telealcommon.jar
+-libraryjars common/libs/jacksoncore.jar
+-libraryjars common/libs/jacksonmapper.jar
+-libraryjars common/libs/MvSdkJar_Release.jar
+-libraryjars common/libs/TVPlayer.jar
+-libraryjars common/libs/SohuPlayerExtend4_0.jar
+-libraryjars common/libs/56videoplayer1_2_2.jar
+-libraryjars common/libs/aquery.jar
+-libraryjars common/libs/ifeng_playsdk.jar
+-libraryjars common/libs/pptv_sdk.jar
+-libraryjars phone/videoplayer/libs/miui_ad_sdk.jar
+-libraryjars phone/videoplayer/libs/protobuf-java-2.5.0.jar
+
+
+-keep public class com.miui.video.base.**{*;}
+-keep public class * implements com.miui.video.BaseActivity{*;}
+-keep public class * implements com.miui.video.BaseDialog{*;}
+-keep public class * implements com.miui.video.BaseFragmentActivity{*;}
+-keep public class * implements com.miui.video.BaseFragmentDialog{*;}
+-keep public class * implements com.miui.video.BaseWebViewActivity{*;}
+-keep public class * implements java.io.Serializable{*;}
+-keep public class * implements android.content.BroadcastReceiver{*;}
+-keep public class * implements android.app.Service{*;}
+-keep public class * implements android.app.Activity{*;}
+-keep public class * implements android.view.View{*;}
+
+-keep public class com.miui.video.widget.**{*;}
+-keep class com.miui.video.adapter.**{*;}
+-keep class com.miui.video.dialog.**{*;}
+-keep class com.miui.video.fragment.**{*;}
+
+-keep public class * implements com.miui.video.type.JSObject{*;}
+-keepclasseswithmembernames class * implements com.miui.video.JSObject{*;}
+
+-keep public class com.miui.video.storage.**{*;}
+-keep public class com.miui.video.statistic.**{*;}
+
+-keep class com.cmcc.cmvsdk.main.MvSdkJar{*;}
+-keep class com.cmcc.cmvsdk.main.SdkView{*;}
+-keep class com.cmcc.cmvsdk.main.Util{*;}
+
+-keep class com.admaster.mobile.sohu.**{*;}
+-keep class com.miaozhen.adtracking.sohu.**{*;}
+-keep class com.sohu.**{*;}
+-keep class com.sohuvideo.**{*;}
+-keep class com.google.**{*;}
+-keep class com.android.wolesdk.**{*;}
+
+-keep class com.pplive.**{*;}
+-keep class com.google.protobuf.**{*;}
+#-keep class com.xiaomi.miui.ad.**{*;}
+-keep class com.xiaomi.miui.ad.dao.**{*;}
+-keep class com.xiaomi.miui.ad.proto.**{*;}
+
+-keep class cn.com.admaster.mobile.tracking.api.**{*;}
+-keep class com.media.ffmpeg.**{*;}
+-keep class com.miaozhen.mzmonitor.**{*;}
+-keep class com.qiyi.**{*;}
+-keep class hessian{*;}
+-keep class OpenUDID{*;}
+-keep class org.iqiyi.video.**{*;}
+-keep class org.qiyi.android.**{*;}
+-keep class cn.com.iresearch.mapptracker.**{*;}
+-keep class info.monitorenter.**{*;}
+-keep class com.androidquery.**{*;}
+
+-keep class com.android.**{*;}
+-keep class com.ifeng.**{*;}
+
+-keep class com.tvplayer.**{*;}
+
+#keep jars
+-keep class org.**{*;}
+-keep class com.sun.tools.**{*;}
+-keep class com.miui.video.response.**{*;}
+-keep class com.miui.video.type.**{*;}
+-keep class com.milink.**{*;}
+
+#keep videoplayer
+-keep class com.miui.videoplayer.**{*;}
+-keep class com.duokan.MediaMetadataRetriever{*;}
+-keep class com.duokan.MediaPlayer{*;}
+-keep class com.duokan.Metadata{*;}
+-keep class com.duokan.TimedText{*;}
+-keep class com.duokan.MediaMetadataRetriever$*{*;}
+-keep class com.duokan.MediaPlayer$*{*;}
+-keep class com.duokan.Metadata$*{*;}
+-keep class com.duokan.TimedText$*{*;}
+
+#keep mipush
+-keep class com.miui.video.mipush.MediaPushMessageReceiver {*;}
+
+-keepclasseswithmembernames class * {
+	native <methods>;
+}
+
+-keepclasseswithmembernames class * {
+	private int mNativeContext;
+	private int mListenerContext;
+	private android.view.Surface mSurface;
+	public static final int *;
+}

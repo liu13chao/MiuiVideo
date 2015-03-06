@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NormalProgressStyle" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDrawable">@drawable/loading_rotate_black</item>
+        <item name="android:background">@drawable/transparent</item>
+    </style>
+
+    <style name="SmallProgressStyle" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDrawable">@drawable/loading_rotate_black_small</item>
+        <item name="android:background">@drawable/loading_bg_black_solid_small</item>
+    </style>
+
+</resources>

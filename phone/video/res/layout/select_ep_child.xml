@@ -1,0 +1,23 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_common_divider_height"
+        android:background="@drawable/com_10_black"
+        android:layout_marginLeft="@dimen/video_common_interval_30"
+        android:layout_marginRight="@dimen/video_common_interval_30"/>
+	<com.miui.video.widget.GridViewEx
+	    android:id="@+id/select_ep_child_grid" 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/video_common_interval_30"
+        android:layout_marginRight="@dimen/video_common_interval_30"
+        android:layout_marginTop="@dimen/video_common_interval_30"
+        android:layout_marginBottom="@dimen/video_common_interval_30"        
+	    android:numColumns="4"
+	    android:verticalSpacing="@dimen/video_common_interval_30"
+	    android:horizontalSpacing="@dimen/video_common_interval_30"/>
+</LinearLayout>

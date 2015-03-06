@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/offline_select_ep_content"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_988"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/com_bg_white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/offline_select_ep_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/size_50"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/offline_loaded"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/font_size_48" />
+
+    <TextView
+        android:id="@+id/offline_select_ep_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/size_50"
+        android:layout_marginTop="@dimen/size_15"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/text_color_light_dark"
+        android:textSize="@dimen/font_size_36" />
+
+    <View
+        android:id="@+id/offline_select_ep_line1"
+        android:layout_width="@dimen/size_978"
+        android:layout_height="@dimen/size_1"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/p_10_black" />
+
+    <com.miui.video.widget.LoadingGridView 
+        android:id="@+id/offline_select_ep_grids"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/size_50"
+        android:layout_marginRight="@dimen/size_20"/>
+    
+    <View
+        android:id="@+id/offline_select_ep_line2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_1"
+        android:background="@color/p_30_black" />
+
+    <com.miui.video.widget.ButtonPair
+        android:id="@+id/offline_select_ep_pair"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_172" />
+	
+</LinearLayout>

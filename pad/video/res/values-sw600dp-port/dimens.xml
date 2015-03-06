@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MediaView start --> 
+    <dimen name="media_cover_width">117dp</dimen>
+    <dimen name="media_cover_height">169dp</dimen>
+    <dimen name="media_banner_width">251.5dp</dimen>
+    <dimen name="media_banner_height">113dp</dimen>
+    <dimen name="online_video_banner_mirror_height">50dp</dimen>
+    <dimen name="media_small_cover_width">117dp</dimen>
+    <dimen name="media_small_cover_height">73.5dp</dimen>
+    
+    <dimen name="media_local_width">132.5dp</dimen>
+    <dimen name="media_local_height">84dp</dimen>
+    <dimen name="media_local_cover_width">132.5dp</dimen>
+    <dimen name="media_local_cover_height">193dp</dimen>
+    
+    <dimen name="media_info_top_margin">7dp</dimen>	
+    <dimen name="media_info_top_padding">109dp</dimen>
+	<dimen name="media_info_status_top_margin">1dp</dimen>
+    <!-- MediaView end -->
+    
+    <!-- OnlineVideo start -->		
+	<dimen name="online_video_banner_top_margin">103dp</dimen>		
+	<!-- OnlineVideo end -->
+	
+	<!-- MediaImageView start -->
+    <dimen name="media_image_view_content_height">68dp</dimen>
+    <dimen name="media_image_view_content_width">91dp</dimen>
+    <dimen name="media_image_view_content_top_margin">13dp</dimen>
+    <dimen name="media_image_view_content_intervalV">8dp</dimen>
+ 	<!-- MediaImageView end -->
+ 	
+ 	<!-- Filter View start -->
+ 	<dimen name="filter_view_scroll_view_width">400dp</dimen>
+ 	<!-- Filter View end -->
+ 	
+    <!-- LocalVideo start -->
+    <dimen name="local_video_menu_item_width">30dp</dimen>
+    <!-- LocalVideo end -->
+       
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true" >
+	
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/search_result_title_left_margin"
+        android:layout_marginTop="@dimen/search_result_title_top_margin"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+        
+        <include
+            android:id="@+id/title_top" 
+            layout="@layout/title_top"/>
+        
+        <com.miui.video.widget.searchbox.SearchBox
+            android:id="@+id/search_result_search_box"
+            style="@style/SearchEditTextStyle" 
+	        android:layout_width="@dimen/search_result_search_width"
+	        android:layout_height="@dimen/search_result_search_height"
+	        android:layout_marginRight="@dimen/video_common_right_margin"
+	        android:layout_marginTop="@dimen/search_result_search_top_margin"
+	        android:layout_alignParentRight="true"
+	        android:hint="@string/search_online_video"
+	        android:background="@drawable/search_bg" />
+    </RelativeLayout>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_divider_height"
+        android:layout_marginTop="@dimen/search_result_divider_top_margin"
+        android:layout_marginLeft="@dimen/video_common_left_margin"
+        android:layout_marginRight="@dimen/video_common_right_margin"
+        android:background="@drawable/divider_bg_10" />
+    
+    <ViewFlipper
+        android:id="@+id/search_result_view_flipper"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginLeft="@dimen/video_common_left_margin"
+	    android:layout_marginRight="@dimen/video_common_right_margin"
+	    android:layout_marginTop="@dimen/search_result_view_flipper_top_margin" >
+        
+        <!-- view1 start -->
+        <LinearLayout
+            android:id="@+id/search_result_result" 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+		    <HorizontalScrollView
+		        android:id="@+id/search_result_h_scroll" 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="@dimen/search_result_btn_top_margin"
+				android:layout_gravity="center_horizontal"
+				android:scrollbars="none" >
+		        <FrameLayout 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content">
+		             <LinearLayout
+				        android:id="@+id/search_result_btn_wrapper" 
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content">
+		    		</LinearLayout>
+		        </FrameLayout>
+	    	</HorizontalScrollView>
+		    <com.miui.video.widget.LoadingListView
+		        android:id="@+id/search_result_list"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_marginTop="@dimen/search_result_list_top_margin" />
+        </LinearLayout>
+        <!-- view1 end -->
+        
+        
+        <!-- view2 start -->
+        <RelativeLayout
+            android:id="@+id/search_result_recommend" 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+	        <LinearLayout
+	            android:id="@+id/search_result_recommend_bottom" 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            android:layout_alignParentBottom="true">
+	            <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/search_result_recommend_hint"
+			        android:textColor="@color/white"
+			        android:textSize="@dimen/font_size_17"/>
+            	<com.miui.video.widget.LoadingListView
+			        android:id="@+id/search_result_recommend_list"
+			        android:layout_width="match_parent"
+			        android:layout_height="300dp" />
+	        </LinearLayout>
+	        
+	        <FrameLayout 
+	            android:layout_width="match_parent"
+	        	android:layout_height="match_parent"
+	        	android:layout_above="@id/search_result_recommend_bottom" >
+            	<LinearLayout
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="center"
+				    android:orientation="vertical" >
+				    <ImageView
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_gravity="center_horizontal"
+				        android:contentDescription="@string/app_name"
+				        android:background="@drawable/empty_icon_media" />
+				    <TextView
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_gravity="center_horizontal"
+						android:layout_marginTop="@dimen/empty_view_media_text_top_margin"
+				        android:text="@string/search_result_empty_text"
+				        android:textColor="@color/p_15_white"
+						android:textSize="@dimen/font_size_15"/>
+				</LinearLayout>
+            </FrameLayout>
+        </RelativeLayout>
+        <!-- view2 end -->
+    </ViewFlipper>
+</FrameLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/storage_bar_height" >
+
+    <TextView
+        android:id="@+id/storage_bar_left_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_60"
+        android:layout_marginTop="@dimen/size_50"
+        android:gravity="left|center_vertical"
+        android:maxLines="1"
+        android:text="@string/storage_remain"
+        android:textColor="@color/text_color_light_dark"
+        android:textSize="@dimen/font_size_30" />
+
+    <TextView
+        android:id="@+id/storage_bar_left_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/storage_bar_left_name"
+        android:layout_toRightOf="@id/storage_bar_left_name"
+        android:gravity="left|center_vertical"
+        android:maxLines="1"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/font_size_36" />
+
+    <TextView
+        android:id="@+id/storage_bar_right_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/storage_bar_left_name"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/size_60"
+        android:gravity="right|center_vertical"
+        android:maxLines="1"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/font_size_36" />
+
+    <TextView
+        android:id="@+id/storage_bar_right_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/storage_bar_left_name"
+        android:layout_toLeftOf="@id/storage_bar_right_value"
+        android:gravity="right|center_vertical"
+        android:maxLines="1"
+        android:text="@string/storage_total"
+        android:textColor="@color/text_color_light_dark"
+        android:textSize="@dimen/font_size_30" />
+
+    <ProgressBar
+        android:id="@+id/storage_bar_progress"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="@dimen/storage_bar_progress_width"
+        android:layout_height="@dimen/storage_bar_progress_height"
+        android:layout_below="@id/storage_bar_left_name"
+        android:layout_marginLeft="@dimen/size_60"
+        android:layout_marginRight="@dimen/size_60"
+        android:layout_marginTop="@dimen/size_24"
+        android:progressDrawable="@drawable/storage_progress" />
+
+</RelativeLayout>

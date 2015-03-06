@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="temp_play_history_button_label">显示播放历史</string>
+    <string name="vp_VideoView_error_text_invalid_progressive_playback">抱歉，该视频不适合在此设备上播放</string>
+    <string name="vp_error_get_play_url_back_to_continue">很抱歉，未能成功获取播放地址，返回继续播放</string>
+    <string name="vp_VideoView_error_text_unknown">很抱歉，无法播放此视频</string>
+    <string name="vp_VideoView_error_title">无法播放视频</string>
+    <string name="vp_VideoView_error_button">确定</string>
+    <string name="menu_item_about_label">关于</string>
+    <string name="about_title">关于</string>
+    <string name="about_app_name">视频播放器</string>
+    <string name="about_version">1.0.1</string>
+    <string name="video_info_length_label">时长:</string>
+    <string name="video_info_resolution_label">视频分辨率:</string>
+    <string name="video_info_video_coding_label">视频编码格式:</string>
+    <string name="video_info_audio_coding_label">音频编码格式:</string>
+    <string name="video_info_audio_bitrate_label">音频采样率:</string>
+    <string name="video_info_audio_null">无</string>
+    <string name="video_info_frame_rate_label">帧频:</string>
+    <string name="airkan_control_device_des">您可以通过底部的按钮控制视频的播放</string>
+    <string name="airkan_device_xiaomi_phone">平板电脑</string>
+    <string name="toast_back_key_pressed_notice">再次按下返回键退出</string>
+    <string name="adjust_position_prev_media_notice">上一个</string>
+    <string name="adjust_position_next_media_notice">下一个</string>
+    <string name="loading_video_netplay_label">正在载入视频, 请稍候...</string>
+    <string name="buffering">缓冲中...</string>
+    <string name="airkan_video_playing_in">视频正在</string>
+    <string name="airkan_video_playing">播放</string>
+    <string name="airkan_tips">点这里，将正在播放的视频\n投影到盒子/电视上</string>
+    <string name="menu_item_orientation_auto_sensor_action">开启自动旋转</string>
+    <string name="menu_item_orientation_fixed_by_videosize_action">关闭自动旋转</string>
+    <string name="menu_item_sub_title">字幕</string>
+    <string name="toast_message_continue_play_from">从</string>
+    <string name="toast_message_continue_play_hour">时</string>
+    <string name="toast_message_continue_play_minute">分</string>
+    <string name="toast_message_continue_play_second_and_play">秒处继续播放</string>
+    <string name="vp_VideoView_error_network_not_available">未连接网络</string>
+    <string name="top_status_local_media">本地</string>
+    <string name="top_status_online_media">在线</string>
+    <string name="loading_video_netplay_label_v5">正在载入视频, 请稍候...</string>
+    <string name="buffering_video_netplay_label_v5">正在缓冲视频</string>
+    <string name="to_be_play_label_v5">即将播放</string>
+    <string name="episode_suffix">第%d集</string>
+    <string name="about_version_label">版本号</string>
+    <string name="about_developer_label">开发</string>
+    <string name="about_developer_name">小米数码</string>
+    <string name="nowifi_alert_dialog_title">流量提示</string>
+    <string name="nowifi_alert_dialog_message">您在使用收费网络播放视频，是否继续？</string>
+    <string name="nowifi_alert_dialog_continue">继续</string>
+    <string name="nowifi_alert_dialog_exit">退出</string>
+    <string name="menu_item_enable_audio_enhance">开启电影音效增强</string>
+    <string name="menu_item_disable_audio_enhance">关闭电影音效增强</string>
+    <string name="menu_item_enable_3d_mode">开启3D模式</string>
+    <string name="menu_item_disable_3d_mode">关闭3D模式</string>
+    <string name="toast_message_set_misound">请设置米音...</string>
+
+   
+    <string name="vp_next_ci">下一集</string>
+    <string name="vp_standard_definition">标清</string>
+    <string name="vp_high_definition">高清</string>
+    <string name="vp_super_definition">超清</string>
+    <string name="vp_full_high_definition">1080P</string>
+
+    
+    <!-- ****************************分割线**************************** -->
+    
+    
+    <!-- commmon start -->
+    <string name="vp_content_description">内容描述</string>
+    <!-- common end -->
+    
+    <!-- error start -->
+    <string name="vp_get_url_error">获取播放地址失败</string>
+    <!-- error end -->
+    
+    <!-- dialog start -->
+    <string name="vp_exit">退出</string>
+    <string name="vp_back">返回</string>
+    <!-- dialog end -->
+    
+    <!-- load view start -->
+    <string name="vp_loading">正在缓冲视频&#8230;</string>
+    <!-- load view end -->
+    
+    <!-- menu start -->
+    <string name="vp_select_source">选源</string>
+    <string name="vp_select_ci">选集</string>
+    <string name="vp_offline">离线</string>
+    <string name="vp_milink">米联</string>
+    <string name="vp_function">设置</string>
+    <!-- menu end -->
+    
+    <!-- select source start -->
+    <string name="vp_select_video_source">选择视频源</string>
+    <!-- select source end -->
+    
+    <!-- select ci start -->
+    <string name="vp_select_ep">选择剧集</string>
+    <!-- select ci end -->
+    
+    <!-- airkan start -->
+    <string name="vp_device_list">设备列表</string>
+    <!-- airkan end -->
+    
+    <!-- function start -->
+    <string name="vp_select_function">选择功能</string>
+    <string name="vp_media_info">显示影片信息</string>
+    <string name="vp_hide_media_info">隐藏影片信息</string>
+    <string name="vp_screen_shot">截屏</string>
+    <string name="vp_scale_screen">屏幕缩放</string>
+    
+    <string name="vp_auto_select">自动选择</string>
+    <string name="vp_full_screen">全屏播放</string>
+    <string name="vp_adapt_width">适应宽度</string>
+    <string name="vp_adapt_height">适应高度</string>
+    <string name="vp_using_16_9">强制使用16:9</string>
+    <string name="vp_using_4_3">强制使用4:3</string>
+    <!-- function end -->
+</resources>

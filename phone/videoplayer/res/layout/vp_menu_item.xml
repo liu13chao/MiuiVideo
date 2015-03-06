@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.videoplayer.widget.MenuViewNew 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/vp_menuitem_width"
+    android:layout_height="@dimen/vp_menuitem_height"
+    android:clickable="true"
+    android:focusable="true" >
+
+    <LinearLayout
+        android:id="@+id/llt" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+	    <ImageView
+	        android:id="@+id/menu_item_pic"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:gravity="center" />
+	    
+	     <TextView
+	        android:id="@+id/menu_item"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginLeft="30px"
+	        android:gravity="center"
+	        android:textColor="@color/vp_70_white"/>
+    </LinearLayout>
+</com.miui.videoplayer.widget.MenuViewNew>

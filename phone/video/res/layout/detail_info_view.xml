@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.video.widget.detail.DetailInfoView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detail_info_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/detail_info_score" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/detail_info_score_count_top_margin"                
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/font_size_60"
+                android:textColor="@color/orange"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/detail_info_score_desc_top_margin"
+                android:layout_gravity="center_horizontal"                
+                android:textSize="@dimen/font_size_30"
+                android:textColor="@color/p_75_white"
+                android:text="@string/douban_score"/>            
+        </LinearLayout>
+        <View 
+            android:layout_width="@dimen/video_common_divider_width"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/detail_info_divider_left_margin"
+            android:layout_marginRight="@dimen/detail_info_divider_right_margin"
+            android:background="@color/p_20_white"/>
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/detail_info_area_time" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size_36"
+                android:textColor="@color/p_75_white"
+                android:textIsSelectable="false"/>
+            <TextView
+                android:id="@+id/detail_info_type" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/detail_info_type_top_margin"
+                android:textSize="@dimen/font_size_36"
+                android:textColor="@color/p_75_white"
+                android:textIsSelectable="false"/>                
+        </LinearLayout>
+    </LinearLayout>
+    <com.miui.video.widget.detail.ActorsView
+        android:id="@+id/detail_info_actors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/video_common_interval_24" />
+</com.miui.video.widget.detail.DetailInfoView>

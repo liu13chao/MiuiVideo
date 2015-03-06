@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.video.widget.detail.ep.DetailEpVarietyView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.miui.video.widget.detail.ep.DetailEpVarietyWrapper
+        android:id="@+id/detail_ep_variety_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/com_bg_white_corner_d_n"
+        android:paddingBottom="@dimen/video_common_interval_30"
+        android:paddingLeft="@dimen/video_common_interval_30"
+        android:paddingRight="@dimen/video_common_interval_30"
+        android:paddingTop="@dimen/video_common_interval_30" >
+
+        <TextView
+            android:id="@+id/detail_ep_variety_more"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/detail_scroll_item_btn_height"
+            android:background="@drawable/com_btn_bg"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/all_ep"
+            android:textColor="@color/p_80_black"
+            android:textSize="@dimen/font_size_42" />
+
+    </FrameLayout>
+
+</com.miui.video.widget.detail.ep.DetailEpVarietyView>

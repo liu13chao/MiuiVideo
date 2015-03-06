@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/video_dialog_width"
+    android:layout_height="@dimen/video_dialog_height"
+    android:orientation="vertical" >
+    <RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	    <Button 
+	        android:id="@+id/comment_edit_back"
+	        android:layout_width="@dimen/comment_edit_btn_cancel_width"
+	        android:layout_height="@dimen/comment_edit_btn_cancel_height"
+	        android:layout_marginLeft="@dimen/comment_edit_btn_left_margin"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentLeft="true"
+	        android:textSize="@dimen/font_size_17"
+	        android:textColor="@drawable/btn_top_dialog_text_color"
+	        android:background="@drawable/btn_light_bg"
+	        android:text="@string/cancel"/>
+	    <TextView
+	        android:id="@+id/comment_edit_top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/font_size_17"
+            android:textColor="@color/p_80_black"
+            android:textStyle="bold"
+            android:text="@string/media_name_comment"/>
+	    <Button 
+	        android:id="@+id/comment_edit_send"
+	        android:layout_width="@dimen/comment_edit_btn_send_width"
+	        android:layout_height="@dimen/comment_edit_btn_send_height"
+	        android:layout_marginRight="@dimen/comment_edit_btn_right_margin"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentRight="true"
+	        android:textSize="@dimen/font_size_17"
+	        android:textColor="@drawable/btn_top_dialog_text_color"
+	        android:background="@drawable/btn_light_bg"
+	        android:text="@string/send"/>
+        <View
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/video_divider_height"
+	        android:layout_marginTop="@dimen/comment_edit_title_divider_top_margin"
+	        android:background="@drawable/divider_bg_black_10"/>
+	</RelativeLayout>
+	
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/video_common_left_margin"
+        android:layout_marginRight="@dimen/video_common_right_margin"
+        android:layout_marginTop="@dimen/comment_edit_star_top_margin"
+        android:orientation="horizontal">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/p_80_black"
+            android:textSize="@dimen/font_size_18"
+            android:text="@string/comment_edit_start_hint" />
+        <com.miui.video.widget.ScoringView
+            android:id="@+id/comment_edit_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/comment_edit_star_score_left_margin" />
+    </LinearLayout>
+    
+    <EditText
+        android:id="@+id/comment_edit_et"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/comment_edit_et_height"
+        android:layout_marginLeft="@dimen/video_common_left_margin"
+        android:layout_marginRight="@dimen/video_common_right_margin" 
+        android:layout_marginTop="@dimen/comment_edit_et_top_margin"
+        android:padding="@dimen/comment_edit_et_padding"
+        android:background="@drawable/comment_edit_et_bg"
+        android:maxLength="@integer/comment_max_length"
+        android:textCursorDrawable="@drawable/cursor_light"
+        android:textSize="@dimen/font_size_15"
+        android:textColor="@color/p_50_black"
+        android:hint="@string/comment_edit_et_hint"
+        android:singleLine="false"
+        android:gravity="left|top" />
+	
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/video_common_left_margin"
+        android:layout_marginRight="@dimen/video_common_right_margin"
+        android:layout_marginTop="@dimen/comment_edit_blog_top_margin"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <Button
+            android:id="@+id/comment_edit_btn_blog_share" 
+            android:layout_width="@dimen/comment_edit_blog_btn_width"
+            android:layout_height="@dimen/comment_edit_blog_btn_height"
+            android:background="@drawable/btn_edit_blog_bg"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/comment_edit_blog_hint_left_margin"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/font_size_17"
+            android:textColor="@color/p_50_black"
+            android:text="@string/comment_edit_blog_hint"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <View
+        android:id="@+id/poster_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"/>
+    
+    <View 
+        android:id="@+id/poster_border"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:background="@drawable/poster_border_no_corner"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/media_click_bg" />
+
+</RelativeLayout>

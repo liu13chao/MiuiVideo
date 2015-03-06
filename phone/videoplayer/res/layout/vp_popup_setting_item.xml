@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/vp_popup_setting_item"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/vp_menu_popup_settings_height"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/vp_menu_popup_settings_item_margin_left"
+        android:drawablePadding="@dimen/vp_menu_popup_settings_icon_drawble_padding"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textColor="@color/vp_white_70"
+        android:textSize="@dimen/vp_text_size_42" />
+
+</LinearLayout>

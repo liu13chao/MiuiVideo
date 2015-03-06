@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/channel_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/com_bg_white_corner"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/size_67"
+    android:paddingLeft="@dimen/size_30"
+    android:paddingRight="@dimen/size_30"
+    android:paddingTop="@dimen/size_32" >
+
+    <TextView
+        android:id="@+id/channel_item_header_name"
+        style="@style/TitleTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/size_32"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#f95f22" />
+
+    <View
+        android:id="@+id/channel_item_header_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+
+    <com.miui.video.widget.HeaderGridView
+        android:id="@+id/channel_item_grids"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_40"
+        android:horizontalSpacing="@dimen/video_common_interval_30"
+        android:numColumns="4"
+        android:verticalSpacing="@dimen/video_common_interval_30" >
+    </com.miui.video.widget.HeaderGridView>
+
+</LinearLayout>

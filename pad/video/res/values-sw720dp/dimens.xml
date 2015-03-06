@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>  
+    <!-- font size start -->
+    <!-- 对应字体大小 116px -->
+    <dimen name="font_size_57">57dp</dimen>
+    <!-- 对应字体大小 48px -->
+    <dimen name="font_size_23">23dp</dimen>
+    <!-- 对应字体大小 44px -->
+    <dimen name="font_size_21">21dp</dimen>
+    <dimen name="font_size_19">19dp</dimen>
+    <dimen name="font_size_18">18dp</dimen>
+    <dimen name="font_size_17">17dp</dimen>
+    <dimen name="font_size_16">16dp</dimen>
+    <dimen name="font_size_15">15dp</dimen>
+    <dimen name="font_size_13">13dp</dimen>
+    <dimen name="font_size_12">12dp</dimen>
+    <dimen name="font_size_11">11dp</dimen>
+    <!-- font size end -->
+    
+    <!-- detail font size start -->
+    <dimen name="detail_introduce_font_size">15dp</dimen>
+    <dimen name="detail_review_user_font_size">17dp</dimen>
+    <dimen name="detail_review_btn_font_size">17dp</dimen>
+    <dimen name="detail_review_font_size">15dp</dimen>
+    <dimen name="detail_variety_font_size">15dp</dimen>
+    
+    <dimen name="detail_media_top_title_font_size">19dp</dimen>
+    <dimen name="detail_meaia_btn_font_size">15dp</dimen>
+    <dimen name="detail_media_page_tab_font_size">16dp</dimen>
+    <dimen name="detail_summary_title_font_size">17dp</dimen>
+    <dimen name="detail_summary_info_font_size">15dp</dimen>
+    <!-- detail font size end -->
+    
+    <!-- common start -->
+    <dimen name="video_common_title_height">50dp</dimen>
+    <dimen name="video_common_list_top_padding">20dp</dimen>
+    <dimen name="video_common_left_margin">40dp</dimen>
+    <dimen name="video_common_right_margin">40dp</dimen>  
+    <dimen name="video_divider_width">1px</dimen>
+    <dimen name="video_divider_height">1px</dimen>
+    <dimen name="video_progress_width">32dp</dimen>
+    <dimen name="video_progress_height">32dp</dimen>
+    <dimen name="video_dialog_width">690dp</dimen>
+    <dimen name="video_dialog_height">690dp</dimen>
+    <dimen name="video_fade_edge_length">75dp</dimen>
+    <!-- common end -->
+    
+    <!-- media view list start -->
+    <dimen name="media_view_list_default_intervalH">17dp</dimen>
+    <dimen name="media_view_list_default_intervalV">20dp</dimen>
+    <!-- media view list end -->
+    
+    <!-- title top start -->
+    <dimen name="title_top_paddingH">1dp</dimen>
+    <dimen name="title_top_paddingV">1dp</dimen>
+    <dimen name="title_top_marginV">3dp</dimen>
+    <!-- title top end -->
+    
+    <!-- empty view start -->
+	<dimen name="empty_view_media_text_top_margin">20dp</dimen>
+    <!-- empty view end -->
+    
+    <!-- retry view start -->
+    <dimen name="reload_view_net_light_width">90dp</dimen>
+    <dimen name="reload_view_net_light_height">90dp</dimen>
+    <!-- retry view end -->
+    
+    <!-- MediaView start -->
+    <dimen name="media_cover_width">143dp</dimen>
+    <dimen name="media_cover_height">208dp</dimen>
+    <dimen name="media_banner_width">303dp</dimen>
+    <dimen name="media_banner_height">136.5dp</dimen>
+    <dimen name="media_banner_blur_radius">2.5dp</dimen>
+    <dimen name="online_video_banner_mirror_height">60dp</dimen>
+    <dimen name="media_small_cover_width">143dp</dimen>
+    <dimen name="media_small_cover_height">90.5dp</dimen>
+    
+    <dimen name="media_local_width">159dp</dimen>
+    <dimen name="media_local_height">101dp</dimen>
+    <dimen name="media_local_cover_width">159dp</dimen>
+    <dimen name="media_local_cover_height">231.5dp</dimen>
+    
+    <dimen name="media_info_top_margin">6dp</dimen>
+    <dimen name="media_info_top_padding">130.5dp</dimen>
+    <dimen name="media_info_status_top_margin">1dp</dimen>
+    
+    <dimen name="media_status_width">30dp</dimen>
+    <dimen name="media_status_height">30dp</dimen>
+    <dimen name="media_status_right_margin">6dp</dimen>
+    <dimen name="media_status_bottom_margin">6dp</dimen>
+    
+    <dimen name="media_click_corner_radius_banner">0dp</dimen>
+    <dimen name="media_click_corner_radius_cover">0dp</dimen>
+    <dimen name="media_click_corner_radius_local">0dp</dimen>
+    <!-- MediaView end -->
+    
+    <!-- MediaImageView start -->
+    <dimen name="media_image_view_content_height">94dp</dimen>
+    <dimen name="media_image_view_content_width">128dp</dimen>
+    <dimen name="media_image_view_content_top_margin">16dp</dimen>
+    <dimen name="media_image_view_content_intervalV">10dp</dimen>
+ 	<!-- MediaImageView end -->
+ 	
+ 	<!-- MediaViewRow start -->
+ 	<dimen name="media_view_row_default_intervalH">17dp</dimen>
+ 	<!-- MediaViewRow end -->
+ 	
+ 	<!-- MediaViewRows start -->
+ 	<dimen name="media_view_rows_default_intervalV">20dp</dimen>
+ 	<!-- MediaViewRows end -->
+ 	
+ 	<!-- score status start -->
+ 	<dimen name="score_status_progress_width">152dp</dimen>
+ 	<dimen name="score_status_progress_height">16dp</dimen>
+ 	<dimen name="score_status_progress_left_margin">6dp</dimen>
+ 	<dimen name="score_status_tv_left_margin">6dp</dimen>
+ 	<dimen name="score_status_intervalV">8dp</dimen>
+ 	<!-- score status end -->
+ 	
+ 	<!-- rating view start -->
+ 	<dimen name="rating_view_normal_width">23dp</dimen>
+ 	<dimen name="rating_view_normal_height">23dp</dimen>
+ 	<dimen name="rating_view_small_width">14dp</dimen>
+ 	<dimen name="rating_view_small_height">14dp</dimen>
+ 	<!-- rating view end -->
+ 	
+ 	<!-- scoring view start -->
+ 	<dimen name="scoring_view_width">23dp</dimen>
+ 	<dimen name="scoring_view_height">23dp</dimen>
+ 	<!-- scoring view end -->
+ 	
+ 	<!-- status btn start -->
+ 	<dimen name="status_btn_left_intervalH">7dp</dimen>
+ 	<dimen name="status_btn_left_width">22dp</dimen>
+    <dimen name="status_btn_left_height">22dp</dimen>
+    <dimen name="status_btn_iv_width">18dp</dimen>
+    <dimen name="status_btn_iv_height">18dp</dimen>
+    <dimen name="status_btn_font_size">15dp</dimen>
+ 	<!-- status btn end -->
+ 	
+ 	<!-- loading view start -->
+ 	<dimen name="loading_text_margin_left">6.5dp</dimen>
+ 	<dimen name="loading_text_margin_top">6.5dp</dimen>
+ 	<!-- loading view end -->
+ 	
+ 	<!-- reload view start -->
+ 	<dimen name="retry_btn_witdh">121dp</dimen>
+    <dimen name="retry_btn_margin_top">22dp</dimen>
+    <dimen name="retry_btn_black_witdh">121dp</dimen>
+    <dimen name="retry_btn_black_margin_top">14dp</dimen>
+ 	<!-- reload view end -->
+ 	
+ 	<!-- page view start -->
+ 	<dimen name="pager_title_height">45dp</dimen>
+    <dimen name="page_indicator_arrowbar_width">601dp</dimen>
+    <dimen name="page_indicator_arrowbar_height">10dp</dimen>
+    <dimen name="pager_title_padding_bottom">4dp</dimen>
+ 	<!-- page view end -->
+ 	
+ 	<!-- ActionMode start -->
+    <dimen name="action_mode_top_view_height">64dp</dimen>
+    <dimen name="action_mode_top_btn_edge_margin">0dp</dimen>
+    <dimen name="action_mode_top_btn_edge_left_margin">22dp</dimen>
+    <dimen name="action_mode_top_btn_bottom_margin">18dp</dimen>
+    <dimen name="action_mode_top_btn_top_margin">9dp</dimen>
+    <dimen name="action_mode_top_title_bottom_margin">22dp</dimen>
+    <dimen name="action_mode_top_btn_width">51dp</dimen>
+    <dimen name="action_mode_top_btn_height">31dp</dimen>
+    
+    <dimen name="action_mode_bottom_view_height">85dp</dimen>
+    <dimen name="action_mode_bottom_menu_height">65dp</dimen>
+    
+    <dimen name="action_mode_bottom_menu_item_left_margin">12dp</dimen>
+    <dimen name="action_mode_bottom_menu_item_icon_width">42dp</dimen>
+    <dimen name="action_mode_bottom_menu_item_icon_height">42dp</dimen>
+    <dimen name="action_mode_bottom_menu_item_text_top_margin">6dp</dimen>
+    
+    <dimen name="action_mode_top_bg_height">55dp</dimen>
+    <dimen name="action_mode_top_bg_mask_height">155dp</dimen>
+    <dimen name="action_mode_bottom_bg_height">769dp</dimen>
+    <dimen name="action_mode_bottom_light_bg_height">90dp</dimen>
+    <!-- ActionMode end -->
+ 	
+ 	<!-- OnlineVideo start -->
+    <dimen name="online_video_list_top_margin">74dp</dimen>
+    
+    <dimen name="online_video_banner_top_margin">132dp</dimen>
+    <dimen name="online_video_banner_name_top_margin">31dp</dimen>
+    <dimen name="online_video_banner_btn_right_margin">0dp</dimen>
+    <dimen name="online_video_banner_btn_top_margin">16dp</dimen>
+    <dimen name="online_video_banner_divider_top_margin">60dp</dimen>
+    <dimen name="online_video_banner_row_top_margin">75.5dp</dimen>
+    
+    <dimen name="online_video_item_name_top_margin">31dp</dimen>
+    <dimen name="online_video_item_btn_width">64dp</dimen>
+    <dimen name="online_video_item_btn_height">40dp</dimen>
+	<dimen name="online_video_item_btn_top_margin">16dp</dimen>
+	<dimen name="online_video_item_btn_right_margin">0dp</dimen>
+    <dimen name="online_video_item_divider_top_margin">61dp</dimen>
+    <dimen name="online_video_item_row_top_margin">76dp</dimen>
+    <dimen name="online_video_item_row_bottom_margin">15dp</dimen>
+    <!-- OnlineVieeo end -->
+    
+    <!-- search box start -->
+    <dimen name="search_box_btn_del_width">30dp</dimen>
+    <dimen name="search_box_btn_del_height">30dp</dimen>
+    <dimen name="search_hint_item_height">50dp</dimen>
+    <dimen name="search_hint_tv_left_margin">30dp</dimen>
+    <!-- search box end -->
+    
+    <!-- search result start -->
+    <dimen name="search_result_title_left_margin">14dp</dimen>
+    <dimen name="search_result_title_top_margin">7dp</dimen>
+    
+    <dimen name="search_result_search_top_margin">3dp</dimen>
+    <dimen name="search_result_search_width">212dp</dimen>
+    <dimen name="search_result_search_height">31dp</dimen>
+    
+    <dimen name="search_result_divider_top_margin">62.5dp</dimen>
+    <dimen name="search_result_view_flipper_top_margin">63.5dp</dimen>
+    
+    <dimen name="search_result_hint_top_margin">11dp</dimen>
+    <dimen name="search_result_btn_top_margin">34dp</dimen>
+    
+    <dimen name="search_result_list_top_margin">15dp</dimen>
+
+    <dimen name="search_result_btn_width">130dp</dimen>
+    <dimen name="search_result_btn_height">32dp</dimen>
+    
+    <dimen name="search_result_empty_icon_width">77.5dp</dimen>
+    <dimen name="search_result_empty_icon_height">98dp</dimen>
+    <dimen name="search_result_empty_icon_top_margin">22dp</dimen>
+    <dimen name="search_result_empty_text_top_margin">135dp</dimen>
+    <dimen name="search_result_recommend_list_intervalV">10dp</dimen>
+    <!-- search result end -->
+    
+    <!-- home start -->
+    <dimen name="home_tab_bg_width">261dp</dimen>
+    <dimen name="home_tab_bg_height">145dp</dimen>
+    <dimen name="home_tab_bg_online_left_margin">-38dp</dimen>
+    <dimen name="home_tab_bg_local_left_margin">85dp</dimen>
+    
+    <dimen name="home_tab_top_margin">13dp</dimen>
+    <dimen name="home_tab_myvideo_left_margin">153dp</dimen>
+    
+    <dimen name="home_search_top_margin">10dp</dimen>
+    <dimen name="home_search_width">210dp</dimen>
+    <dimen name="home_search_height">31dp</dimen>
+    <!-- home end -->
+    
+    <!-- LocalVideo start -->
+    <dimen name="local_video_menu_item_width">220dp</dimen>
+    <dimen name="local_video_menu_item_height">65dp</dimen>
+    <dimen name="local_video_menu_margin_right">34dp</dimen>
+    <dimen name="local_video_menu_text_padding">12dp</dimen>
+    
+    <dimen name="local_video_btn_width">73dp</dimen>
+    <dimen name="local_video_btn_height">40dp</dimen>
+    <dimen name="local_video_btn_top_margin">10dp</dimen>
+    
+    <dimen name="local_video_divider_top_margin">73dp</dimen>
+    
+    <dimen name="local_item_media_content_left_margin">22dp</dimen>
+    <dimen name="local_video_list_top_margin">112.5dp</dimen>
+    <dimen name="local_video_time_line_top_margin">55dp</dimen>
+    <dimen name="local_video_time_line_left_margin">8dp</dimen>
+    <dimen name="local_video_left_margin">35dp</dimen>
+    <!-- LocalVideo end -->
+    
+    <!-- play history start -->
+    <dimen name="play_his_item_media_left_margin">12dp</dimen>
+    <dimen name="play_his_item_media_bottom_margin">15dp</dimen>
+    <dimen name="play_his_item_media_top_margin">36dp</dimen>
+    <dimen name="play_his_item_bar_width">18dp</dimen>
+    <dimen name="play_his_item_bar_height">18dp</dimen>
+    <dimen name="play_his_item_media_content_left_margin">28dp</dimen>
+    <!-- play history end -->
+    
+    <!-- local media start -->
+    <dimen name="local_media_title_left_margin">14dp</dimen>
+    <dimen name="local_media_title_top_margin">7dp</dimen>
+    
+    <dimen name="local_media_btn_right_margin">20dp</dimen>
+    <dimen name="local_media_btn_top_margin">10dp</dimen>
+    <dimen name="local_media_btn_width">51dp</dimen>
+    <dimen name="local_media_btn_height">31dp</dimen>
+    
+    <dimen name="local_media_divider_top_margin">62.5dp</dimen>
+    
+    <dimen name="local_media_list_top_margin">62dp</dimen>
+    <!-- local media end -->
+    
+    <!-- local detail start -->
+    <dimen name="local_detail_list_top_margin">85dp</dimen>
+    <dimen name="local_detail_list_bottom_margin">20dp</dimen>
+    
+    <dimen name="local_detail_media_width">143dp</dimen>
+    <dimen name="local_detail_media_height">90.5dp</dimen>
+    <dimen name="local_detail_media_intervalH">12dp</dimen>
+    
+    <dimen name="local_detail_common_left_margin">35dp</dimen>
+    <dimen name="local_detail_common_right_margin">35dp</dimen>
+    
+    <dimen name="local_detail_more_height">50.5dp</dimen>
+    <dimen name="local_detail_more_bottom_margin">20dp</dimen>
+    
+    <dimen name="local_detail_top_buttons_margin">17dp</dimen>
+    <!-- local detail end -->
+    
+    <!-- offline detail start -->
+    <dimen name="offline_detail_list_bottom_margin">75dp</dimen>
+    <!-- offline detail end -->
+    
+    <!-- media detail start -->
+    <dimen name="media_detail_media_width">143dp</dimen>
+    <dimen name="media_detail_media_height">208dp</dimen>
+    <dimen name="media_detail_media_intervalH">12dp</dimen>
+    
+    <dimen name="detail_media_common_left_margin">40dp</dimen>
+    <dimen name="detail_media_common_right_margin">40dp</dimen>
+    
+    <dimen name="detail_media_title_divider_top_margin">51dp</dimen>
+    <dimen name="detail_media_summary_top_margin">81dp</dimen>
+    <dimen name="detail_media_summary_cover_top_margin">5dp</dimen>
+    
+    <dimen name="detail_media_cover_width">143dp</dimen>
+    <dimen name="detail_media_cover_height">208dp</dimen>
+    
+    <dimen name="detail_summary_play_width">55.5dp</dimen>
+    <dimen name="detail_summary_play_height">55.5dp</dimen>
+    
+    <dimen name="detail_summary_rate_left_margin">165dp</dimen>
+    <dimen name="detail_summary_rate_top_margin">26dp</dimen>
+    
+    <dimen name="detail_summary_info_right_margin">35dp</dimen>
+    <dimen name="detail_summary_info_left_margin">168dp</dimen>
+    <dimen name="detail_summary_info_top_margin">57dp</dimen>
+    <dimen name="detail_summary_info_interval_v">6dp</dimen>
+    <dimen name="detail_summary_info_name_left_margin">5dp</dimen>
+   
+    <dimen name="detail_summary_actors_name_left_margin">-3dp</dimen>
+    <dimen name="detail_actor_name_padding_h">8dp</dimen>
+    
+    <dimen name="detail_favorite_top_margin">81.5dp</dimen>
+    <dimen name="detail_favorite_right_margin">35dp</dimen>
+    <dimen name="detail_favorite_width">37dp</dimen>
+    <dimen name="detail_favorite_height">37dp</dimen>
+
+    <dimen name="detail_btn_width">94dp</dimen>
+    <dimen name="detail_btn_height">36dp</dimen>
+    <dimen name="detail_btn_iv_left_margin">12dp</dimen>
+    <dimen name="detail_btn_tv_left_margin">7dp</dimen>
+    
+    <dimen name="detail_play_left_margin">207dp</dimen>
+    <dimen name="detail_play_top_margin">259dp</dimen>
+    <dimen name="detail_download_left_margin">316dp</dimen>
+    <dimen name="detail_download_top_margin">259dp</dimen>
+   
+    <dimen name="detail_page_top_margin">342dp</dimen>
+    <dimen name="detail_page_tab_h_margin">23dp</dimen>
+    <dimen name="detail_page_tab_left_margin">-10dp</dimen>
+    
+    <dimen name="detail_divider_top_margin">47dp</dimen>
+    
+    <dimen name="detail_page_btn_padding">8dp</dimen>
+    
+    <dimen name="detail_page_views_top_margin">46dp</dimen>
+    <dimen name="detail_page_views_bottom_margin">25dp</dimen> 
+    
+    <dimen name="detail_introduce_type_left_margin">34dp</dimen>
+    <dimen name="detail_introduce_top_margin">13dp</dimen>
+    <dimen name="detail_introduce_interval_V">9dp</dimen>
+    
+    <dimen name="detail_review_item_user_top_margin">12dp</dimen>
+    <dimen name="detail_review_item_rate_left_margin">10dp</dimen>
+    <dimen name="detail_review_item_comment_top_margin">38dp</dimen>
+    <dimen name="detail_review_item_divider_top_margin">17.5dp</dimen>
+    <dimen name="detail_review_list_foot_top_margin">25dp</dimen>
+    <dimen name="detail_review_list_foot_height">51dp</dimen>
+    
+    <dimen name="detail_page_episode_row_height">36dp</dimen>
+    <dimen name="detail_episode_iv_left_margin">9dp</dimen>
+    <dimen name="detail_episode_tv_left_margin">7dp</dimen>
+    <dimen name="detail_episode_top_margin">16dp</dimen>
+    
+    <dimen name="detail_recommend_top_margin">17dp</dimen>
+    
+    <dimen name="detail_variety_item_height">45.5dp</dimen>
+    <dimen name="detail_variety_item_name_left_margin">17.5dp</dimen>
+    <dimen name="detail_variety_item_name_right_margin">20dp</dimen>
+    
+    <dimen name="detail_media_view_intervalH">12dp</dimen>
+    <dimen name="detail_media_view_intervalV">13dp</dimen>
+    
+    <dimen name="detail_comment_empty_btn_top_margin">14dp</dimen>
+    <dimen name="detail_comment_empty_btn_width">121dp</dimen>
+    <!-- media detail end -->
+    
+    <!-- channel start -->
+    <dimen name="channel_title_back_left_margin">14dp</dimen>
+    <dimen name="channel_title_back_top_margin">8dp</dimen>
+    <dimen name="channel_title_back_width">26dp</dimen>
+    <dimen name="channel_title_back_height">36dp</dimen>
+    
+    <dimen name="channel_title_name_top_margin">12dp</dimen>
+    
+    <dimen name="channel_title_btn_top_margin">9dp</dimen>
+    <dimen name="channel_title_btn_width">78dp</dimen>
+    <dimen name="channel_title_btn_height">32dp</dimen>
+    
+    <dimen name="channel_title_search_top_margin">6dp</dimen>
+    <dimen name="channel_search_box_width">144dp</dimen>
+    <dimen name="channel_search_box_height">30dp</dimen>
+    
+    <dimen name="channel_divider_top_margin">62dp</dimen>
+    
+    <dimen name="channel_choice_top_margin">63dp</dimen>
+    
+    <dimen name="channel_rank_list_top_margin">63dp</dimen>
+    
+    <dimen name="channel_rank_item_name_top_margin">9dp</dimen>
+    <dimen name="channel_rank_item_divider_top_margin">9dp</dimen>
+    <dimen name="channel_rank_item_rows_top_margin">15dp</dimen>
+    <dimen name="channel_rank_item_intervalV">5dp</dimen>
+    
+    <dimen name="channel_all_list_top_margin">111dp</dimen> 
+    <dimen name="channel_all_filter_btn_top_margin">77dp</dimen>
+    <!-- channel end -->
+    
+    <!-- filter view start -->
+    <dimen name="filter_view_filter_btn_width">61dp</dimen>
+    <dimen name="filter_view_filter_btn_height">26dp</dimen>
+    <dimen name="filter_view_filter_btn_paddingH">5dp</dimen>
+    <dimen name="filter_view_scroll_view_width">730dp</dimen>
+    <dimen name="filter_view_scroll_view_height">34dp</dimen>
+    
+    <dimen name="filter_view_menu_item_height">26dp</dimen>
+    <dimen name="filter_view_menu_item_interval">9dp</dimen>
+    
+    <dimen name="filter_view_btn_width">56dp</dimen>
+    <dimen name="filter_view_btn_height">26dp</dimen>
+    <!-- filter view end -->
+    
+    <!-- feature list start -->
+    <dimen name="feature_list_title_left_margin">14dp</dimen>
+    <dimen name="feature_list_title_top_margin">7dp</dimen>
+    <dimen name="feature_list_divider_top_margin">62.5dp</dimen>
+    <dimen name="feature_list_list_top_margin">63dp</dimen>
+    <!-- feature list end -->
+    
+    <!-- feature media start -->
+    <dimen name="feature_media_title_left_margin">14dp</dimen>
+    <dimen name="feature_media_title_top_margin">7dp</dimen>
+    <dimen name="feature_media_name_left_margin">45dp</dimen>
+    <dimen name="feature_media_name_top_margin">68dp</dimen>
+    <dimen name="feature_media_divider_top_margin">97.5dp</dimen>
+    <dimen name="feature_media_list_top_margin">97.5dp</dimen>
+    <!-- feature media end -->
+    
+    <!-- comment review start -->
+    <dimen name="comment_review_title_divider_top_margin">51dp</dimen>
+    <dimen name="comment_review_btn_left_margin">10dp</dimen>
+    <dimen name="comment_review_btn_right_margin">10dp</dimen>
+    <dimen name="comment_review_btn_back_width">51dp</dimen>
+    <dimen name="comment_review_btn_back_height">31dp</dimen>
+    <dimen name="comment_review_btn_edit_width">76dp</dimen>
+    <dimen name="comment_review_btn_edit_height">31dp</dimen>
+    <dimen name="comment_review_score_height">115dp</dimen>
+    <dimen name="comment_review_score_width">85dp</dimen>
+    <dimen name="comment_review_score_top_margin">87dp</dimen>
+    
+    <dimen name="comment_review_score_status_top_margin">87dp</dimen>
+    <dimen name="comment_review_score_status_left_margin">163dp</dimen>
+    
+    <dimen name="comment_review_btn_width">120dp</dimen>
+    <dimen name="comment_review_btn_height">33dp</dimen>
+    <dimen name="comment_review_btn_top_margin">228dp</dimen>
+    
+    <dimen name="comment_review_list_top_margin">287dp</dimen>
+    <dimen name="comment_review_list_bottom_margin">15dp</dimen>
+    <!-- comment review end -->
+    
+    <!-- comment edit start -->
+    <dimen name="comment_edit_btn_cancel_width">51dp</dimen>
+    <dimen name="comment_edit_btn_cancel_height">31dp</dimen>
+    <dimen name="comment_edit_btn_send_width">51dp</dimen>
+    <dimen name="comment_edit_btn_send_height">31dp</dimen>
+    <dimen name="comment_edit_btn_left_margin">10dp</dimen>
+    <dimen name="comment_edit_btn_right_margin">10dp</dimen>
+    <dimen name="comment_edit_title_divider_top_margin">51dp</dimen>
+    
+    <dimen name="comment_edit_star_top_margin">38dp</dimen>
+    
+    <dimen name="comment_edit_et_height">210dp</dimen>
+    <dimen name="comment_edit_et_top_margin">8dp</dimen>
+    <dimen name="comment_edit_et_padding">1dp</dimen>
+    
+    <dimen name="comment_edit_blog_top_margin">8dp</dimen>
+    <dimen name="comment_edit_blog_btn_width">30dp</dimen>
+    <dimen name="comment_edit_blog_btn_height">30dp</dimen>
+    
+    <dimen name="comment_edit_blog_hint_left_margin">2dp</dimen>
+    <dimen name="comment_edit_star_score_left_margin">20dp</dimen>
+    <!-- comment edit end -->
+    
+    <!-- download select start -->
+    <dimen name="download_select_btn_cancel_width">51dp</dimen>
+    <dimen name="download_select_btn_cancel_height">31dp</dimen>
+    <dimen name="download_select_btn_manage_width">51dp</dimen>
+    <dimen name="download_select_btn_manage_height">31dp</dimen>
+    <dimen name="download_select_btn_left_margin">10dp</dimen>
+    <dimen name="download_select_btn_right_margin">10dp</dimen>
+    <dimen name="download_select_title_divider_top_margin">51dp</dimen>
+    
+    <dimen name="download_select_common_left_margin">35dp</dimen>
+    <dimen name="download_select_common_right_margin">35dp</dimen>
+    <dimen name="download_select_list_top_margin">75dp</dimen>
+    <dimen name="download_select_list_bottom_margin">15dp</dimen>
+    <!-- download select end -->
+    
+    <!-- web media start -->
+ 	<dimen name="page_progress_height">8dp</dimen>
+ 	<dimen name="page_progress_top_margin">-2dp</dimen>
+ 	<dimen name="page_btn_fullscreen_width">42dp</dimen>
+ 	<dimen name="page_btn_fullscreen_height">42dp</dimen>
+    <!-- web media end -->
+    
+    <!-- tv start -->
+    <dimen name="tv_title_back_left_margin">14dp</dimen>
+    <dimen name="tv_title_back_top_margin">15dp</dimen>
+    <dimen name="tv_title_back_width">26dp</dimen>
+    <dimen name="tv_title_back_height">36dp</dimen>
+    
+    <dimen name="tv_title_name_top_margin">19dp</dimen>
+    <dimen name="tv_channel_divider_top_margin">69dp</dimen>
+    <dimen name="tv_channel_list_top_margin">70dp</dimen>
+    <!-- tv end -->
+    
+    <!-- tv player start -->
+    <dimen name="tv_ctrl_top_tv_top_margin">6dp</dimen>
+    <dimen name="tv_ctrl_top_show_top_margin">2dp</dimen>
+    
+    <dimen name="tv_forecast_item_height">66dp</dimen>
+    <dimen name="tv_forecast_width">183dp</dimen>
+    
+    <dimen name="tv_selecttv_item_height">66dp</dimen>
+    <dimen name="tv_selecttv_width">183dp</dimen>
+    <!-- tv player end -->
+    
+    <!-- alert dialog start -->
+    <dimen name="alert_dialog_content_margin_left">50px</dimen>
+    <!-- alert dialog end -->
+</resources>

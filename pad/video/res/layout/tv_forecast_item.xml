@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    <LinearLayout
+	     android:layout_width="wrap_content"
+	     android:layout_height="@dimen/tv_forecast_item_height"
+	     android:gravity="center_vertical"
+	     android:orientation="vertical" >
+	     <TextView
+	         android:id="@+id/tv_forecast_item_title"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:singleLine="true"
+	         android:textIsSelectable="false"
+	         android:textColor="@color/p_90_white"
+	         android:textSize="@dimen/font_size_16" />
+	     <TextView
+	         android:id="@+id/tv_forecast_item_sub_title"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:singleLine="true"
+	         android:textIsSelectable="false"
+	         android:textColor="@color/p_30_white"
+	         android:textSize="@dimen/font_size_12" />
+	</LinearLayout>
+</FrameLayout>

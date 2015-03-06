@@ -1,0 +1,13 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <com.miui.video.widget.banner.BannerView
+        android:id="@+id/channel_banner_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/media_banner_height"
+        android:layout_marginBottom="@dimen/channel_banner_bottom_margin"/>
+	<include layout="@layout/channel_filter_layout"/>
+    
+</LinearLayout>

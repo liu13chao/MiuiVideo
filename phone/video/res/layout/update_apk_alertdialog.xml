@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/maintitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/text_size_large"
+        android:textColor="@color/orange" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:textColor="@color/p_80_black"
+        android:textSize="@dimen/text_size_subtitle"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp" 
+        android:layout_marginTop="@dimen/updateapk_alertdialog_margintop"
+        android:layout_marginBottom="@dimen/updateapk_alertdialog_marginbottom"
+        android:background="@color/gray_separate_line"
+        />
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/updateapk_intro"
+        android:textSize="@dimen/text_size_normal"/>
+
+    <TextView
+        android:id="@+id/updatecontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/updateapk_intro"
+        android:textSize="@dimen/text_size_normal"/>
+</LinearLayout>

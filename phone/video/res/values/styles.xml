@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ListViewStyle" parent="@android:style/Widget.ListView">
+        <item name="android:divider">@null</item>
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:listSelector">@color/transparent</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="SearchEditTextStyle" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/transparent</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_light</item>
+        <item name="android:textColor">@color/p_80_black</item>
+        <item name="android:textColorHint">@color/color_sub_text</item>
+        <item name="android:textSize">@dimen/font_size_42</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">flagNoExtractUi|actionSearch</item>
+    </style>
+
+    <style name="ExtraTextViewDarkStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/text_color_deep_dark</item>
+        <item name="android:textSize">@dimen/font_size_30</item>
+    </style>
+
+    <style name="ExtraTextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/p_80_white</item>
+        <item name="android:textSize">@dimen/font_size_30</item>
+    </style>
+
+    <style name="SubtitleTextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/text_color_light_dark</item>
+        <item name="android:textSize">@dimen/font_size_36</item>
+    </style>
+
+    <style name="TitleTextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/text_color_deep_dark</item>
+        <item name="android:textSize">@dimen/font_size_42</item>
+    </style>
+
+    <style name="NameTextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textSize">@dimen/font_size_42</item>
+    </style>
+
+    <style name="PlaceTextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/color_sub_text</item>
+        <item name="android:textSize">@dimen/font_size_40</item>
+    </style>
+
+</resources>
